@@ -123,59 +123,194 @@ lem-in_clion/fast:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/build
 .PHONY : lem-in_clion/fast
 
-flem-in/lem-in.o: flem-in/lem-in.c.o
+flemin/lemin.o: flemin/lemin.c.o
 
-.PHONY : flem-in/lem-in.o
-
-# target to build an object file
-flem-in/lem-in.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flem-in/lem-in.c.o
-.PHONY : flem-in/lem-in.c.o
-
-flem-in/lem-in.i: flem-in/lem-in.c.i
-
-.PHONY : flem-in/lem-in.i
-
-# target to preprocess a source file
-flem-in/lem-in.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flem-in/lem-in.c.i
-.PHONY : flem-in/lem-in.c.i
-
-flem-in/lem-in.s: flem-in/lem-in.c.s
-
-.PHONY : flem-in/lem-in.s
-
-# target to generate assembly for a file
-flem-in/lem-in.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flem-in/lem-in.c.s
-.PHONY : flem-in/lem-in.c.s
-
-flem-in/lemin_parse.o: flem-in/lemin_parse.c.o
-
-.PHONY : flem-in/lemin_parse.o
+.PHONY : flemin/lemin.o
 
 # target to build an object file
-flem-in/lemin_parse.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flem-in/lemin_parse.c.o
-.PHONY : flem-in/lemin_parse.c.o
+flemin/lemin.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o
+.PHONY : flemin/lemin.c.o
 
-flem-in/lemin_parse.i: flem-in/lemin_parse.c.i
+flemin/lemin.i: flemin/lemin.c.i
 
-.PHONY : flem-in/lemin_parse.i
+.PHONY : flemin/lemin.i
 
 # target to preprocess a source file
-flem-in/lemin_parse.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flem-in/lemin_parse.c.i
-.PHONY : flem-in/lemin_parse.c.i
+flemin/lemin.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.i
+.PHONY : flemin/lemin.c.i
 
-flem-in/lemin_parse.s: flem-in/lemin_parse.c.s
+flemin/lemin.s: flemin/lemin.c.s
 
-.PHONY : flem-in/lemin_parse.s
+.PHONY : flemin/lemin.s
 
 # target to generate assembly for a file
-flem-in/lemin_parse.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flem-in/lemin_parse.c.s
-.PHONY : flem-in/lemin_parse.c.s
+flemin/lemin.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.s
+.PHONY : flemin/lemin.c.s
+
+flemin/lemin_mark_graph.o: flemin/lemin_mark_graph.c.o
+
+.PHONY : flemin/lemin_mark_graph.o
+
+# target to build an object file
+flemin/lemin_mark_graph.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o
+.PHONY : flemin/lemin_mark_graph.c.o
+
+flemin/lemin_mark_graph.i: flemin/lemin_mark_graph.c.i
+
+.PHONY : flemin/lemin_mark_graph.i
+
+# target to preprocess a source file
+flemin/lemin_mark_graph.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.i
+.PHONY : flemin/lemin_mark_graph.c.i
+
+flemin/lemin_mark_graph.s: flemin/lemin_mark_graph.c.s
+
+.PHONY : flemin/lemin_mark_graph.s
+
+# target to generate assembly for a file
+flemin/lemin_mark_graph.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.s
+.PHONY : flemin/lemin_mark_graph.c.s
+
+flemin/lemin_parse.o: flemin/lemin_parse.c.o
+
+.PHONY : flemin/lemin_parse.o
+
+# target to build an object file
+flemin/lemin_parse.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o
+.PHONY : flemin/lemin_parse.c.o
+
+flemin/lemin_parse.i: flemin/lemin_parse.c.i
+
+.PHONY : flemin/lemin_parse.i
+
+# target to preprocess a source file
+flemin/lemin_parse.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.i
+.PHONY : flemin/lemin_parse.c.i
+
+flemin/lemin_parse.s: flemin/lemin_parse.c.s
+
+.PHONY : flemin/lemin_parse.s
+
+# target to generate assembly for a file
+flemin/lemin_parse.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.s
+.PHONY : flemin/lemin_parse.c.s
+
+flemin/lemin_parse_ants.o: flemin/lemin_parse_ants.c.o
+
+.PHONY : flemin/lemin_parse_ants.o
+
+# target to build an object file
+flemin/lemin_parse_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o
+.PHONY : flemin/lemin_parse_ants.c.o
+
+flemin/lemin_parse_ants.i: flemin/lemin_parse_ants.c.i
+
+.PHONY : flemin/lemin_parse_ants.i
+
+# target to preprocess a source file
+flemin/lemin_parse_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.i
+.PHONY : flemin/lemin_parse_ants.c.i
+
+flemin/lemin_parse_ants.s: flemin/lemin_parse_ants.c.s
+
+.PHONY : flemin/lemin_parse_ants.s
+
+# target to generate assembly for a file
+flemin/lemin_parse_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.s
+.PHONY : flemin/lemin_parse_ants.c.s
+
+flemin/lemin_parse_links.o: flemin/lemin_parse_links.c.o
+
+.PHONY : flemin/lemin_parse_links.o
+
+# target to build an object file
+flemin/lemin_parse_links.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o
+.PHONY : flemin/lemin_parse_links.c.o
+
+flemin/lemin_parse_links.i: flemin/lemin_parse_links.c.i
+
+.PHONY : flemin/lemin_parse_links.i
+
+# target to preprocess a source file
+flemin/lemin_parse_links.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.i
+.PHONY : flemin/lemin_parse_links.c.i
+
+flemin/lemin_parse_links.s: flemin/lemin_parse_links.c.s
+
+.PHONY : flemin/lemin_parse_links.s
+
+# target to generate assembly for a file
+flemin/lemin_parse_links.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.s
+.PHONY : flemin/lemin_parse_links.c.s
+
+flemin/lemin_parse_rooms.o: flemin/lemin_parse_rooms.c.o
+
+.PHONY : flemin/lemin_parse_rooms.o
+
+# target to build an object file
+flemin/lemin_parse_rooms.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o
+.PHONY : flemin/lemin_parse_rooms.c.o
+
+flemin/lemin_parse_rooms.i: flemin/lemin_parse_rooms.c.i
+
+.PHONY : flemin/lemin_parse_rooms.i
+
+# target to preprocess a source file
+flemin/lemin_parse_rooms.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.i
+.PHONY : flemin/lemin_parse_rooms.c.i
+
+flemin/lemin_parse_rooms.s: flemin/lemin_parse_rooms.c.s
+
+.PHONY : flemin/lemin_parse_rooms.s
+
+# target to generate assembly for a file
+flemin/lemin_parse_rooms.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s
+.PHONY : flemin/lemin_parse_rooms.c.s
+
+flemin/lemin_utils.o: flemin/lemin_utils.c.o
+
+.PHONY : flemin/lemin_utils.o
+
+# target to build an object file
+flemin/lemin_utils.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o
+.PHONY : flemin/lemin_utils.c.o
+
+flemin/lemin_utils.i: flemin/lemin_utils.c.i
+
+.PHONY : flemin/lemin_utils.i
+
+# target to preprocess a source file
+flemin/lemin_utils.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.i
+.PHONY : flemin/lemin_utils.c.i
+
+flemin/lemin_utils.s: flemin/lemin_utils.c.s
+
+.PHONY : flemin/lemin_utils.s
+
+# target to generate assembly for a file
+flemin/lemin_utils.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s
+.PHONY : flemin/lemin_utils.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -1347,12 +1482,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lem-in_clion"
-	@echo "... flem-in/lem-in.o"
-	@echo "... flem-in/lem-in.i"
-	@echo "... flem-in/lem-in.s"
-	@echo "... flem-in/lemin_parse.o"
-	@echo "... flem-in/lemin_parse.i"
-	@echo "... flem-in/lemin_parse.s"
+	@echo "... flemin/lemin.o"
+	@echo "... flemin/lemin.i"
+	@echo "... flemin/lemin.s"
+	@echo "... flemin/lemin_mark_graph.o"
+	@echo "... flemin/lemin_mark_graph.i"
+	@echo "... flemin/lemin_mark_graph.s"
+	@echo "... flemin/lemin_parse.o"
+	@echo "... flemin/lemin_parse.i"
+	@echo "... flemin/lemin_parse.s"
+	@echo "... flemin/lemin_parse_ants.o"
+	@echo "... flemin/lemin_parse_ants.i"
+	@echo "... flemin/lemin_parse_ants.s"
+	@echo "... flemin/lemin_parse_links.o"
+	@echo "... flemin/lemin_parse_links.i"
+	@echo "... flemin/lemin_parse_links.s"
+	@echo "... flemin/lemin_parse_rooms.o"
+	@echo "... flemin/lemin_parse_rooms.i"
+	@echo "... flemin/lemin_parse_rooms.s"
+	@echo "... flemin/lemin_utils.o"
+	@echo "... flemin/lemin_utils.i"
+	@echo "... flemin/lemin_utils.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"

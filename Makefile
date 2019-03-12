@@ -6,7 +6,7 @@
 #    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/03/06 19:12:52 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/03/12 19:53:32 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,11 +22,16 @@ CP = cp -rf
 LIBFT_PATH = libft/
 LIBFT = libft.a
 
-LEM-IN_PATH = flem-in/
-LEM-IN_INCS = 		lem-in.h\
-					lem-in_typedefs.h
-LEM-IN_SRCS =		lem-in.c\
-
+LEM-IN_PATH = flemin/
+LEM-IN_INCS = 		lemin.h\
+					lemin_typedefs.h
+LEM-IN_SRCS =		lemin.c\
+					lemin_parse.c\
+					lemin_parse_ants.c\
+					lemin_parse_links.c\
+					lemin_parse_rooms.c\
+					lemin_mark_graph.c\
+					lemin_utils.c
 LEM-IN_OBJS_DIR = $(OBJS_DIR)
 LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
 

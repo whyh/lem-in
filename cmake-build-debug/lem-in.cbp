@@ -82,13 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flem-in/lem-in.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flem-in/lem-in.h">
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flem-in/lemin_parse.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_mark_graph.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_ants.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_links.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_rooms.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_abs.c">
