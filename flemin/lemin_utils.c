@@ -17,21 +17,9 @@ int lemin_find_node(t_lemin_data *data, const char *name, int start)
 	int	i;
 
 	i = start;
-	while (i < data->node && !ft_strncmp(data->graph[i].name, name, -1))
+	while (i < data->n_nodes && !ft_strncmp(data->graph[i].name, name, -1))
 		++i;
 	if (!ft_strncmp(data->graph[i].name, name, -1))
-		return (-1);
-	return (i);
-}
-
-int lemin_find_value(t_lemin_data *data, int value, int start)
-{
-	int	i;
-
-	i = start;
-	while (i < data->node && data->graph[i].value != value)
-		++i;
-	if (data->graph[i].value != value)
 		return (-1);
 	return (i);
 }

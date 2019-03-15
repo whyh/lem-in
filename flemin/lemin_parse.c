@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 20:09:43 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/12 21:47:35 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/03/14 15:03:53 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,25 +29,13 @@ void	lemin_parse_skip_comment(t_lemin_data *data)
 
 static int	static_dell(t_lemin_data *data)
 {
-	int	i;
-
-	i = 0;
-	while (data->link0 && i < data->link && data->link0[i])
+	while (data->n_nodes > 0)
 	{
-		ft_strdel(&(data->link1[i]));
-		ft_strdel(&(data->link0[i]));
-		++i;
-	}
-	if (data->link0)
-		ft_memdel((void**)data->link0);
-	if (data->link1)
-		ft_memdel((void**)data->link1);
-	i = 0;
-	while (data->graph && i < data->node)
-	{
-		if (data->graph[i].name)
-			ft_strdel(&(data->graph[i].name));
-		++i;
+		if (data->graph[data->n_nodes].name)
+			ft_strdel(&(data->graph[data->n_nodes].name));
+		if (data->graph[data->n_nodes].links)
+			ft_memdel((void**)(data->graph[data->n_nodes].links));
+		data->n_nodes--;
 	}
 	if (data->graph)
 		ft_memdel((void**)(data->graph));
@@ -57,12 +45,10 @@ static int	static_dell(t_lemin_data *data)
 static void	static_init(t_lemin_data *data)
 {
 	data->i = 0;
-	data->node = -1;
-	data->start = -1;
-	data->end = -1;
-	data->link = -1;
-	data->link0 = NULL;
-	data->link1 = NULL;
+	data->n_nodes = 0;
+	data->n_links = 0;
+	data->start = LEMIN_UNSPEC;
+	data->end = LEMIN_UNSPEC;
 	data->graph = NULL;
 }
 
@@ -87,6 +73,8 @@ int			lemin_parse(t_lemin_data *data)
 		return (0);
 	while (ft_gnl(0, &buff) > 0 && (ret = lemin_valid_rooms(data, buff)) > 0)
 		lemin_parse_compose(data, &buff);
+	if (!lemin_parse_rooms(data) && static_dell(data))
+		return (0);
 	if (ret == 0 || data->start < 0 || data->end < 0
 	|| data->start == data->end)
 	{
@@ -95,14 +83,13 @@ int			lemin_parse(t_lemin_data *data)
 		ft_strdel(&buff);
 		return (0);
 	}
-	while (buff || (ft_gnl(0, &buff) > 0 && buff[0] != '*'))//while (buff || (ft_gnl(0, &buff) > 0)
+	while (buff || (ft_gnl(0, &buff) > 0 && buff && buff[0] != '*'))//while (buff || (ft_gnl(0, &buff) > 0)
 	{
 		if (!lemin_valid_links(data, buff) && static_dell(data))
 			return(0);
 		lemin_parse_compose(data, &buff);
 	}
-	if ((!lemin_parse_rooms(data) || !lemin_parse_links(data))
-	&& static_dell(data))
+	if (!lemin_parse_links(data) && static_dell(data))
 		return (0);
 	return (1);
 }
