@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.c
+lemin.h
+/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
+
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
 ../libft/libft.h
 /Users/dderevyn/CLionProjects/lem-in/libft/libft.h
 lemin_typedefs.h
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_typedefs.h
-
-/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_mark_graph.c
-lemin.h
-/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
 
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_typedefs.h
 

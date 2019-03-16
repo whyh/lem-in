@@ -121,10 +121,40 @@ void	lemin_exec(t_lemin_data *data)
 	}
 }
 
+int	lemin_width(t_lemin_data *data)
+{
+	int i;
+	int min;
+	int arr[data->n_nodes];
+
+	i = 0;
+	ft_memset((void**)(&arr), 0, (size_t)data->n_nodes);
+	while (i < data->n_nodes)
+	{
+		if (&(data->graph[i]) != &(data->graph[data->start])
+		&& &(data->graph[i]) != &(data->graph[data->end]))
+			arr[data->graph[i].value]++;
+		++i;
+	}
+	min = arr[data->graph[1].value];
+	i = data->n_nodes;
+	while (i > 1 && arr[data->graph[1].value] == 0)
+		--i;
+	while (i > 1)
+	{
+		if (arr[data->graph[i].value] < min)
+			min = arr[data->graph[i].value];
+		--i;
+	}
+	return (min);
+}
+
 int main(int argc, char **argv)
 {
 	t_lemin_data	data;
 	int 			i;
+	int 			b;
+	int 			min;
 
 	(void)argv;
 	(void)argc;
@@ -138,21 +168,31 @@ int main(int argc, char **argv)
 	i = 1;
 	data.graph[data.start].n_ants = (int)data.ants;
 	data.ways = ft_memalloc(sizeof(t_lemin_way) * data.ants);
-	while (i < data.ants && lemin_way(&data, i - 1))
+	lemin_width(&data);
+	min = lemin_width(&data);
+	if (data.ants < min)
+		min = (int)data.ants;
+	while (i < min + 1)
 	{
-		lemin_reset_w(&data);
-		lemin_mark_graph(&data, data.end, 0);
+		b = 0;
+		if (!lemin_way(&data, i - 1))
+		{
+			lemin_reset_w(&data, 0);
+			if (data.graph[data.start].links[b])
+				data.graph[data.start].links[b]->w = -1;
+			//else go deeper
+		}
 		++i;
 	}
-//	if (!data.ways[0].len)
-//	{
-//		ft_printf("[redError: now way from start to end was found\n");
-//		return (0);
-//	}
-//	data.ants_arr = ft_memalloc(sizeof(t_lemin_ant) * data.ants);
-//	lemin_split_ants(&data, i);
-//	ft_printf("%s\n", data.input);
-//	lemin_exec(&data);
-	lemin_print(data, i);
+	if (!data.ways[0].len)
+	{
+		ft_printf("[redError: now way from start to end was found\n");
+		return (0);
+	}
+	data.ants_arr = ft_memalloc(sizeof(t_lemin_ant) * data.ants);
+	lemin_split_ants(&data, i);
+	ft_printf("%s\n", data.input);
+	lemin_exec(&data);
+//	lemin_print(data, i);
 	return (1);
 }

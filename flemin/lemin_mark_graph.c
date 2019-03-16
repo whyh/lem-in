@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/12 20:51:51 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/15 17:45:10 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/03/16 16:52:47 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,14 +29,14 @@ void	lemin_mark_graph(t_lemin_data *data, int n, int value)
 	}
 }
 
-void	lemin_reset_w(t_lemin_data *data)
+void	lemin_reset_w(t_lemin_data *data, int r)
 {
 	int i;
 
 	i = 0;
 	while (i < data->n_nodes)
 	{
-		if (data->graph[i].w == -1 || i == data->end || i == data->start)
+		if (data->graph[i].w == r || i == data->end || i == data->start || r == 0)
 			data->graph[i].w = 0;
 		++i;
 	}
@@ -87,9 +87,10 @@ int		lemin_way(t_lemin_data *data, int w)
 		{
 			curr = curr->links[i];
 			data->ways[w].path[data->ways[w].len] = curr->n;
-			curr->w = w;
+			curr->w = w + 1;
 			data->ways[w].len++;
 		}
 	}
+	lemin_reset_w(data, -1);
 	return (1);
 }

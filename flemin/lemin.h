@@ -27,7 +27,7 @@ void	lemin_parse_skip_comment(t_lemin_data *data);
 void	lemin_parse_compose(t_lemin_data *data, char **buff);
 
 int		lemin_way(t_lemin_data *data, int w);
-void	lemin_reset_w(t_lemin_data *data);
+void	lemin_reset_w(t_lemin_data *data, int r);
 
 void	lemin_mark_graph(t_lemin_data *data, int n, int value);
 int		lemin_find_node(t_lemin_data *data, const char *name, int start);
