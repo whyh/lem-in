@@ -15,14 +15,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_mark_graph.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_mark_graph.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_ants.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_ants.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_links.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_links.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_rooms.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_rooms.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_utils.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lem-in_clion" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_clion" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin_mark_graph.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_mark_graph.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_ants.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_ants.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_links.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flemin/lemin_typedefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_typedefs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flemin/lemin_utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_utils.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_map" beforeDir="false" afterPath="$PROJECT_DIR$/test_map" afterDir="false" />
@@ -50,14 +65,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.504128">
+    <splitter split-orientation="horizontal" split-proportion="0.66007197">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+                <state relative-caret-position="-509">
+                  <caret line="71" selection-start-line="71" selection-end-line="71" />
                 </state>
               </provider>
             </entry>
@@ -65,17 +80,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/flemin/lemin_mark_graph.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_parse.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1365">
-                  <caret line="91" selection-start-line="91" selection-end-line="91" />
+                <state relative-caret-position="351">
+                  <caret line="107" column="50" lean-forward="true" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -83,8 +89,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_links.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1170">
-                  <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+                <state relative-caret-position="675">
+                  <caret line="134" selection-start-line="134" selection-end-line="134" />
                 </state>
               </provider>
             </entry>
@@ -92,8 +98,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_rooms.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2010">
-                  <caret line="134" column="57" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="57" />
+                <state relative-caret-position="123">
+                  <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -105,8 +111,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                <state relative-caret-position="165">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -115,7 +121,7 @@
             <entry file="file://$PROJECT_DIR$/Makefile">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="45" selection-start-column="45" selection-end-column="45" />
+                  <caret column="29" selection-start-column="29" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -123,8 +129,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test_map">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+                <state relative-caret-position="94">
+                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -132,8 +138,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin_typedefs.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" selection-start-line="5" selection-end-line="6" />
+                <state relative-caret-position="720">
+                  <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -141,20 +147,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+                <state relative-caret-position="510">
+                  <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
                   <folding>
                     <element signature="e#929#957#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_utils.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
@@ -165,6 +162,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -182,27 +180,27 @@
         <option value="$PROJECT_DIR$/flem-in/lemin_parse.c" />
         <option value="$PROJECT_DIR$/flem-in/lemin_parse_rooms.c" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/flemin/lemin_parse_ants.c" />
         <option value="$PROJECT_DIR$/dell.c" />
-        <option value="$PROJECT_DIR$/flemin/lemin_utils.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_parse_ants.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_links.c" />
-        <option value="$PROJECT_DIR$/flemin/lemin_typedefs.h" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_utils.c" />
         <option value="$PROJECT_DIR$/flemin/lemin.h" />
-        <option value="$PROJECT_DIR$/flemin/lemin_mark_graph.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_typedefs.h" />
         <option value="$PROJECT_DIR$/test_map" />
         <option value="$PROJECT_DIR$/flemin/lemin.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_mark_graph.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
+    <option name="x" value="232" />
     <option name="y" value="23" />
-    <option name="width" value="2280" />
-    <option name="height" value="1416" />
+    <option name="width" value="2033" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -286,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152423000" />
+    <option name="totallyTimeSpent" value="168689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,25 +296,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="23" width="2280" height="1416" extended-state="0" />
-    <editor active="true" />
+    <frame x="232" y="23" width="2033" height="1417" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13583557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16223003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49910635" visible="true" weight="0.40936556" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49910635" weight="0.5298113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32930514" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50089365" side_tool="true" weight="0.26586103" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49910635" weight="0.44561934" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49910635" visible="true" weight="0.3954717" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32930514" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.4191843" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32930514" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32830188" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,29 +347,60 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/flemin/lemin.c</url>
-          <line>33</line>
-          <option name="timeStamp" value="67" />
+          <line>157</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/flemin/lemin.c</url>
-          <line>171</line>
-          <option name="timeStamp" value="75" />
+          <url>file://$PROJECT_DIR$/flemin/lemin_mark_graph.c</url>
+          <line>133</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="data" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>data-&gt;ways[w].path[data-&gt;ways[w].len - 2]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data-&gt;ways[w].path[data-&gt;ways[w].len - 2</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>curr-&gt;links</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -410,16 +438,6 @@
       <expression>
         <expression-string>curr-&gt;links &amp;&amp; curr-&gt;links[i] &amp;&amp; (((data-&gt;ways[w - 1].len - 2) &lt; 0 &amp;&amp; curr-&gt;links[i] == &amp;(data-&gt;graph[data-&gt;start])) || curr-&gt;links[i] == &amp;(data-&gt;graph[data-&gt;ways[w - 1].path[data-&gt;ways[w - 1].len - 2]]))
 			&amp;&amp; curr-&gt;links[i]-&gt;value != curr-&gt;value &amp;&amp; curr-&gt;links[i]-&gt;w != 0</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(((data-&gt;ways[w - 1].len - 2) &lt; 0 &amp;&amp; curr-&gt;links[i] == &amp;(data-&gt;graph[data-&gt;start])) || curr-&gt;links[i] == &amp;(data-&gt;graph[data-&gt;ways[w - 1].path[data-&gt;ways[w - 1].len - 2]]))</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -500,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_ants.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dell.c" />
     <entry file="file://$PROJECT_DIR$/libft/ft_strnin.c">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,83 +526,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse.c">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_links.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_rooms.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="57" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_utils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_typedefs.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="123">
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flemin/lemin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="510">
+          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
           <folding>
             <element signature="e#929#957#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_typedefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_printf/ft_printf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_links.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_ants.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1228">
+          <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flemin/lemin.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="-509">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="94">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flemin/lemin_mark_graph.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="351">
+          <caret line="107" column="50" lean-forward="true" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
         </state>
       </provider>
     </entry>

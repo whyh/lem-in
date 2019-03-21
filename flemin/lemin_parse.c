@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 20:09:43 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/14 15:03:53 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/03/21 15:13:30 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,9 +54,9 @@ static void	static_init(t_lemin_data *data)
 
 static void	static_error(t_lemin_data *data)
 {
-	if (data->start < 0)
+	if (data->start == LEMIN_BEING_SPEC || data->start == LEMIN_UNSPEC)
 		ft_printf("[redError: missing start of the farm\n");
-	else if (data->end < 0)
+	else if (data->end == LEMIN_BEING_SPEC || data->end == LEMIN_UNSPEC)
 		ft_printf("[redError: missing end of the farm\n");
 	else if (data->start == data->end)
 		ft_printf(
@@ -75,7 +75,8 @@ int			lemin_parse(t_lemin_data *data)
 		lemin_parse_compose(data, &buff);
 	if (!lemin_parse_rooms(data) && static_dell(data))
 		return (0);
-	if (ret == 0 || data->start < 0 || data->end < 0
+	if (ret == 0 || data->start == LEMIN_UNSPEC || data->end == LEMIN_UNSPEC
+	|| data->start == LEMIN_BEING_SPEC || data->end == LEMIN_BEING_SPEC
 	|| data->start == data->end)
 	{
 		if (ret != 0)

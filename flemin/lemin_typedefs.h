@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/15 14:46:20 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/03/21 15:19:46 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,52 +15,53 @@
 # define LEM_IN_TYPEDEFS_H
 
 # define LEMIN_MAX_ANTS 1000000
-# define LEMIN_UNSPEC -1
-# define LEMIN_BEING_SPEC -2
+# define LEMIN_MAX_ROOMS 1000000
+# define LEMIN_MAX_WAYS LEMIN_MAX_ROOMS
+# define LEMIN_MAX_VALUE LEMIN_MAX_ROOMS
+# define LEMIN_UNSPEC LEMIN_MAX_ROOMS + 1
+# define LEMIN_BEING_SPEC LEMIN_MAX_ROOMS + 2
 # define LEMIN_MAX_COORDS 100000
 # define LEMIN_MIN_COORDS -100000
 
 typedef struct				s_lemin_node
 {
 	char					*name;
-	int 					n;
-	int 					w;
-	int 					n_links;
-	int 					n_ants;
-	int 					value;
-	long long				x;
-	long long				y;
+	int						x;
+	int						y;
+	unsigned int 			n;
+	unsigned int			value;
+	unsigned int			w;
+	unsigned int 			n_links;
 	struct s_lemin_node		**links;
 }							t_lemin_node;
 
 typedef struct				s_lemin_way
 {
-	int 					*path;
-	int 					*p_ant;
-	int						ants;
-	int 					len;
+	unsigned int 			*path;
+	unsigned int			n_ants;
+	unsigned int 			len;
 }							t_lemin_way;
 
 typedef struct				s_lemin_ant
 {
-	int 					n;
-	int 					w;
-	int 					pos;
+	unsigned int			n;
+	unsigned int			w;
+	int						pos;//in the way array
 }							t_lemin_ant;
 
 typedef struct				s_lemin_data
 {
 	t_lemin_node			*graph;
 	t_lemin_way				*ways;
-	t_lemin_ant				*ants_arr;
-	int 					n_ways;
-	int 					n_nodes;
-	int 					n_links;
-	int 					end;
-	int 					start;
-	char					*input;
-	long long				ants;
-	int 					i;
+	t_lemin_ant				*ants;
+	unsigned int			n_ways;
+	unsigned int			n_nodes;
+	unsigned int			n_links;
+	unsigned int			end;
+	unsigned int			start;
+	unsigned int			n_ants;
+	char					*input;//TODO rm from structure
+	unsigned int			i;
 }							t_lemin_data;
 
 #endif

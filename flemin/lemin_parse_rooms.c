@@ -56,8 +56,8 @@ static void	static_get_coord(t_lemin_data *data, char coord, int room)
 
 int			lemin_parse_rooms(t_lemin_data *data)
 {
-	int	room;
-	int	tmp_i;
+	unsigned int	room;
+	unsigned int	tmp_i;
 
 	data->graph = ft_memalloc(sizeof(t_lemin_data) * data->n_nodes);
 	room = 0;
@@ -67,10 +67,9 @@ int			lemin_parse_rooms(t_lemin_data *data)
 			lemin_parse_skip_comment(data);
 		tmp_i = (int)ft_strchr_i(&(data->input[data->i]), ' ');
 		data->graph[room].name = ft_strndup(&(data->input[data->i]), tmp_i);
-		data->graph[room].value = -1;
+		data->graph[room].value = LEMIN_MAX_VALUE + 1;
 		data->graph[room].n = room;
 		data->graph[room].w = 0;
-		data->graph[room].n_ants = 0;
 		data->graph[room].n_links = 0;
 		data->graph[room].links = NULL;
 		data->i += tmp_i + 1;

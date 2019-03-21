@@ -14,7 +14,7 @@
 
 static int	static_valid_name(t_lemin_data *data, char *room)
 {
-	int	i;
+	unsigned int	i;
 
 	i = 0;
 	while (i < data->n_nodes && !ft_strncmp(data->graph[i].name, room, -1))
@@ -29,7 +29,7 @@ static int	static_valid_name(t_lemin_data *data, char *room)
 
 static int static_valid(t_lemin_data *data, int room0, int room1)
 {
-	int i;
+	unsigned int i;
 
 	if (!static_valid_name(data, data->graph[room0].name)
 	|| !static_valid_name(data, data->graph[room1].name))
@@ -54,13 +54,13 @@ static int static_valid(t_lemin_data *data, int room0, int room1)
 
 int			lemin_parse_links(t_lemin_data *data)
 {
-	int		i;
-	int 	room0;
-	int 	room1;
+	unsigned int		i;
+	unsigned int 	room0;
+	unsigned int 	room1;
 	char	*link0;
 	char	*link1;
-	int		tmp_i;
-	int 	n;
+	unsigned int		tmp_i;
+	unsigned int 	n;
 
 	i = 0;
 	while (i < data->n_links)
@@ -73,8 +73,8 @@ int			lemin_parse_links(t_lemin_data *data)
 		tmp_i = (int)ft_strchr_i(&(data->input[data->i]), '\n');
 		link1 = ft_strndup(&(data->input[data->i]), tmp_i);
 		data->i += tmp_i + 1;
-		room0 = lemin_find_node(data, link0, 0);
-		room1 = lemin_find_node(data, link1, 0);
+		room0 = (UI)lemin_find_node(data, link0, 0);
+		room1 = (UI)lemin_find_node(data, link1, 0);
 		ft_strdel(&link0);
 		ft_strdel(&link1);
 		if (!static_valid(data, room0, room1))
