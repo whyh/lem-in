@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   lemin_valid_link.c                                 :+:      :+:    :+:   */
+/*   lemin_parse_valid_link.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 20:32:02 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/28 22:08:34 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/01 19:19:35 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ static int	static_valid_names(t_lemin_data *data, const char *buff, int i)
 		return (0);
 	}
 	link1 = ft_strndup(&(buff[i + 1]), -1);
-	if (((room0 = lemin_find_node(data, link0, 0)) == -1)
-	|| ((room1 = lemin_find_node(data, link1, 0)) == -1))
+	if (((room0 = lemin_find_node(*data, link0, 0)) == -1)
+	|| ((room1 = lemin_find_node(*data, link1, 0)) == -1))
 	{
 		ft_strdel(&link0);
 		ft_strdel(&link1);
@@ -41,13 +41,24 @@ static int	static_valid_names(t_lemin_data *data, const char *buff, int i)
 	return (1);
 }
 
+static int	static_check(t_lemin_data *data, t_lemin_parse *parse)
+{
+	if (data->n_nodes < 2)
+	{
+		ft_printf(LEMIN_ERR, LEMIN_ERR_ROOM4);
+		return (0);
+	}
+	parse->flag = 0;
+	return (1);
+}
+
 int			lemin_valid_link(t_lemin_data *data, t_lemin_parse *parse,
 			char **buff, char *input)
 {
 	unsigned int	i;
 
-	if (!parse->rooms && parse->valid_rooms
-	&& !lemin_parse_rooms(data, parse, input))
+	if (!static_check(data, parse)
+	|| (!parse->rooms && !lemin_parse_rooms(data, parse, input)))
 	{
 		ft_strdel(buff);
 		return (0);

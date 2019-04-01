@@ -339,6 +339,33 @@ flemin/lemin_parse_rooms.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s
 .PHONY : flemin/lemin_parse_rooms.c.s
 
+flemin/lemin_parse_valid_link.o: flemin/lemin_parse_valid_link.c.o
+
+.PHONY : flemin/lemin_parse_valid_link.o
+
+# target to build an object file
+flemin/lemin_parse_valid_link.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o
+.PHONY : flemin/lemin_parse_valid_link.c.o
+
+flemin/lemin_parse_valid_link.i: flemin/lemin_parse_valid_link.c.i
+
+.PHONY : flemin/lemin_parse_valid_link.i
+
+# target to preprocess a source file
+flemin/lemin_parse_valid_link.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.i
+.PHONY : flemin/lemin_parse_valid_link.c.i
+
+flemin/lemin_parse_valid_link.s: flemin/lemin_parse_valid_link.c.s
+
+.PHONY : flemin/lemin_parse_valid_link.s
+
+# target to generate assembly for a file
+flemin/lemin_parse_valid_link.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.s
+.PHONY : flemin/lemin_parse_valid_link.c.s
+
 flemin/lemin_parse_valid_room.o: flemin/lemin_parse_valid_room.c.o
 
 .PHONY : flemin/lemin_parse_valid_room.o
@@ -419,33 +446,6 @@ flemin/lemin_utils.s: flemin/lemin_utils.c.s
 flemin/lemin_utils.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s
 .PHONY : flemin/lemin_utils.c.s
-
-flemin/lemin_valid_link.o: flemin/lemin_valid_link.c.o
-
-.PHONY : flemin/lemin_valid_link.o
-
-# target to build an object file
-flemin/lemin_valid_link.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o
-.PHONY : flemin/lemin_valid_link.c.o
-
-flemin/lemin_valid_link.i: flemin/lemin_valid_link.c.i
-
-.PHONY : flemin/lemin_valid_link.i
-
-# target to preprocess a source file
-flemin/lemin_valid_link.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.i
-.PHONY : flemin/lemin_valid_link.c.i
-
-flemin/lemin_valid_link.s: flemin/lemin_valid_link.c.s
-
-.PHONY : flemin/lemin_valid_link.s
-
-# target to generate assembly for a file
-flemin/lemin_valid_link.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.s
-.PHONY : flemin/lemin_valid_link.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -1641,6 +1641,9 @@ help:
 	@echo "... flemin/lemin_parse_rooms.o"
 	@echo "... flemin/lemin_parse_rooms.i"
 	@echo "... flemin/lemin_parse_rooms.s"
+	@echo "... flemin/lemin_parse_valid_link.o"
+	@echo "... flemin/lemin_parse_valid_link.i"
+	@echo "... flemin/lemin_parse_valid_link.s"
 	@echo "... flemin/lemin_parse_valid_room.o"
 	@echo "... flemin/lemin_parse_valid_room.i"
 	@echo "... flemin/lemin_parse_valid_room.s"
@@ -1650,9 +1653,6 @@ help:
 	@echo "... flemin/lemin_utils.o"
 	@echo "... flemin/lemin_utils.i"
 	@echo "... flemin/lemin_utils.s"
-	@echo "... flemin/lemin_valid_link.o"
-	@echo "... flemin/lemin_valid_link.i"
-	@echo "... flemin/lemin_valid_link.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"

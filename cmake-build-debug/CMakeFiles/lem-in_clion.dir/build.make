@@ -720,9 +720,22 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_rooms.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: CMakeFiles/lem-in_clion.dir/flags.make
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../flemin/lemin_parse_valid_link.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_link.c
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_link.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.i
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_link.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.s
+
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../flemin/lemin_parse_valid_room.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_room.c
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.i: cmake_force
@@ -735,7 +748,7 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.s: cmake_force
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../flemin/lemin_split_ants.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_split_ants.c
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.i: cmake_force
@@ -748,7 +761,7 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.s: cmake_force
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../flemin/lemin_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.i: cmake_force
@@ -758,19 +771,6 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.i: cmake_force
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s
-
-CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o: CMakeFiles/lem-in_clion.dir/flags.make
-CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o: ../flemin/lemin_valid_link.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_valid_link.c
-
-CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_valid_link.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.i
-
-CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_valid_link.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.s
 
 # Object files for target lem-in_clion
 lem__in_clion_OBJECTS = \
@@ -825,10 +825,10 @@ lem__in_clion_OBJECTS = \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o" \
+"CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o" \
-"CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o" \
-"CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o"
+"CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o"
 
 # External object files for target lem-in_clion
 lem__in_clion_EXTERNAL_OBJECTS =
@@ -884,10 +884,10 @@ lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o
+lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o
-lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/build.make
 lem-in_clion: CMakeFiles/lem-in_clion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C executable lem-in_clion"

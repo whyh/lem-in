@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 17:38:12 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/28 20:01:21 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/01 18:04:38 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ int			lemin_valid_room(t_lemin_data *data, t_lemin_parse *parse,
 			return (0);
 		}
 		parse->valid_rooms = 1;
+		parse->flag = 1;
 	}
 	else
 	{

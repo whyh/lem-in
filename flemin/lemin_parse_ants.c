@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/12 19:10:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/28 20:04:56 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/01 19:53:23 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,9 @@
 
 static int	static_valid(t_lemin_parse *parse, const char *buff)
 {
+	unsigned int	tmp_i;
+
+	tmp_i = 0;
 	if (parse->start_next)
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_START1);
@@ -24,24 +27,26 @@ static int	static_valid(t_lemin_parse *parse, const char *buff)
 		ft_printf(LEMIN_ERR, LEMIN_ERR_END1);
 		return (0);
 	}
-	if (ft_strin(SIGNS, buff[parse->i]))
-		parse->i++;
-	while (ft_strin(DEC, buff[parse->i]))
-		parse->i++;
-	if (!buff[0] || buff[parse->i] != '\0')
+	if (ft_strin(SIGNS, buff[tmp_i]))
+		++tmp_i;
+	while (ft_strin(DEC, buff[tmp_i]))
+		++tmp_i;
+	if (!buff[0] || buff[tmp_i] != '\0')
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_ANT0);
 		return (0);
 	}
-	parse->i++;
+	parse->i += tmp_i + 1;
 	return (1);
 }
 
 int			lemin_parse_ants(t_lemin_data *data, t_lemin_parse *parse,
-			char **buff)
+			char **buff, char *input)
 {
 	long long	n_ants;
 
+	while (input && input[parse->i] == '#')
+		parse->i += ft_strchr_i(&(input[parse->i]), '\n') + 1;
 	if (!static_valid(parse, *buff))
 	{
 		ft_strdel(buff);

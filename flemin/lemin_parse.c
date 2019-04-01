@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 20:09:43 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/28 22:08:34 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/01 18:54:45 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,18 @@ static void	static_save_input(char **input, char **buff)
 	ft_strdel(buff);
 }
 
-static void	static_init(t_lemin_data *data, t_lemin_parse *parse)
+static void	static_init(t_lemin_parse *parse)
 {
-	parse->i = 0;
 	parse->buff = NULL;
-	data->n_links = 0;
-	data->n_nodes = 0;
+	parse->i = 0;
+	parse->ants = 0;
+	parse->start = 0;
+	parse->end = 0;
+	parse->start_next = 0;
+	parse->end_next = 0;
+	parse->rooms = 0;
+	parse->valid_rooms = 0;
+	parse->flag = 0;
 }
 
 static int	static_parse_hash2(t_lemin_data *data, t_lemin_parse *parse,
@@ -73,27 +79,26 @@ int			lemin_parse(t_lemin_data *data, char **input)
 {
 	t_lemin_parse	parse;
 
-	static_init(data, &parse);
-	while (ft_gnl(0, &parse.buff) > 0 && parse.buff && parse.buff[0] != '*')//while (ft_gnl(0, &buff) > 0)
+	static_init(&parse);
+	while ((parse.flag || ft_gnl(0, &parse.buff) > 0) && parse.buff && parse.buff[0] != '*')//while (parse.flag || ft_gnl(0, &parse.buff) > 0)
 	{
-		if (parse.buff[0] == '#'
-		&& !static_parse_hash(data, &parse, &parse.buff))
+		if (parse.buff[0] != '#' && parse.ants && parse.valid_rooms
+		&& !lemin_valid_link(data, &parse, &parse.buff, *input))
 			return (0);
-		else if (parse.buff[0] == '#')
-			;
-		else if (!parse.ants && !lemin_parse_ants(data, &parse, &parse.buff))
-			return (0);
-		else if (!parse.valid_rooms
+		else if (parse.buff[0] != '#' && parse.ants && !parse.valid_rooms
 		&& !lemin_valid_room(data, &parse, &parse.buff))
 			return (0);
-		else if (!parse.rooms)
-			;
-		else if (!lemin_valid_link(data, &parse, &parse.buff, *input))
-				return (0);
-		static_save_input(input, &parse.buff);
+		else if (parse.buff[0] != '#' && !parse.ants
+		&& !lemin_parse_ants(data, &parse, &parse.buff, *input))
+			return (0);
+		else if (parse.buff[0] == '#'
+		&& !static_parse_hash(data, &parse, &parse.buff))
+			return (0);
+		if (!parse.flag)
+			static_save_input(input, &parse.buff);
 	}
 	ft_strdel(&parse.buff);
-	if (!lemin_parse_links(data))//TODO
+	if (!lemin_parse_links(data, &parse, *input))
 		return (0);
 	return (1);
 }

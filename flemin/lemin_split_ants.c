@@ -49,6 +49,7 @@ static int	static_exeption(t_lemin_data *data)
 	{
 		data->ants[ant].n = ant + 1;
 		data->ants[ant].w = way;
+		data->ants[ant].pos = -1;
 		++ant;
 	}
 	return (1);

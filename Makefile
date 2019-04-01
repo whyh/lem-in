@@ -6,7 +6,7 @@
 #    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/03/12 19:53:32 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/04/01 17:26:45 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,9 @@ LEM-IN_SRCS =		lemin.c\
 					lemin_parse.c\
 					lemin_parse_ants.c\
 					lemin_parse_links.c\
+					lemin_parse_valid_link.c\
 					lemin_parse_rooms.c\
+					lemin_parse_valid_room.c\
 					lemin_mark_graph.c\
 					lemin_utils.c\
 					lemin_find_ways.c\
