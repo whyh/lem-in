@@ -6,91 +6,94 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 20:09:43 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/21 15:13:30 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/03/28 22:08:34 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void	lemin_parse_compose(t_lemin_data *data, char **buff)
+static void	static_save_input(char **input, char **buff)
 {
-	ft_strninject(&(data->input), *buff, -1, -1);
-	ft_strninject(&(data->input), "\n", -1, -1);
+	ft_strninject(input, *buff, -1, -1);
+	ft_strninject(input, "\n", -1, -1);
 	ft_strdel(buff);
 }
 
-void	lemin_parse_skip_comment(t_lemin_data *data)
+static void	static_init(t_lemin_data *data, t_lemin_parse *parse)
 {
-	while (data->input[data->i] && data->input[data->i] != '\n')
-		data->i++;
-	if (data->input[data->i] == '\n')
-		data->i++;
+	parse->i = 0;
+	parse->buff = NULL;
+	data->n_links = 0;
+	data->n_nodes = 0;
 }
 
-static int	static_dell(t_lemin_data *data)
+static int	static_parse_hash2(t_lemin_data *data, t_lemin_parse *parse,
+			char **buff)
 {
-	while (data->n_nodes > 0)
+	(void)data;
+	(void)parse;
+	if (ft_strncmp(*buff, LEMIN_CMND_END, -1))
 	{
-		if (data->graph[data->n_nodes].name)
-			ft_strdel(&(data->graph[data->n_nodes].name));
-		if (data->graph[data->n_nodes].links)
-			ft_memdel((void**)(data->graph[data->n_nodes].links));
-		data->n_nodes--;
+		ft_printf(LEMIN_ERR, LEMIN_ERR_END0);
+		ft_strdel(buff);
+		return (0);
 	}
-	if (data->graph)
-		ft_memdel((void**)(data->graph));
 	return (1);
 }
 
-static void	static_init(t_lemin_data *data)
+static int	static_parse_hash(t_lemin_data *data, t_lemin_parse *parse,
+			char **buff)
 {
-	data->i = 0;
-	data->n_nodes = 0;
-	data->n_links = 0;
-	data->start = LEMIN_UNSPEC;
-	data->end = LEMIN_UNSPEC;
-	data->graph = NULL;
-}
-
-static void	static_error(t_lemin_data *data)
-{
-	if (data->start == LEMIN_BEING_SPEC || data->start == LEMIN_UNSPEC)
-		ft_printf("[redError: missing start of the farm\n");
-	else if (data->end == LEMIN_BEING_SPEC || data->end == LEMIN_UNSPEC)
-		ft_printf("[redError: missing end of the farm\n");
-	else if (data->start == data->end)
-		ft_printf(
-		"[redError: start and end of the farm are in the same point\n");
-}
-
-int			lemin_parse(t_lemin_data *data)
-{
-	char	*buff;
-	int		ret;
-
-	static_init(data);
-	if (!lemin_parse_ants(data, NULL) && static_dell(data))
-		return (0);
-	while (ft_gnl(0, &buff) > 0 && (ret = lemin_valid_rooms(data, buff)) > 0)
-		lemin_parse_compose(data, &buff);
-	if (!lemin_parse_rooms(data) && static_dell(data))
-		return (0);
-	if (ret == 0 || data->start == LEMIN_UNSPEC || data->end == LEMIN_UNSPEC
-	|| data->start == LEMIN_BEING_SPEC || data->end == LEMIN_BEING_SPEC
-	|| data->start == data->end)
+	if (!parse->start && !parse->end_next
+	&& ft_strncmp(*buff, LEMIN_CMND_START, -1))
 	{
-		if (ret != 0)
-			static_error(data);
-		ft_strdel(&buff);
+		parse->start = 1;
+		parse->start_next = 1;
+		data->start = data->n_nodes;
+		return (1);
+	}
+	if (!parse->end && !parse->start_next
+	&& ft_strncmp(*buff, LEMIN_CMND_END, -1))
+	{
+		parse->end = 1;
+		parse->end_next = 1;
+		data->end = data->n_nodes;
+		return (1);
+	}
+	if (ft_strncmp(*buff, LEMIN_CMND_START, -1))
+	{
+		ft_printf(LEMIN_ERR, LEMIN_ERR_START0);
+		ft_strdel(buff);
 		return (0);
 	}
-	while (buff || (ft_gnl(0, &buff) > 0 && buff && buff[0] != '*'))//while (buff || (ft_gnl(0, &buff) > 0)
+	return (static_parse_hash2(data, parse, buff));
+}
+
+int			lemin_parse(t_lemin_data *data, char **input)
+{
+	t_lemin_parse	parse;
+
+	static_init(data, &parse);
+	while (ft_gnl(0, &parse.buff) > 0 && parse.buff && parse.buff[0] != '*')//while (ft_gnl(0, &buff) > 0)
 	{
-		if (!lemin_valid_links(data, buff) && static_dell(data))
-			return(0);
-		lemin_parse_compose(data, &buff);
+		if (parse.buff[0] == '#'
+		&& !static_parse_hash(data, &parse, &parse.buff))
+			return (0);
+		else if (parse.buff[0] == '#')
+			;
+		else if (!parse.ants && !lemin_parse_ants(data, &parse, &parse.buff))
+			return (0);
+		else if (!parse.valid_rooms
+		&& !lemin_valid_room(data, &parse, &parse.buff))
+			return (0);
+		else if (!parse.rooms)
+			;
+		else if (!lemin_valid_link(data, &parse, &parse.buff, *input))
+				return (0);
+		static_save_input(input, &parse.buff);
 	}
-	if (!lemin_parse_links(data) && static_dell(data))
+	ft_strdel(&parse.buff);
+	if (!lemin_parse_links(data))//TODO
 		return (0);
 	return (1);
 }

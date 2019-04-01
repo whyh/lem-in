@@ -15,6 +15,6 @@ add_executable(lem-in_clion
         ${FT_GNL}
         ${FT_PRINTF}
         ${VIS}
-        ${FLEMIN})
+        ${FLEMIN} flemin/lemin_find_ways.c flemin/lemin_split_ants.c flemin/lemin_move_ants.c flemin/lemin_parse_valid_room.c flemin/lemin_valid_link.c)
 
 target_link_libraries(lem-in_clion "-framework OpenGL" "-framework AppKit" "-lmlx")

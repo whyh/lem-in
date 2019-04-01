@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.c
-lemin.h
-/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
-
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
 ../libft/libft.h
 /Users/dderevyn/CLionProjects/lem-in/libft/libft.h

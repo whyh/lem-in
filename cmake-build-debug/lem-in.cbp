@@ -88,7 +88,13 @@
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_find_ways.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_mark_graph.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_move_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse.c">
@@ -103,7 +109,16 @@
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_rooms.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_room.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_split_ants.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_valid_link.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_abs.c">

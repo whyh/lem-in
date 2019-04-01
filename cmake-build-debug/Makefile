@@ -150,6 +150,33 @@ flemin/lemin.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.s
 .PHONY : flemin/lemin.c.s
 
+flemin/lemin_find_ways.o: flemin/lemin_find_ways.c.o
+
+.PHONY : flemin/lemin_find_ways.o
+
+# target to build an object file
+flemin/lemin_find_ways.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o
+.PHONY : flemin/lemin_find_ways.c.o
+
+flemin/lemin_find_ways.i: flemin/lemin_find_ways.c.i
+
+.PHONY : flemin/lemin_find_ways.i
+
+# target to preprocess a source file
+flemin/lemin_find_ways.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.i
+.PHONY : flemin/lemin_find_ways.c.i
+
+flemin/lemin_find_ways.s: flemin/lemin_find_ways.c.s
+
+.PHONY : flemin/lemin_find_ways.s
+
+# target to generate assembly for a file
+flemin/lemin_find_ways.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.s
+.PHONY : flemin/lemin_find_ways.c.s
+
 flemin/lemin_mark_graph.o: flemin/lemin_mark_graph.c.o
 
 .PHONY : flemin/lemin_mark_graph.o
@@ -176,6 +203,33 @@ flemin/lemin_mark_graph.s: flemin/lemin_mark_graph.c.s
 flemin/lemin_mark_graph.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.s
 .PHONY : flemin/lemin_mark_graph.c.s
+
+flemin/lemin_move_ants.o: flemin/lemin_move_ants.c.o
+
+.PHONY : flemin/lemin_move_ants.o
+
+# target to build an object file
+flemin/lemin_move_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o
+.PHONY : flemin/lemin_move_ants.c.o
+
+flemin/lemin_move_ants.i: flemin/lemin_move_ants.c.i
+
+.PHONY : flemin/lemin_move_ants.i
+
+# target to preprocess a source file
+flemin/lemin_move_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.i
+.PHONY : flemin/lemin_move_ants.c.i
+
+flemin/lemin_move_ants.s: flemin/lemin_move_ants.c.s
+
+.PHONY : flemin/lemin_move_ants.s
+
+# target to generate assembly for a file
+flemin/lemin_move_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.s
+.PHONY : flemin/lemin_move_ants.c.s
 
 flemin/lemin_parse.o: flemin/lemin_parse.c.o
 
@@ -285,6 +339,60 @@ flemin/lemin_parse_rooms.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s
 .PHONY : flemin/lemin_parse_rooms.c.s
 
+flemin/lemin_parse_valid_room.o: flemin/lemin_parse_valid_room.c.o
+
+.PHONY : flemin/lemin_parse_valid_room.o
+
+# target to build an object file
+flemin/lemin_parse_valid_room.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o
+.PHONY : flemin/lemin_parse_valid_room.c.o
+
+flemin/lemin_parse_valid_room.i: flemin/lemin_parse_valid_room.c.i
+
+.PHONY : flemin/lemin_parse_valid_room.i
+
+# target to preprocess a source file
+flemin/lemin_parse_valid_room.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.i
+.PHONY : flemin/lemin_parse_valid_room.c.i
+
+flemin/lemin_parse_valid_room.s: flemin/lemin_parse_valid_room.c.s
+
+.PHONY : flemin/lemin_parse_valid_room.s
+
+# target to generate assembly for a file
+flemin/lemin_parse_valid_room.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.s
+.PHONY : flemin/lemin_parse_valid_room.c.s
+
+flemin/lemin_split_ants.o: flemin/lemin_split_ants.c.o
+
+.PHONY : flemin/lemin_split_ants.o
+
+# target to build an object file
+flemin/lemin_split_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o
+.PHONY : flemin/lemin_split_ants.c.o
+
+flemin/lemin_split_ants.i: flemin/lemin_split_ants.c.i
+
+.PHONY : flemin/lemin_split_ants.i
+
+# target to preprocess a source file
+flemin/lemin_split_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.i
+.PHONY : flemin/lemin_split_ants.c.i
+
+flemin/lemin_split_ants.s: flemin/lemin_split_ants.c.s
+
+.PHONY : flemin/lemin_split_ants.s
+
+# target to generate assembly for a file
+flemin/lemin_split_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.s
+.PHONY : flemin/lemin_split_ants.c.s
+
 flemin/lemin_utils.o: flemin/lemin_utils.c.o
 
 .PHONY : flemin/lemin_utils.o
@@ -311,6 +419,33 @@ flemin/lemin_utils.s: flemin/lemin_utils.c.s
 flemin/lemin_utils.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s
 .PHONY : flemin/lemin_utils.c.s
+
+flemin/lemin_valid_link.o: flemin/lemin_valid_link.c.o
+
+.PHONY : flemin/lemin_valid_link.o
+
+# target to build an object file
+flemin/lemin_valid_link.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.o
+.PHONY : flemin/lemin_valid_link.c.o
+
+flemin/lemin_valid_link.i: flemin/lemin_valid_link.c.i
+
+.PHONY : flemin/lemin_valid_link.i
+
+# target to preprocess a source file
+flemin/lemin_valid_link.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.i
+.PHONY : flemin/lemin_valid_link.c.i
+
+flemin/lemin_valid_link.s: flemin/lemin_valid_link.c.s
+
+.PHONY : flemin/lemin_valid_link.s
+
+# target to generate assembly for a file
+flemin/lemin_valid_link.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_valid_link.c.s
+.PHONY : flemin/lemin_valid_link.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -1485,9 +1620,15 @@ help:
 	@echo "... flemin/lemin.o"
 	@echo "... flemin/lemin.i"
 	@echo "... flemin/lemin.s"
+	@echo "... flemin/lemin_find_ways.o"
+	@echo "... flemin/lemin_find_ways.i"
+	@echo "... flemin/lemin_find_ways.s"
 	@echo "... flemin/lemin_mark_graph.o"
 	@echo "... flemin/lemin_mark_graph.i"
 	@echo "... flemin/lemin_mark_graph.s"
+	@echo "... flemin/lemin_move_ants.o"
+	@echo "... flemin/lemin_move_ants.i"
+	@echo "... flemin/lemin_move_ants.s"
 	@echo "... flemin/lemin_parse.o"
 	@echo "... flemin/lemin_parse.i"
 	@echo "... flemin/lemin_parse.s"
@@ -1500,9 +1641,18 @@ help:
 	@echo "... flemin/lemin_parse_rooms.o"
 	@echo "... flemin/lemin_parse_rooms.i"
 	@echo "... flemin/lemin_parse_rooms.s"
+	@echo "... flemin/lemin_parse_valid_room.o"
+	@echo "... flemin/lemin_parse_valid_room.i"
+	@echo "... flemin/lemin_parse_valid_room.s"
+	@echo "... flemin/lemin_split_ants.o"
+	@echo "... flemin/lemin_split_ants.i"
+	@echo "... flemin/lemin_split_ants.s"
 	@echo "... flemin/lemin_utils.o"
 	@echo "... flemin/lemin_utils.i"
 	@echo "... flemin/lemin_utils.s"
+	@echo "... flemin/lemin_valid_link.o"
+	@echo "... flemin/lemin_valid_link.i"
+	@echo "... flemin/lemin_valid_link.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"

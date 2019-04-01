@@ -6,61 +6,55 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/12 19:10:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/21 15:14:50 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/03/28 20:04:56 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static int	static_valid(t_lemin_data *data, char **buff)
+static int	static_valid(t_lemin_parse *parse, const char *buff)
 {
-	long long	n_ants;
-
-	while (ft_gnl(0, buff) > 0 && (*buff)[0] == '#')
+	if (parse->start_next)
 	{
-		if (ft_strncmp(*buff, "##start", -1) || ft_strncmp(*buff, "##end", -1))
-		{
-			if (ft_strncmp(*buff, "##start", -1))
-				ft_printf(
-						"[redError: \"start\" command before the ant specification\n");
-			else
-				ft_printf(
-						"[redError: \"end\" command before the ant specification\n");
-			ft_strdel(buff);
-			return (0);
-		}
-		data->i += ft_strlen(*buff) + 1;
-		lemin_parse_compose(data, buff);
-	}
-	n_ants = ft_atoibase(DEC, buff[0]);
-	if (n_ants <= 0 || n_ants > INT_MAX)
-	{
-		ft_strdel(buff);
-		ft_printf("[redError: invalid number of ants\n");
+		ft_printf(LEMIN_ERR, LEMIN_ERR_START1);
 		return (0);
 	}
-	data->n_ants = (UI)n_ants;
+	if (parse->end_next)
+	{
+		ft_printf(LEMIN_ERR, LEMIN_ERR_END1);
+		return (0);
+	}
+	if (ft_strin(SIGNS, buff[parse->i]))
+		parse->i++;
+	while (ft_strin(DEC, buff[parse->i]))
+		parse->i++;
+	if (!buff[0] || buff[parse->i] != '\0')
+	{
+		ft_printf(LEMIN_ERR, LEMIN_ERR_ANT0);
+		return (0);
+	}
+	parse->i++;
 	return (1);
 }
 
-int			lemin_parse_ants(t_lemin_data *data, char *buff)
+int			lemin_parse_ants(t_lemin_data *data, t_lemin_parse *parse,
+			char **buff)
 {
-	int	tmp_i;
+	long long	n_ants;
 
-	if (!static_valid(data, &buff))
-		return (0);
-	tmp_i = 0;
-	if (buff[tmp_i] == '+')
-		tmp_i++;
-	while (ft_strin(DEC, buff[tmp_i]))
-		tmp_i++;
-	if (buff[tmp_i] != '\0'
-		&& ft_printf("[redError: invalid symbol in the first line\n"))
+	if (!static_valid(parse, *buff))
 	{
-		ft_strdel(&buff);
+		ft_strdel(buff);
 		return (0);
 	}
-	data->i += tmp_i + 1;
-	lemin_parse_compose(data, &buff);
+	n_ants = ft_atoibase(DEC, *buff);
+	if (n_ants < LEMIN_MIN_ANTS || n_ants > LEMIN_MAX_ANTS)
+	{
+		ft_printf(LEMIN_ERR, LEMIN_ERR_ANT1);
+		ft_strdel(buff);
+		return (0);
+	}
+	data->n_ants = (UI)n_ants;
+	parse->ants = 1;
 	return (1);
 }

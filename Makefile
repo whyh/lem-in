@@ -31,7 +31,10 @@ LEM-IN_SRCS =		lemin.c\
 					lemin_parse_links.c\
 					lemin_parse_rooms.c\
 					lemin_mark_graph.c\
-					lemin_utils.c
+					lemin_utils.c\
+					lemin_find_ways.c\
+					lemin_move_ants.c\
+					lemin_split_ants.c
 LEM-IN_OBJS_DIR = $(OBJS_DIR)
 LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
 
