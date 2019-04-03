@@ -39,31 +39,28 @@ static int	static_valid(const char *buff)
 }
 
 int			lemin_valid_room(t_lemin_data *data, t_lemin_parse *parse,
-			char **buff)
+			const char *buff)
 {
-	if ((*buff)[0] <= 32 || (*buff)[0] >= 127 || (*buff)[0] == 'L')
+	if (buff[0] <= 32 || buff[0] >= 127 || buff[0] == 'L')
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_ROOM0);
-		ft_strdel(buff);
 		return (0);
 	}
-	if (!static_valid(*buff))
+	if (!static_valid(buff))
 	{
-		if (!ft_strin(*buff, '-') || ft_strin(*buff, ' '))
+		if (!ft_strin(buff, '-') || ft_strin(buff, ' '))
 		{
 			ft_printf(LEMIN_ERR, LEMIN_ERR_ROOM1);
-			ft_strdel(buff);
 			return (0);
 		}
-		parse->valid_rooms = 1;
-		parse->flag = 1;
+		parse->rooms = LEMIN_INPROGRESS;
 	}
 	else
 	{
-		if (parse->start_next)
-			parse->start_next = 0;
-		else if (parse->end_next)
-			parse->end_next = 0;
+		if (parse->start == LEMIN_INPROGRESS)
+			parse->start = LEMIN_DONE;
+		else if (parse->end == LEMIN_INPROGRESS)
+			parse->end = LEMIN_DONE;
 		data->n_nodes++;
 	}
 	return (1);

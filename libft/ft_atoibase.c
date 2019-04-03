@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static int			static_check_set(char *set)
+static int			static_check_set(const char *set)
 {
 	int	i;
 	int	i2;
@@ -39,7 +39,7 @@ static int			static_check_set(char *set)
 	return (1);
 }
 
-long long			ft_atoibase(char *set, char *str)
+long long			ft_atoibase(const char *set, const char *str)
 {
 	long long	nbr;
 	size_t		base;
@@ -64,7 +64,7 @@ long long			ft_atoibase(char *set, char *str)
 	return (sign * nbr);
 }
 
-unsigned long long	ft_atouibase(char *set, char *str)
+unsigned long long	ft_atouibase(const char *set, const char *str)
 {
 	unsigned long long	nbr;
 	size_t				base;

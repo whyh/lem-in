@@ -6,7 +6,7 @@
 #    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/01 17:26:45 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/04/03 21:23:17 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = lem-in
 OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
 CC = clang
 CFLAGS = -Wall -Wextra -Werror
-CLIBS = -lmlx -framework OpenGL -framework AppKit
+CLIBS = -framework OpenGL -framework AppKit
 RM = /bin/rm -rf
 CP = cp -rf
 
@@ -43,7 +43,7 @@ LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
 all: libft $(NAME)
 
 $(NAME): $(LEM-IN_OBJS)
-	@$(CC) $(CFLAGS) $^ -L $(LIBFT_PATH) -l$(patsubst %.a,%,$(LIBFT:lib%=%)) -o $(NAME)
+	@$(CC) $(CFLAGS) $(CLIBS) $^ -L $(LIBFT_PATH) -l$(patsubst %.a,%,$(LIBFT:lib%=%)) -o $(NAME)
 
 $(LEM-IN_OBJS_DIR)/%.o: $(LEM-IN_PATH)%.c
 	@mkdir -p $(LEM-IN_OBJS_DIR)

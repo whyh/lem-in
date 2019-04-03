@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 20:32:02 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/01 19:19:35 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/03 18:50:27 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,43 +41,20 @@ static int	static_valid_names(t_lemin_data *data, const char *buff, int i)
 	return (1);
 }
 
-static int	static_check(t_lemin_data *data, t_lemin_parse *parse)
-{
-	if (data->n_nodes < 2)
-	{
-		ft_printf(LEMIN_ERR, LEMIN_ERR_ROOM4);
-		return (0);
-	}
-	parse->flag = 0;
-	return (1);
-}
-
-int			lemin_valid_link(t_lemin_data *data, t_lemin_parse *parse,
-			char **buff, char *input)
+int			lemin_valid_link(t_lemin_data *data, char *buff)
 {
 	unsigned int	i;
 
-	if (!static_check(data, parse)
-	|| (!parse->rooms && !lemin_parse_rooms(data, parse, input)))
-	{
-		ft_strdel(buff);
-		return (0);
-	}
-	if ((*buff)[0] <= 32 || (*buff)[0] >= 127 || (*buff)[0] == 'L'
-	|| (*buff)[0] == '-')
+	if (buff[0] <= 32 || buff[0] >= 127 || buff[0] == 'L' || buff[0] == '-')
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_LINK0);
-		ft_strdel(buff);
 		return (0);
 	}
 	i = 0;
-	while ((*buff)[i] && (*buff)[i] != '-')
+	while (buff[i] && buff[i] != '-')
 		++i;
-	if (!static_valid_names(data, *buff, i))
-	{
-		ft_strdel(buff);
+	if (!static_valid_names(data, buff, i))
 		return (0);
-	}
 	data->n_links++;
 	return (1);
 }

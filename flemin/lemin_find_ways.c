@@ -6,13 +6,13 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 14:36:45 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/28 15:01:15 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/03 20:33:04 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static unsigned int	static_shortest_way(t_lemin_data data, t_lemin_node *pos)
+static unsigned int	static_next_room(t_lemin_data data, t_lemin_node *pos)
 {
 	unsigned int	i;
 	unsigned int	nxt;
@@ -32,38 +32,14 @@ static unsigned int	static_shortest_way(t_lemin_data data, t_lemin_node *pos)
 	return (nxt);
 }
 
-static int	static_rm_room(t_lemin_data *data, t_lemin_way *way,
-			t_lemin_node **ppos)
-{
-	way->path[way->len - 1] = 0;
-	(*ppos)->w = LEMIN_BAD_WAY;
-	if (way->len > 1)
-		(*ppos) = &(data->graph[way->path[way->len - 2]]);
-	else
-		(*ppos) = &(data->graph[data->start]);
-	way->len--;
-	return (1);
-}
-
-static void	static_add_room(t_lemin_data *data, unsigned int way_n,
-			t_lemin_node *nxt, t_lemin_node **ppos)
-{
-	t_lemin_way		*way;
-
-	(*ppos) = nxt;
-	way = &(data->ways[way_n]);
-	if ((*ppos)->n != data->end)
-		(*ppos)->w = way_n + 1;
-	way->path[way->len] = (*ppos)->n;
-	way->len++;
-}
-
 static int	static_compose_way(t_lemin_data *data, unsigned int way_n)
 {
 	t_lemin_node	*pos;
 	t_lemin_way		*way;
 	unsigned int	nxt;
 
+	if (data->graph[data->start].value == LEMIN_INIT_VALUE)
+		return (0);
 	way = &(data->ways[way_n]);
 	pos = &(data->graph[data->start]);
 	way->path = ft_memalloc(sizeof(int) * data->n_links);
@@ -71,16 +47,13 @@ static int	static_compose_way(t_lemin_data *data, unsigned int way_n)
 	way->len = 0;
 	while (pos->n != data->end)
 	{
-		nxt = static_shortest_way(*data, pos);
-		if (nxt == pos->n_links && way->len == 0)
-		{
-			ft_memdel((void**)(&way->path));
-			return (0);
-		}
-		else if (nxt == pos->n_links)
-			static_rm_room(data, way, &pos);
-		else
-			static_add_room(data, way_n, pos->links[nxt], &pos);
+		nxt = static_next_room(*data, pos);
+		pos = pos->links[nxt];
+		way = &(data->ways[way_n]);
+		if (pos->n != data->end)
+			pos->w = way_n + 1;
+		way->path[way->len] = pos->n;
+		way->len++;
 	}
 	return (1);
 }

@@ -1,45 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   lem-in.c                                           :+:      :+:    :+:   */
+/*   lemin.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/03/06 19:13:38 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/03/12 12:59:48 by dderevyn         ###   ########.fr       */
+/*   Created: 2019/04/03 21:33:51 by dderevyn          #+#    #+#             */
+/*   Updated: 2019/04/03 21:33:56 by dderevyn         ###   ########.fr       */
+/*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-//void	lemin_print(t_lemin_data data)
-//{
-//	unsigned int i;
-//	unsigned int n;
-//
-//	i = 0;
-//	while (i < data.n_nodes && i < 1)
-//	{
-//		ft_printf("%s %d %d\n", data.graph[i].name, data.graph[i].x, data.graph[i].y);
-//		ft_printf("value %d  |  way %d \n", data.graph[i].value, data.graph[i].w);
-//		n = 0;
-//		while (n < data.graph[i].n_links)
-//		{
-//			if (data.graph[i].links[n]->w < LEMIN_MAX_WAYS && data.graph[i].links[n]->w > 0)
-//			{
-//				ft_printf("|%s ", data.graph[i].links[n]->name);
-//				ft_printf("v(%d) ", data.graph[i].links[n]->value);
-//				ft_printf("w(%d)| ", data.graph[i].links[n]->w);
-//			}
-//			++n;
-//		}
-//		ft_printf("\n\n");
-//		++i;
-//	}
-//}
-
-static void	static_init(t_lemin_data *data, char **input)
+static void	static_print_input(t_lemin_input *input)
 {
-	*input = NULL;
+	while (input && input->buff && input->buff[0])
+	{
+		ft_printf("%s\n", input->buff);
+		input = input->next;
+	}
+}
+
+static void	static_init(t_lemin_data *data, t_lemin_input *input)
+{
+	input->buff = NULL;
+	input->next = NULL;
 	data->graph = NULL;
 	data->ways = NULL;
 	data->ants = NULL;
@@ -49,28 +34,32 @@ static void	static_init(t_lemin_data *data, char **input)
 	data->n_ants = 0;
 }
 
-static void	static_free_2(t_lemin_data *data)
+static void	static_free_2(t_lemin_data *data, t_lemin_input *input)
 {
-	unsigned int	i;
+	t_lemin_input	*prev;
 
-	if (data->ways)
+	if (input->buff)
+		ft_strdel(&input->buff);
+	if (input->next)
 	{
-		i = 0;
-		while (i < data->n_ways)
+		input = input->next;
+		while (input)
 		{
-			ft_memdel((void**)(&data->ways[i].path));
-			++i;
+			if (input->buff)
+				ft_strdel(&input->buff);
+			prev = input;
+			input = input->next;
+			ft_memdel((void**)(&prev));
 		}
-		ft_memdel((void**)(&data->ways));
 	}
+	if (data->ants)
+		ft_memdel((void**)(&data->ants));
 }
 
-static void	static_free(t_lemin_data *data, char **input)
+static void	static_free(t_lemin_data *data, t_lemin_input *input)
 {
 	unsigned int	i;
 
-	if (input && *input)
-		ft_strdel(input);
 	if (data->graph)
 	{
 		i = 0;
@@ -84,15 +73,20 @@ static void	static_free(t_lemin_data *data, char **input)
 		}
 		ft_memdel((void**)(&data->graph));
 	}
-	if (data->ants)
-		ft_memdel((void**)(&data->ants));
-	static_free_2(data);
+	if (data->ways)
+	{
+		i = 0;
+		while (i++ < data->n_ways)
+			ft_memdel((void **)(&data->ways[i - 1].path));
+		ft_memdel((void **)(&data->ways));
+	}
+	static_free_2(data, input);
 }
 
-int main(int argc, char **argv)
+int			main(int argc, char **argv)
 {
 	t_lemin_data	data;
-	char			*input;
+	t_lemin_input	input;
 
 	(void)argv;
 	(void)argc;
@@ -103,7 +97,7 @@ int main(int argc, char **argv)
 		ft_printf(LEMIN_USAGE, LEMIN_USAGE_MAP0);
 		return (0);
 	}
-//	ft_printf("%s", input);
+	static_print_input(&input);
 	lemin_split_ants(&data);
 	lemin_move_ants(&data);
 	static_free(&data, &input);

@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/12 16:52:24 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/01 19:32:39 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/03 19:18:33 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,35 +31,37 @@ static int	static_valid_prop(t_lemin_data *data, int room)
 	return (1);
 }
 
-static int	static_coord(t_lemin_parse *parse, char *input, int *coord)
+static int	static_coord(char *buff, unsigned int *i, int *coord)
 {
 	long long	tmp;
 
-	tmp = ft_atoibase(DEC, &(input[parse->i]));
+	tmp = ft_atoibase(DEC, &(buff[*i]));
 	if (tmp > INT_MAX || tmp < INT_MIN)
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_ROOM3);
 		return (0);
 	}
-	*coord = (int)tmp;
-	if (ft_strin(SIGNS, input[parse->i]))
-		parse->i++;
-	while (ft_strin(DEC, input[parse->i]))
-		parse->i++;
-	parse->i++;
+	(*coord) = (int)tmp;
+	if (ft_strin(SIGNS, buff[*i]))
+		(*i)++;
+	while (ft_strin(DEC, buff[*i]))
+		(*i)++;
+	(*i)++;
 	return (1);
 }
 
-static int	static_check_n_alloc(t_lemin_data *data, t_lemin_parse *parse)
+static int	static_check_n_alloc(t_lemin_data *data, t_lemin_parse *parse,
+			t_lemin_input **input)
 {
 	unsigned int	room;
+	unsigned int	i;
 
-	if (!parse->start || parse->start_next)
+	if (parse->start != LEMIN_DONE)
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_START2);
 		return (0);
 	}
-	else if (!parse->end || parse->end_next)
+	if (parse->end != LEMIN_DONE)
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_END2);
 		return (0);
@@ -71,6 +73,9 @@ static int	static_check_n_alloc(t_lemin_data *data, t_lemin_parse *parse)
 		data->graph[room].name = NULL;
 		++room;
 	}
+	i = 0;
+	while (i++ < parse->line)
+		(*input) = (*input)->next;
 	return (1);
 }
 
@@ -85,28 +90,30 @@ static void	static_fill_inf(t_lemin_node *room, unsigned int n)
 }
 
 int			lemin_parse_rooms(t_lemin_data *data, t_lemin_parse *parse,
-			char *input)
+			t_lemin_input *input)
 {
-	unsigned int	tmp_i;
 	unsigned int	room;
+	unsigned int	i;
 
-	if (!static_check_n_alloc(data, parse))
+	if (!static_check_n_alloc(data, parse, &input))
 		return (0);
 	room = 0;
 	while (room < data->n_nodes)
 	{
-		while (input[parse->i] == '#')
-			parse->i += ft_strchr_i(&(input[parse->i]), '\n') + 1;
-		tmp_i = (int)ft_strchr_i(&(input[parse->i]), ' ');
-		data->graph[room].name = ft_strndup(&(input[parse->i]), tmp_i);
+		while (input->buff[0] == '#' && (parse->line++) >= 0)
+			input = input->next;
+		i = (UI)ft_strchr_i(input->buff, ' ');
+		data->graph[room].name = ft_strndup(input->buff, i);
+		++i;
 		static_fill_inf(&data->graph[room], room);
-		parse->i += tmp_i + 1;
-		if (!static_coord(parse, input, &(data->graph[room].x))
-		|| !static_coord(parse, input, &(data->graph[room].y))
+		if (!static_coord(input->buff, &i, &(data->graph[room].x))
+		|| !static_coord(input->buff, &i, &(data->graph[room].y))
 		|| !static_valid_prop(data, room))
 			return (0);
 		++room;
+		input = input->next;
+		parse->line++;
 	}
-	parse->rooms = 1;
+	parse->rooms = LEMIN_DONE;
 	return (1);
 }
