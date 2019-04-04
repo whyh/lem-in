@@ -123,6 +123,114 @@ lem-in_clion/fast:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/build
 .PHONY : lem-in_clion/fast
 
+SDL2_primitives/SDL2_framerate.o: SDL2_primitives/SDL2_framerate.c.o
+
+.PHONY : SDL2_primitives/SDL2_framerate.o
+
+# target to build an object file
+SDL2_primitives/SDL2_framerate.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o
+.PHONY : SDL2_primitives/SDL2_framerate.c.o
+
+SDL2_primitives/SDL2_framerate.i: SDL2_primitives/SDL2_framerate.c.i
+
+.PHONY : SDL2_primitives/SDL2_framerate.i
+
+# target to preprocess a source file
+SDL2_primitives/SDL2_framerate.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.i
+.PHONY : SDL2_primitives/SDL2_framerate.c.i
+
+SDL2_primitives/SDL2_framerate.s: SDL2_primitives/SDL2_framerate.c.s
+
+.PHONY : SDL2_primitives/SDL2_framerate.s
+
+# target to generate assembly for a file
+SDL2_primitives/SDL2_framerate.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.s
+.PHONY : SDL2_primitives/SDL2_framerate.c.s
+
+SDL2_primitives/SDL2_gfxPrimitives.o: SDL2_primitives/SDL2_gfxPrimitives.c.o
+
+.PHONY : SDL2_primitives/SDL2_gfxPrimitives.o
+
+# target to build an object file
+SDL2_primitives/SDL2_gfxPrimitives.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o
+.PHONY : SDL2_primitives/SDL2_gfxPrimitives.c.o
+
+SDL2_primitives/SDL2_gfxPrimitives.i: SDL2_primitives/SDL2_gfxPrimitives.c.i
+
+.PHONY : SDL2_primitives/SDL2_gfxPrimitives.i
+
+# target to preprocess a source file
+SDL2_primitives/SDL2_gfxPrimitives.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.i
+.PHONY : SDL2_primitives/SDL2_gfxPrimitives.c.i
+
+SDL2_primitives/SDL2_gfxPrimitives.s: SDL2_primitives/SDL2_gfxPrimitives.c.s
+
+.PHONY : SDL2_primitives/SDL2_gfxPrimitives.s
+
+# target to generate assembly for a file
+SDL2_primitives/SDL2_gfxPrimitives.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.s
+.PHONY : SDL2_primitives/SDL2_gfxPrimitives.c.s
+
+SDL2_primitives/SDL2_imageFilter.o: SDL2_primitives/SDL2_imageFilter.c.o
+
+.PHONY : SDL2_primitives/SDL2_imageFilter.o
+
+# target to build an object file
+SDL2_primitives/SDL2_imageFilter.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o
+.PHONY : SDL2_primitives/SDL2_imageFilter.c.o
+
+SDL2_primitives/SDL2_imageFilter.i: SDL2_primitives/SDL2_imageFilter.c.i
+
+.PHONY : SDL2_primitives/SDL2_imageFilter.i
+
+# target to preprocess a source file
+SDL2_primitives/SDL2_imageFilter.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.i
+.PHONY : SDL2_primitives/SDL2_imageFilter.c.i
+
+SDL2_primitives/SDL2_imageFilter.s: SDL2_primitives/SDL2_imageFilter.c.s
+
+.PHONY : SDL2_primitives/SDL2_imageFilter.s
+
+# target to generate assembly for a file
+SDL2_primitives/SDL2_imageFilter.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.s
+.PHONY : SDL2_primitives/SDL2_imageFilter.c.s
+
+SDL2_primitives/SDL2_rotozoom.o: SDL2_primitives/SDL2_rotozoom.c.o
+
+.PHONY : SDL2_primitives/SDL2_rotozoom.o
+
+# target to build an object file
+SDL2_primitives/SDL2_rotozoom.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o
+.PHONY : SDL2_primitives/SDL2_rotozoom.c.o
+
+SDL2_primitives/SDL2_rotozoom.i: SDL2_primitives/SDL2_rotozoom.c.i
+
+.PHONY : SDL2_primitives/SDL2_rotozoom.i
+
+# target to preprocess a source file
+SDL2_primitives/SDL2_rotozoom.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.i
+.PHONY : SDL2_primitives/SDL2_rotozoom.c.i
+
+SDL2_primitives/SDL2_rotozoom.s: SDL2_primitives/SDL2_rotozoom.c.s
+
+.PHONY : SDL2_primitives/SDL2_rotozoom.s
+
+# target to generate assembly for a file
+SDL2_primitives/SDL2_rotozoom.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.s
+.PHONY : SDL2_primitives/SDL2_rotozoom.c.s
+
 flemin/lemin.o: flemin/lemin.c.o
 
 .PHONY : flemin/lemin.o
@@ -446,6 +554,87 @@ flemin/lemin_utils.s: flemin/lemin_utils.c.s
 flemin/lemin_utils.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s
 .PHONY : flemin/lemin_utils.c.s
+
+flemin/lemin_vis.o: flemin/lemin_vis.c.o
+
+.PHONY : flemin/lemin_vis.o
+
+# target to build an object file
+flemin/lemin_vis.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o
+.PHONY : flemin/lemin_vis.c.o
+
+flemin/lemin_vis.i: flemin/lemin_vis.c.i
+
+.PHONY : flemin/lemin_vis.i
+
+# target to preprocess a source file
+flemin/lemin_vis.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.i
+.PHONY : flemin/lemin_vis.c.i
+
+flemin/lemin_vis.s: flemin/lemin_vis.c.s
+
+.PHONY : flemin/lemin_vis.s
+
+# target to generate assembly for a file
+flemin/lemin_vis.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.s
+.PHONY : flemin/lemin_vis.c.s
+
+flemin/lemin_vis_handle_events.o: flemin/lemin_vis_handle_events.c.o
+
+.PHONY : flemin/lemin_vis_handle_events.o
+
+# target to build an object file
+flemin/lemin_vis_handle_events.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o
+.PHONY : flemin/lemin_vis_handle_events.c.o
+
+flemin/lemin_vis_handle_events.i: flemin/lemin_vis_handle_events.c.i
+
+.PHONY : flemin/lemin_vis_handle_events.i
+
+# target to preprocess a source file
+flemin/lemin_vis_handle_events.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.i
+.PHONY : flemin/lemin_vis_handle_events.c.i
+
+flemin/lemin_vis_handle_events.s: flemin/lemin_vis_handle_events.c.s
+
+.PHONY : flemin/lemin_vis_handle_events.s
+
+# target to generate assembly for a file
+flemin/lemin_vis_handle_events.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.s
+.PHONY : flemin/lemin_vis_handle_events.c.s
+
+flemin/lemin_vis_render_bg.o: flemin/lemin_vis_render_bg.c.o
+
+.PHONY : flemin/lemin_vis_render_bg.o
+
+# target to build an object file
+flemin/lemin_vis_render_bg.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o
+.PHONY : flemin/lemin_vis_render_bg.c.o
+
+flemin/lemin_vis_render_bg.i: flemin/lemin_vis_render_bg.c.i
+
+.PHONY : flemin/lemin_vis_render_bg.i
+
+# target to preprocess a source file
+flemin/lemin_vis_render_bg.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.i
+.PHONY : flemin/lemin_vis_render_bg.c.i
+
+flemin/lemin_vis_render_bg.s: flemin/lemin_vis_render_bg.c.s
+
+.PHONY : flemin/lemin_vis_render_bg.s
+
+# target to generate assembly for a file
+flemin/lemin_vis_render_bg.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.s
+.PHONY : flemin/lemin_vis_render_bg.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -1554,60 +1743,6 @@ libft/ft_swap.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.s
 .PHONY : libft/ft_swap.c.s
 
-libft/vis/ft_line_gradient.o: libft/vis/ft_line_gradient.c.o
-
-.PHONY : libft/vis/ft_line_gradient.o
-
-# target to build an object file
-libft/vis/ft_line_gradient.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_line_gradient.c.o
-.PHONY : libft/vis/ft_line_gradient.c.o
-
-libft/vis/ft_line_gradient.i: libft/vis/ft_line_gradient.c.i
-
-.PHONY : libft/vis/ft_line_gradient.i
-
-# target to preprocess a source file
-libft/vis/ft_line_gradient.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_line_gradient.c.i
-.PHONY : libft/vis/ft_line_gradient.c.i
-
-libft/vis/ft_line_gradient.s: libft/vis/ft_line_gradient.c.s
-
-.PHONY : libft/vis/ft_line_gradient.s
-
-# target to generate assembly for a file
-libft/vis/ft_line_gradient.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_line_gradient.c.s
-.PHONY : libft/vis/ft_line_gradient.c.s
-
-libft/vis/ft_wu_line_circle.o: libft/vis/ft_wu_line_circle.c.o
-
-.PHONY : libft/vis/ft_wu_line_circle.o
-
-# target to build an object file
-libft/vis/ft_wu_line_circle.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_wu_line_circle.c.o
-.PHONY : libft/vis/ft_wu_line_circle.c.o
-
-libft/vis/ft_wu_line_circle.i: libft/vis/ft_wu_line_circle.c.i
-
-.PHONY : libft/vis/ft_wu_line_circle.i
-
-# target to preprocess a source file
-libft/vis/ft_wu_line_circle.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_wu_line_circle.c.i
-.PHONY : libft/vis/ft_wu_line_circle.c.i
-
-libft/vis/ft_wu_line_circle.s: libft/vis/ft_wu_line_circle.c.s
-
-.PHONY : libft/vis/ft_wu_line_circle.s
-
-# target to generate assembly for a file
-libft/vis/ft_wu_line_circle.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_wu_line_circle.c.s
-.PHONY : libft/vis/ft_wu_line_circle.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1617,6 +1752,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lem-in_clion"
+	@echo "... SDL2_primitives/SDL2_framerate.o"
+	@echo "... SDL2_primitives/SDL2_framerate.i"
+	@echo "... SDL2_primitives/SDL2_framerate.s"
+	@echo "... SDL2_primitives/SDL2_gfxPrimitives.o"
+	@echo "... SDL2_primitives/SDL2_gfxPrimitives.i"
+	@echo "... SDL2_primitives/SDL2_gfxPrimitives.s"
+	@echo "... SDL2_primitives/SDL2_imageFilter.o"
+	@echo "... SDL2_primitives/SDL2_imageFilter.i"
+	@echo "... SDL2_primitives/SDL2_imageFilter.s"
+	@echo "... SDL2_primitives/SDL2_rotozoom.o"
+	@echo "... SDL2_primitives/SDL2_rotozoom.i"
+	@echo "... SDL2_primitives/SDL2_rotozoom.s"
 	@echo "... flemin/lemin.o"
 	@echo "... flemin/lemin.i"
 	@echo "... flemin/lemin.s"
@@ -1653,6 +1800,15 @@ help:
 	@echo "... flemin/lemin_utils.o"
 	@echo "... flemin/lemin_utils.i"
 	@echo "... flemin/lemin_utils.s"
+	@echo "... flemin/lemin_vis.o"
+	@echo "... flemin/lemin_vis.i"
+	@echo "... flemin/lemin_vis.s"
+	@echo "... flemin/lemin_vis_handle_events.o"
+	@echo "... flemin/lemin_vis_handle_events.i"
+	@echo "... flemin/lemin_vis_handle_events.s"
+	@echo "... flemin/lemin_vis_render_bg.o"
+	@echo "... flemin/lemin_vis_render_bg.i"
+	@echo "... flemin/lemin_vis_render_bg.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"
@@ -1776,12 +1932,6 @@ help:
 	@echo "... libft/ft_swap.o"
 	@echo "... libft/ft_swap.i"
 	@echo "... libft/ft_swap.s"
-	@echo "... libft/vis/ft_line_gradient.o"
-	@echo "... libft/vis/ft_line_gradient.i"
-	@echo "... libft/vis/ft_line_gradient.s"
-	@echo "... libft/vis/ft_wu_line_circle.o"
-	@echo "... libft/vis/ft_wu_line_circle.i"
-	@echo "... libft/vis/ft_wu_line_circle.s"
 .PHONY : help
 
 

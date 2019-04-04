@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 21:33:51 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/03 21:33:56 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/04 18:50:42 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,9 +87,10 @@ int			main(int argc, char **argv)
 {
 	t_lemin_data	data;
 	t_lemin_input	input;
+	t_lemin_vis		vis;
 
-	(void)argv;
-	(void)argc;
+	if (!lemin_vis_parse(argc, argv, &vis))
+		return (0);
 	static_init(&data, &input);
 	if (!lemin_parse(&data, &input) || !lemin_find_way(&data))
 	{
@@ -97,9 +98,14 @@ int			main(int argc, char **argv)
 		ft_printf(LEMIN_USAGE, LEMIN_USAGE_MAP0);
 		return (0);
 	}
-	static_print_input(&input);
 	lemin_split_ants(&data);
-	lemin_move_ants(&data);
+	if (vis.vis == LEMIN_INPROGRESS)
+		lemin_vis(&data, &vis);
+	else
+	{
+		static_print_input(&input);
+		lemin_move_ants(&data);
+	}
 	static_free(&data, &input);
 	return (1);
 }

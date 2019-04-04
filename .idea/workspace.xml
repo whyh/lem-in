@@ -14,17 +14,16 @@
     <list default="true" id="56fc1de3-b99a-4e33-b368-99e0af174beb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_find_ways.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_find_ways.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_move_ants.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_move_ants.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_ants.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_ants.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_links.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_links.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_rooms.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_rooms.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_valid_link.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_valid_link.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_valid_room.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_parse_valid_room.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lem-in_objects/lemin_utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/.lem-in_objects/lemin_utils.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o" afterDir="false" />
@@ -37,31 +36,174 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/vis/ft_line_gradient.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/vis/ft_wu_line_circle.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lem-in_clion.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lem-in.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lem-in_clion" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lem-in_clion" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin.h" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_find_ways.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_find_ways.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin_move_ants.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_move_ants.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_ants.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_ants.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_links.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_links.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_valid_link.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_valid_link.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_parse_valid_room.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_parse_valid_room.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flemin/lemin_typedefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_typedefs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flemin/lemin_utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/flemin/lemin_utils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/.libft_objects/ft_line_gradient.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/.libft_objects/ft_wu_line_circle.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/ft_atoibase.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_atoibase.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/100_map_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/char_bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/char_max" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/int_max" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/short_max" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/uchar_max" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/uint_max" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size/ushort_max" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size_trace/char_bit_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size_trace/char_max_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size_trace/short_max_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size_trace/uchar_max_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size_trace/uint_max_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/ant_size_trace/ushort_max_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/big_maps/map100k-m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/big_maps/map200k-m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/big_maps/map20k-m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/big_maps/map50k-1000m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/big_maps/map50k-300m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/big_maps/map50k-m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_mass_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd/cmd_mass_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_after_ant_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_after_end_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_after_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_after_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_after_start_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_b_a_ant_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_b_a_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_b_a_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_before_ant_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_before_end_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_before_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_before_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_before_start_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_mass_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/cmd_trace/cmd_mass_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_###" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_###2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_end2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_after_start2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_b_a_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_b_a_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_before_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_before_ant2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_before_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_before_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_before_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_before_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_mass_pipes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_mass_rooms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_pipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment/comment_room" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_###2_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_###_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_ant_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_end2_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_end_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_start2_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_after_start_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_b_a_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_b_a_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_before_ant2_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_before_ant_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_before_end_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_before_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_before_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_before_start_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_mass_pipes_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_mass_rooms_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_pipe_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/comment_trace/comment_room_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/directly_s_e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_ants/alpha_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_ants/alphanum_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_ants/backn_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_ants/no_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_ants/space_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_ants/zero_ant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_ant_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_ant_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_ant_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_room_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_start_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_start_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_bad_line/bad_line_start_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/Lroom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/no_pipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/no_room" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/same_coo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/same_room" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/same_room2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/space_after_room" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/space_before_room" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_rooms/space_middle_room" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_start_end/multi_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_start_end/multi_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_start_end/no_access_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_start_end/no_end" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_start_end/no_path_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/error_start_end/no_start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/error/no_way/no_way9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/map_6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/map_test0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/map_test2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways/four_ways" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways/three_ways" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways_collision" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways_long" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/four_ways_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/three_ways_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_collision_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_long_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_trace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in_maps/pipes_error/bad_line_pipe_0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/vis/ft_line_gradient.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/vis/ft_wu_line_circle.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/vis/vis.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/vis/vis_typedefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_lemin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_map" beforeDir="false" afterPath="$PROJECT_DIR$/test_map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -87,68 +229,41 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57711136">
+    <splitter split-orientation="horizontal" split-proportion="0.67075413">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1515">
-                  <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+                <state relative-caret-position="383">
+                  <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_move_ants.c">
+            <entry file="file://$PROJECT_DIR$/flemin/lemin_vis_handle_events.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+                <state relative-caret-position="645">
+                  <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_find_ways.c">
+            <entry file="file://$PROJECT_DIR$/flemin/lemin_vis.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1260">
-                  <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+                <state relative-caret-position="-804">
+                  <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_mark_graph.c">
+            <entry file="file://$PROJECT_DIR$/flemin/lemin_vis_render_bg.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_parse.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="636">
-                  <caret line="103" selection-start-line="103" selection-end-line="103" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_rooms.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="101" selection-start-line="101" selection-end-line="101" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_links.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="882">
-                  <caret line="109" selection-start-line="109" selection-end-line="109" />
+                <state relative-caret-position="366">
+                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
                 </state>
               </provider>
             </entry>
@@ -157,29 +272,29 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Makefile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+                <state relative-caret-position="302">
+                  <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libft/libft.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test_map">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
-                  <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                  <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -187,8 +302,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin_typedefs.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+                <state relative-caret-position="284">
+                  <caret line="80" selection-start-line="80" selection-end-line="81" />
                 </state>
               </provider>
             </entry>
@@ -196,10 +311,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flemin/lemin.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="705">
+                  <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
                   <folding>
-                    <element signature="e#929#957#0" expanded="true" />
+                    <element signature="e#929#951#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -234,32 +349,41 @@
         <option value="$PROJECT_DIR$/flemin/find_ways.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_mark_graph.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_valid_rooms.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/flemin/lemin_valid_link.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_split_ants.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_ants.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_valid_room.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_valid_link.c" />
-        <option value="$PROJECT_DIR$/flemin/lemin_parse.c" />
         <option value="$PROJECT_DIR$/libft/ft_atoibase.c" />
-        <option value="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_utils.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_parse_links.c" />
-        <option value="$PROJECT_DIR$/flemin/lemin_typedefs.h" />
-        <option value="$PROJECT_DIR$/test_map" />
-        <option value="$PROJECT_DIR$/flemin/lemin_move_ants.c" />
         <option value="$PROJECT_DIR$/flemin/lemin_find_ways.c" />
-        <option value="$PROJECT_DIR$/flemin/lemin.c" />
         <option value="$PROJECT_DIR$/libft/Makefile" />
         <option value="$PROJECT_DIR$/libft/libft.h" />
-        <option value="$PROJECT_DIR$/flemin/lemin.h" />
+        <option value="$PROJECT_DIR$/flemin/lemin_parse.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_parse_rooms.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_vis_draw_bg().c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_vis_draw_bg.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/SDL2_primitives/SDL2_gfxPrimitives.h" />
+        <option value="$PROJECT_DIR$/SDL2_primitives/SDL2_rotozoom.h" />
+        <option value="$PROJECT_DIR$/flemin/lemin_move_ants.c" />
+        <option value="$PROJECT_DIR$/SDL2_primitives/SDL2_framerate.h" />
+        <option value="$PROJECT_DIR$/SDL2_primitives/SDL2_imageFilter.c" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/flemin/lemin.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin.h" />
+        <option value="$PROJECT_DIR$/flemin/lemin_typedefs.h" />
+        <option value="$PROJECT_DIR$/flemin/lemin_vis.c" />
+        <option value="$PROJECT_DIR$/flemin/lemin_vis_handle_events.c" />
+        <option value="$PROJECT_DIR$/test_map" />
+        <option value="$PROJECT_DIR$/flemin/lemin_vis_render_bg.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="524" />
+    <option name="x" value="480" />
     <option name="y" value="23" />
     <option name="width" value="2036" />
     <option name="height" value="1417" />
@@ -283,7 +407,7 @@
             <path>
               <item name="lem-in" type="b2602c69:ProjectViewProjectNode" />
               <item name="lem-in" type="462c0819:PsiDirectoryNode" />
-              <item name="libft" type="462c0819:PsiDirectoryNode" />
+              <item name="flemin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +421,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -317,7 +441,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="lem-in_clion" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&lt; test_map" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lem-in" TARGET_NAME="lem-in_clion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="lem-in_clion">
+    <configuration name="lem-in_clion" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-v" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lem-in" TARGET_NAME="lem-in_clion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lem-in" RUN_TARGET_NAME="lem-in_clion">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -351,12 +475,13 @@
       <workItem from="1553696400416" duration="12427000" />
       <workItem from="1553775370523" duration="26784000" />
       <workItem from="1554124395796" duration="19091000" />
-      <workItem from="1554295449441" duration="18879000" />
+      <workItem from="1554295449441" duration="20039000" />
+      <workItem from="1554369867154" duration="26435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246535000" />
+    <option name="totallyTimeSpent" value="274130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,21 +493,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="524" y="23" width="2036" height="1417" extended-state="0" />
+    <frame x="480" y="23" width="2036" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18054162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18204615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32830188" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49548647" weight="0.37056604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49955475" weight="0.32830188" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.388666" side_tool="true" weight="0.34339622" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.611334" visible="true" weight="0.15698113" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.611334" visible="true" weight="0.26867923" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32930514" />
       <window_info anchor="bottom" id="CMake" order="11" sideWeight="0.3881645" weight="0.41886792" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4937667" weight="0.32830188" />
@@ -463,14 +589,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/flemin/lemin_parse.c</url>
-          <line>103</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/libft/libft.h</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/flemin/lemin_parse_links.c</url>
-          <line>92</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/flemin/lemin_vis.c</url>
+          <line>137</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/SDL2_primitives/SDL2_gfxPrimitives.h</url>
+          <line>54</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,124 +671,22 @@ data.graph[pos-&gt;links[i]-&gt;n].w
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libft/ft_strndup.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strdel.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_gnl/ft_gnl.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dell.c" />
-    <entry file="file://$PROJECT_DIR$/libft/ft_strnin.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_printf/ft_printf.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_ant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_ant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_end">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_pipes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_rooms">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_ant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_end">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_mass_pipes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_mass_rooms">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_pipes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways/four_ways">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways_collision">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/ant_size_trace/char_max_trace">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways_long">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/ant_size_trace/char_bit_trace">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/three_ways_trace">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_long_trace">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_trace">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/four_ways_trace">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_collision_trace">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_b_a_rooms" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_ant" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_before_end" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_mass_pipes" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_mass_rooms" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/cmd/cmd_after_pipes" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways/four_ways" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways_collision" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/ant_size_trace/char_max_trace" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways/two_ways_long" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/ant_size_trace/char_bit_trace" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/three_ways_trace" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_long_trace" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_trace" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/four_ways_trace" />
+    <entry file="file://$PROJECT_DIR$/lem-in_maps/multiple_ways_trace/two_ways_collision_trace" />
     <entry file="file://$PROJECT_DIR$/libft/ft_strninject.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -679,13 +708,6 @@ data.graph[pos-&gt;links[i]-&gt;n].w
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_ants.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -704,20 +726,6 @@ data.graph[pos-&gt;links[i]-&gt;n].w
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="66" column="29" selection-start-line="66" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_valid_room.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
@@ -749,31 +757,17 @@ data.graph[pos-&gt;links[i]-&gt;n].w
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_rooms.c">
+    <entry file="file://$PROJECT_DIR$/libft/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="1650">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_links.c">
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_find_ways.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_move_ants.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="555">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -784,55 +778,158 @@ data.graph[pos-&gt;links[i]-&gt;n].w
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_find_ways.c">
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_links.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flemin/lemin_typedefs.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="524">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libft/libft.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_gfx.pc.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_move_ants.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_imageFilter.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="e#1241#1259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_framerate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_gfxPrimitives.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_gfxPrimitives.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3284">
+          <caret line="237" column="1" lean-forward="true" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+          <folding>
+            <element signature="e#10723#10724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_rotozoom.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_valid_room.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_parse_rooms.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1384">
+          <caret line="118" column="1" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flemin/lemin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="705">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
           <folding>
-            <element signature="e#929#957#0" expanded="true" />
+            <element signature="e#929#951#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="302">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDL2_primitives/SDL2_gfxPrimitives_font.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_typedefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="80" selection-start-line="80" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_vis_handle_events.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_vis_render_bg.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flemin/lemin_vis.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-804">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
         </state>
       </provider>
     </entry>

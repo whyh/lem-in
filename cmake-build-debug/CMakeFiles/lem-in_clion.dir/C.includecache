@@ -6,17 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.h
+math.h
+-
+SDL2/SDL.h
+-
+
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
+SDL2/SDL.h
+-
+../SDL2_primitives/SDL2_gfxPrimitives.h
+/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.h
 ../libft/libft.h
 /Users/dderevyn/CLionProjects/lem-in/libft/libft.h
 lemin_typedefs.h
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_typedefs.h
 
-/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_links.c
+/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_typedefs.h
+
+/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_bg.c
 lemin.h
 /Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h
-
-/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_typedefs.h
 
 /Users/dderevyn/CLionProjects/lem-in/libft/ft_gnl/ft_gnl_typedefs.h
 ../libft.h
@@ -53,22 +63,6 @@ ft_gnl/ft_gnl_typedefs.h
 /Users/dderevyn/CLionProjects/lem-in/libft/ft_gnl/ft_gnl_typedefs.h
 ft_printf/ft_printf.h
 /Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf.h
-vis/vis.h
-/Users/dderevyn/CLionProjects/lem-in/libft/vis/vis.h
 
 /Users/dderevyn/CLionProjects/lem-in/libft/libft_typedefs.h
-
-/Users/dderevyn/CLionProjects/lem-in/libft/vis/vis.h
-../libft.h
-/Users/dderevyn/CLionProjects/lem-in/libft/libft.h
-mlx.h
--
-vis_typedefs.h
-/Users/dderevyn/CLionProjects/lem-in/libft/vis/vis_typedefs.h
-
-/Users/dderevyn/CLionProjects/lem-in/libft/vis/vis_typedefs.h
-../libft.h
-/Users/dderevyn/CLionProjects/lem-in/libft/libft.h
-math.h
-/Users/dderevyn/CLionProjects/lem-in/libft/vis/math.h
 

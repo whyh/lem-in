@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:33 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/03 21:04:55 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/04 16:21:36 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 # define LEM_IN_H
 
+# include <SDL2/SDL.h>
+# include "../SDL2_primitives/SDL2_gfxPrimitives.h"
 # include "../libft/libft.h"
 # include "lemin_typedefs.h"
 
@@ -38,5 +40,11 @@ int		lemin_set_value(t_lemin_data *data, unsigned int room,
 int		lemin_find_node(t_lemin_data data, const char *name, unsigned int start);
 
 int		lemin_valid_link(t_lemin_data *data, char *buff);
+int		lemin_vis_parse(int argc, char **argv, t_lemin_vis *vis);
+
+int		lemin_vis(t_lemin_data *data, t_lemin_vis *vis);
+void	lemin_vis_render_bg(t_lemin_data *data, t_lemin_vis *vis);
+void	lemin_vis_keydown(t_lemin_vis *vis);
+void	lemin_vis_keyup(t_lemin_vis *vis);
 
 #endif

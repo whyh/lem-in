@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_framerate.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o"
+  "/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o"
+  "/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_imageFilter.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o"
+  "/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_rotozoom.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_find_ways.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_mark_graph.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o"
@@ -16,6 +20,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_room.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_split_ants.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o"
+  "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o"
+  "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_handle_events.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o"
+  "/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_bg.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/libft/ft_abs.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/libft/ft_atoibase.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/libft/ft_gnl/ft_gnl.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o"
@@ -57,8 +64,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dderevyn/CLionProjects/lem-in/libft/ft_strninject.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/libft/ft_strrchr.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o"
   "/Users/dderevyn/CLionProjects/lem-in/libft/ft_swap.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o"
-  "/Users/dderevyn/CLionProjects/lem-in/libft/vis/ft_line_gradient.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/vis/ft_line_gradient.c.o"
-  "/Users/dderevyn/CLionProjects/lem-in/libft/vis/ft_wu_line_circle.c" "/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir/libft/vis/ft_wu_line_circle.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/12 16:52:24 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/03 19:18:33 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/03 21:40:17 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,7 +100,7 @@ int			lemin_parse_rooms(t_lemin_data *data, t_lemin_parse *parse,
 	room = 0;
 	while (room < data->n_nodes)
 	{
-		while (input->buff[0] == '#' && (parse->line++) >= 0)
+		while (input->buff[0] == '#' && (++(parse->line)))
 			input = input->next;
 		i = (UI)ft_strchr_i(input->buff, ' ');
 		data->graph[room].name = ft_strndup(input->buff, i);

@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/03 18:50:27 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/04 19:52:02 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,18 +26,26 @@
 # define LEMIN_MAX_VALUE LEMIN_MAX_ROOMS
 # define LEMIN_BAD_WAY LEMIN_MAX_WAYS + 1
 # define LEMIN_INIT_VALUE LEMIN_MAX_VALUE + 1
-# define LEMIN_MAX_VIS_COORD 100000
-# define LEMIN_MIN_VIS_COORD -100000
+# define LEMIN_WIN_W 1500
+# define LEMIN_WIN_H 1000
+# define LEMIN_VIS_MIN_DIST 5
 
 # define LEMIN_ERR_NO_WAYS "now way was found"
 
 # define LEMIN_ERR_BIG_GRAPH "graph is way too big"
 
-# define LEMIN_USAGE "[greenUsage:~] ./lem-in\n[cyan%s\n"
+# define LEMIN_USAGE "[greenUsage:~] ./lem-in\n[cyan%s~]\n"
 
 # define LEMIN_USAGE_MAP0 "map"
 
 # define LEMIN_ERR "[redError: %s\n"
+
+# define LEMIN_ERR_OPT "[redError: invalid option \"%s\"\n"
+
+# define LEMIN_ERR_VIS0 "visualisation error"
+# define LEMIN_ERR_VIS1 "with -v option x coordinates should be in range"
+# define LEMIN_ERR_VIS2 "with -v option y coordinates should be in range"
+# define LEMIN_ERR_VIS3 "with -v option required distance between the rooms is"
 
 # define LEMIN_ERR_ANT0 "invalid symbol in the ant specification"
 # define LEMIN_ERR_ANT1 "invalid number of ants"
@@ -60,6 +68,28 @@
 # define LEMIN_ERR_ROOM1 "invalid room specification"
 # define LEMIN_ERR_ROOM2 "parameter in the room specification is duplicated"
 # define LEMIN_ERR_ROOM3 "at least one coordinate is too big or too small"
+
+typedef struct				s_lemin_vis_keys
+{
+	unsigned int			esc : 1;
+	unsigned int			h : 1;
+	unsigned int			lctrl : 1;
+	unsigned int			lshift : 1;
+	unsigned int			equals : 1;
+	unsigned int			minus : 1;
+}							t_lemin_vis_keys;
+
+typedef struct				s_lemin_vis
+{
+	unsigned int			vis : 1;
+	unsigned int			loop : 1;
+	int						zoom;
+	unsigned int			r;
+	t_lemin_vis_keys		keyup;
+	SDL_Event				event;
+	SDL_Window				*win;
+	SDL_Renderer			*rend;
+}							t_lemin_vis;
 
 typedef struct				s_lemin_input
 {

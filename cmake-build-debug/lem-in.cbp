@@ -82,6 +82,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_framerate.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_framerate.h">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.h">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_imageFilter.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_imageFilter.h">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_rotozoom.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_rotozoom.h">
+			<Option target="lem-in_clion"/>
+		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
@@ -119,6 +143,15 @@
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_handle_events.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_bg.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_abs.c">
@@ -245,12 +278,6 @@
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_swap.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/vis/ft_line_gradient.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/vis/ft_wu_line_circle.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/CMakeLists.txt">
