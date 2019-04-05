@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/05 16:22:12 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/05 17:02:20 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@
 # define LEMIN_INIT_VALUE LEMIN_MAX_VALUE + 1
 # define LEMIN_WIN_W 1500
 # define LEMIN_WIN_H 1000
-# define LEMIN_VIS_MIN_DIST 5
+# define LEMIN_VIS_MIN_DIST 9
 
 # define LEMIN_ERR_NO_WAYS "now way was found"
 
@@ -84,6 +84,10 @@ typedef struct				s_lemin_vis
 	unsigned int			vis : 1;
 	unsigned int			loop : 1;
 	int						zoom;
+	int 					pos_x;
+	int 					pos_y;
+	int						*links0;
+	int						*links1;
 	unsigned int			r;
 	t_lemin_vis_keys		keyup;
 	SDL_Event				event;

@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 13:05:45 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/05 16:20:43 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/05 16:43:44 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,9 @@ static int	static_init_SDL2(t_lemin_vis *vis)
 	vis->keyup.minus = 1;
 	vis->keyup.equals = 1;
 	vis->zoom = 0;
-	vis->r = LEMIN_VIS_MIN_DIST;
+	vis->r = LEMIN_VIS_MIN_DIST - 4;
+	vis->pos_x = 0;
+	vis->pos_y = 0;
 	return (1);
 }
 
