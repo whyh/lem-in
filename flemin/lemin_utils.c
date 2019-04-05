@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-int lemin_find_node(t_lemin_data data, const char *name, unsigned int start)
+int	lemin_find_node(t_lemin_data data, const char *name, unsigned int start)
 {
 	unsigned int	i;
 

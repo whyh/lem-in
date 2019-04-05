@@ -6,13 +6,13 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/04 19:52:02 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/05 16:22:12 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LEM_IN_TYPEDEFS_H
+#ifndef LEMIN_TYPEDEFS_H
 
-# define LEM_IN_TYPEDEFS_H
+# define LEMIN_TYPEDEFS_H
 
 # define LEMIN_CMND_START "##start"
 # define LEMIN_CMND_END "##end"
@@ -112,19 +112,19 @@ typedef struct				s_lemin_node
 	char					*name;
 	int						x;
 	int						y;
-	int 					ant;
-	unsigned int 			n;
+	int						ant;
+	unsigned int			n;
 	unsigned int			value;
 	unsigned int			w;
-	unsigned int 			n_links;
+	unsigned int			n_links;
 	struct s_lemin_node		**links;
 }							t_lemin_node;
 
 typedef struct				s_lemin_way
 {
-	unsigned int 			*path;
+	unsigned int			*path;
 	unsigned int			n_ants;
-	unsigned int 			len;
+	unsigned int			len;
 }							t_lemin_way;
 
 typedef struct				s_lemin_ant

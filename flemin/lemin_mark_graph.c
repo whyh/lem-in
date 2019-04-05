@@ -12,8 +12,7 @@
 
 #include "lemin.h"
 
-int		lemin_set_value(t_lemin_data *data, unsigned int room,
-		unsigned int value)
+int	lemin_set_value(t_lemin_data *data, unsigned int room, unsigned int value)
 {
 	unsigned int	i;
 	t_lemin_node	*graph;

@@ -32,7 +32,7 @@ static unsigned int	static_next_room(t_lemin_data data, t_lemin_node *pos)
 	return (nxt);
 }
 
-static int	static_compose_way(t_lemin_data *data, unsigned int way_n)
+static int			static_compose_way(t_lemin_data *data, unsigned int way_n)
 {
 	t_lemin_node	*pos;
 	t_lemin_way		*way;
@@ -58,7 +58,7 @@ static int	static_compose_way(t_lemin_data *data, unsigned int way_n)
 	return (1);
 }
 
-int lemin_find_way(t_lemin_data *data)
+int					lemin_find_way(t_lemin_data *data)
 {
 	unsigned int	way_n;
 	unsigned int	max_graph_width;

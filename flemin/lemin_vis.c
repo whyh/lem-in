@@ -6,13 +6,13 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 13:05:45 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/04 19:58:25 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/05 16:20:43 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-int		lemin_vis_parse(int argc, char **argv, t_lemin_vis *vis)
+int			lemin_vis_parse(int argc, char **argv, t_lemin_vis *vis)
 {
 	if (argc > 2)
 	{
@@ -115,7 +115,7 @@ static int static_valid_coords(t_lemin_data *data)
 	i = 0;
 	while (i < data->n_nodes)
 	{
-		if (data->graph[i].x >= LEMIN_WIN_W || data->graph[i].x < 0 )
+		if (data->graph[i].x >= LEMIN_WIN_W || data->graph[i].x < 0)
 		{
 			ft_printf("[redError: %s %d - %d", LEMIN_ERR_VIS1, 0, LEMIN_WIN_W);
 			return (0);
@@ -135,6 +135,51 @@ static int static_valid_coords(t_lemin_data *data)
 	return (1);
 }
 
+static void static_check_links(t_lemin_vis *vis, unsigned int link0,
+			unsigned int link1, unsigned int *n)
+{
+	unsigned int i;
+
+	i = 0;
+	while (i < *n)
+	{
+		if ((vis->links0[i] == link0 && vis->links1[i] == link1)
+		|| (vis->links0[i] == link1 && vis->links1[i] == link0))
+			return ;
+		++i;
+	}
+	vis->links0[*n] = link0;
+	vis->links1[*n] = link1;
+	(*n)++;
+}
+
+static void	static_fill_links(t_lemin_data *data, t_lemin_vis *vis)
+{
+	unsigned int	i;
+	unsigned int	link;
+	unsigned int	n;
+
+	i = 0;
+	n = 0;
+	vis->links0 = ft_memalloc(sizeof(int) * data->n_links);
+	vis->links1 = ft_memalloc(sizeof(int) * data->n_links);
+	while (i < data->n_nodes)
+	{
+		link = 0;
+		while (data->graph[i].links && data->graph[i].links[link])
+		{
+			static_check_links(vis, data->graph[i].n, data->graph[link].n, &n);
+			++link;
+		}
+		++i;
+	}
+	if (n < data->n_links)
+	{
+		vis->links0[n] = -1;
+		vis->links1[n] = -1;
+	}
+}
+
 int	lemin_vis(t_lemin_data *data, t_lemin_vis *vis)
 {
 	if (!static_valid_coords(data))
@@ -144,6 +189,7 @@ int	lemin_vis(t_lemin_data *data, t_lemin_vis *vis)
 		ft_printf(LEMIN_ERR, LEMIN_ERR_VIS0);
 		return (0);
 	}
+	static_fill_links(data, vis);
 	while (vis->loop)
 	{
 		lemin_vis_render_bg(data, vis);

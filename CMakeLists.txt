@@ -19,4 +19,4 @@ add_executable(lem-in_clion
         ${FLEMIN}
         ${SDL2GFX})
 
-target_link_libraries(lem-in_clion "-framework SDL2")
+target_link_libraries(lem-in_clion "-framework SDL2" "/Users/dderevyn/.brew/Cellar/sdl2/2.0.9_1/lib/libSDL2.a")

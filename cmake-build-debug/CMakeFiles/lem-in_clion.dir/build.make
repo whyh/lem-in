@@ -964,6 +964,7 @@ lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/build.make
+lem-in_clion: /Users/dderevyn/.brew/Cellar/sdl2/2.0.9_1/lib/libSDL2.a
 lem-in_clion: CMakeFiles/lem-in_clion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking C executable lem-in_clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem-in_clion.dir/link.txt --verbose=$(VERBOSE)

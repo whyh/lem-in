@@ -21,7 +21,7 @@ void	static_render_links(t_lemin_data *data, t_lemin_vis *vis, unsigned int room
 
 	i = 0;
 	p0.x = data->graph[room].x + vis->r;
-	p0.y = data->graph[room].y;//TODO create array of links
+	p0.y = data->graph[room].y;
 	while (data->graph[room].links && data->graph[room].links[i])//TODO depending on the direction plus or minus r
 	{
 		p1.x = data->graph[room].links[i]->x + vis->r;

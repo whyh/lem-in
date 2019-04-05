@@ -49,7 +49,7 @@ static unsigned int	static_turn(t_lemin_data *data)
 	return (n_moved);
 }
 
-void	lemin_move_ants(t_lemin_data *data)
+void				lemin_move_ants(t_lemin_data *data)
 {
 	unsigned int	n_moved;
 

@@ -12,7 +12,7 @@
 
 #include "lemin.h"
 
-static unsigned int static_best_way(t_lemin_data *data)
+static unsigned int	static_best_way(t_lemin_data *data)
 {
 	unsigned int	min_time;
 	unsigned int	way;
@@ -34,7 +34,7 @@ static unsigned int static_best_way(t_lemin_data *data)
 	return (way);
 }
 
-static int	static_exeption(t_lemin_data *data)
+static int			static_exeption(t_lemin_data *data)
 {
 	unsigned int	way;
 	unsigned int	ant;
@@ -55,7 +55,7 @@ static int	static_exeption(t_lemin_data *data)
 	return (1);
 }
 
-void lemin_split_ants(t_lemin_data *data)
+void				lemin_split_ants(t_lemin_data *data)
 {
 	unsigned int	ant;
 
