@@ -6,7 +6,7 @@
 #    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/04 16:30:40 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/04/09 16:55:28 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = lem-in
 OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
 CC = clang
 CFLAGS = -Wall -Wextra -Werror
-CLIBS = -framework SDL2
+CLIBS =  -L ../../libs/sdl2 -l SDL2-2.0.0
 RM = /bin/rm -rf
 CP = cp -rf
 
@@ -38,8 +38,11 @@ LEM-IN_SRCS =		lemin.c\
 					lemin_move_ants.c\
 					lemin_split_ants.c\
 					lemin_vis.c\
-					lemin_vis_handle_events.c\
-					lemin_vis_render_bg.c
+					lemin_vis_keys.c\
+					lemin_vis_render_bg.c\
+					lemin_vis_mouse.c\
+					lemin_vis_parse.c\
+					lemin_vis_render_ants.c
 LEM-IN_OBJS_DIR = $(OBJS_DIR)
 LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
 

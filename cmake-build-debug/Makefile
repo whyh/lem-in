@@ -582,32 +582,113 @@ flemin/lemin_vis.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.s
 .PHONY : flemin/lemin_vis.c.s
 
-flemin/lemin_vis_handle_events.o: flemin/lemin_vis_handle_events.c.o
+flemin/lemin_vis_keys.o: flemin/lemin_vis_keys.c.o
 
-.PHONY : flemin/lemin_vis_handle_events.o
+.PHONY : flemin/lemin_vis_keys.o
 
 # target to build an object file
-flemin/lemin_vis_handle_events.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o
-.PHONY : flemin/lemin_vis_handle_events.c.o
+flemin/lemin_vis_keys.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o
+.PHONY : flemin/lemin_vis_keys.c.o
 
-flemin/lemin_vis_handle_events.i: flemin/lemin_vis_handle_events.c.i
+flemin/lemin_vis_keys.i: flemin/lemin_vis_keys.c.i
 
-.PHONY : flemin/lemin_vis_handle_events.i
+.PHONY : flemin/lemin_vis_keys.i
 
 # target to preprocess a source file
-flemin/lemin_vis_handle_events.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.i
-.PHONY : flemin/lemin_vis_handle_events.c.i
+flemin/lemin_vis_keys.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.i
+.PHONY : flemin/lemin_vis_keys.c.i
 
-flemin/lemin_vis_handle_events.s: flemin/lemin_vis_handle_events.c.s
+flemin/lemin_vis_keys.s: flemin/lemin_vis_keys.c.s
 
-.PHONY : flemin/lemin_vis_handle_events.s
+.PHONY : flemin/lemin_vis_keys.s
 
 # target to generate assembly for a file
-flemin/lemin_vis_handle_events.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.s
-.PHONY : flemin/lemin_vis_handle_events.c.s
+flemin/lemin_vis_keys.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.s
+.PHONY : flemin/lemin_vis_keys.c.s
+
+flemin/lemin_vis_mouse.o: flemin/lemin_vis_mouse.c.o
+
+.PHONY : flemin/lemin_vis_mouse.o
+
+# target to build an object file
+flemin/lemin_vis_mouse.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o
+.PHONY : flemin/lemin_vis_mouse.c.o
+
+flemin/lemin_vis_mouse.i: flemin/lemin_vis_mouse.c.i
+
+.PHONY : flemin/lemin_vis_mouse.i
+
+# target to preprocess a source file
+flemin/lemin_vis_mouse.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.i
+.PHONY : flemin/lemin_vis_mouse.c.i
+
+flemin/lemin_vis_mouse.s: flemin/lemin_vis_mouse.c.s
+
+.PHONY : flemin/lemin_vis_mouse.s
+
+# target to generate assembly for a file
+flemin/lemin_vis_mouse.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.s
+.PHONY : flemin/lemin_vis_mouse.c.s
+
+flemin/lemin_vis_parse.o: flemin/lemin_vis_parse.c.o
+
+.PHONY : flemin/lemin_vis_parse.o
+
+# target to build an object file
+flemin/lemin_vis_parse.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o
+.PHONY : flemin/lemin_vis_parse.c.o
+
+flemin/lemin_vis_parse.i: flemin/lemin_vis_parse.c.i
+
+.PHONY : flemin/lemin_vis_parse.i
+
+# target to preprocess a source file
+flemin/lemin_vis_parse.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.i
+.PHONY : flemin/lemin_vis_parse.c.i
+
+flemin/lemin_vis_parse.s: flemin/lemin_vis_parse.c.s
+
+.PHONY : flemin/lemin_vis_parse.s
+
+# target to generate assembly for a file
+flemin/lemin_vis_parse.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.s
+.PHONY : flemin/lemin_vis_parse.c.s
+
+flemin/lemin_vis_render_ants.o: flemin/lemin_vis_render_ants.c.o
+
+.PHONY : flemin/lemin_vis_render_ants.o
+
+# target to build an object file
+flemin/lemin_vis_render_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o
+.PHONY : flemin/lemin_vis_render_ants.c.o
+
+flemin/lemin_vis_render_ants.i: flemin/lemin_vis_render_ants.c.i
+
+.PHONY : flemin/lemin_vis_render_ants.i
+
+# target to preprocess a source file
+flemin/lemin_vis_render_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.i
+.PHONY : flemin/lemin_vis_render_ants.c.i
+
+flemin/lemin_vis_render_ants.s: flemin/lemin_vis_render_ants.c.s
+
+.PHONY : flemin/lemin_vis_render_ants.s
+
+# target to generate assembly for a file
+flemin/lemin_vis_render_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.s
+.PHONY : flemin/lemin_vis_render_ants.c.s
 
 flemin/lemin_vis_render_bg.o: flemin/lemin_vis_render_bg.c.o
 
@@ -1803,9 +1884,18 @@ help:
 	@echo "... flemin/lemin_vis.o"
 	@echo "... flemin/lemin_vis.i"
 	@echo "... flemin/lemin_vis.s"
-	@echo "... flemin/lemin_vis_handle_events.o"
-	@echo "... flemin/lemin_vis_handle_events.i"
-	@echo "... flemin/lemin_vis_handle_events.s"
+	@echo "... flemin/lemin_vis_keys.o"
+	@echo "... flemin/lemin_vis_keys.i"
+	@echo "... flemin/lemin_vis_keys.s"
+	@echo "... flemin/lemin_vis_mouse.o"
+	@echo "... flemin/lemin_vis_mouse.i"
+	@echo "... flemin/lemin_vis_mouse.s"
+	@echo "... flemin/lemin_vis_parse.o"
+	@echo "... flemin/lemin_vis_parse.i"
+	@echo "... flemin/lemin_vis_parse.s"
+	@echo "... flemin/lemin_vis_render_ants.o"
+	@echo "... flemin/lemin_vis_render_ants.i"
+	@echo "... flemin/lemin_vis_render_ants.s"
 	@echo "... flemin/lemin_vis_render_bg.o"
 	@echo "... flemin/lemin_vis_render_bg.i"
 	@echo "... flemin/lemin_vis_render_bg.s"

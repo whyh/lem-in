@@ -759,22 +759,61 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.s
 
-CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o: CMakeFiles/lem-in_clion.dir/flags.make
-CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o: ../flemin/lemin_vis_handle_events.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_handle_events.c
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: CMakeFiles/lem-in_clion.dir/flags.make
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../flemin/lemin_vis_keys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_keys.c
 
-CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_handle_events.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.i
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_keys.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.i
 
-CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_handle_events.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.s
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_keys.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.s
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: CMakeFiles/lem-in_clion.dir/flags.make
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../flemin/lemin_vis_mouse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_mouse.c
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_mouse.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.i
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_mouse.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.s
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: CMakeFiles/lem-in_clion.dir/flags.make
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../flemin/lemin_vis_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_parse.c
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_parse.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.i
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_parse.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.s
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: CMakeFiles/lem-in_clion.dir/flags.make
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../flemin/lemin_vis_render_ants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_ants.c
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_ants.c > CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.i
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_ants.c -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.s
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../flemin/lemin_vis_render_bg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o   -c /Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_bg.c
 
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.i: cmake_force
@@ -787,7 +826,7 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.s: cmake_force
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o: ../SDL2_primitives/SDL2_framerate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o   -c /Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_framerate.c
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.i: cmake_force
@@ -800,7 +839,7 @@ CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.s: cmake_force
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o   -c /Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.c
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.i: cmake_force
@@ -813,7 +852,7 @@ CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.s: cmake_force
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o: ../SDL2_primitives/SDL2_imageFilter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o   -c /Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_imageFilter.c
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.i: cmake_force
@@ -826,7 +865,7 @@ CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.s: cmake_force
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o: CMakeFiles/lem-in_clion.dir/flags.make
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o: ../SDL2_primitives/SDL2_rotozoom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o   -c /Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_rotozoom.c
 
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.i: cmake_force
@@ -893,7 +932,10 @@ lem__in_clion_OBJECTS = \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o" \
-"CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o" \
+"CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o" \
+"CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o" \
+"CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o" \
+"CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o" \
 "CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o" \
 "CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o" \
 "CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o" \
@@ -957,16 +999,19 @@ lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o
-lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_handle_events.c.o
+lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o
+lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o
+lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o
+lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/build.make
-lem-in_clion: /Users/dderevyn/.brew/Cellar/sdl2/2.0.9_1/lib/libSDL2.a
+lem-in_clion: /Users/dderevyn/libs/sdl2/libSDL2.dylib
 lem-in_clion: CMakeFiles/lem-in_clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking C executable lem-in_clion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking C executable lem-in_clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem-in_clion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

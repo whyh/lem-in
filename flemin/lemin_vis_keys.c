@@ -1,48 +1,51 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   lemin_vis_handle_events.c                          :+:      :+:    :+:   */
+/*   lemin_vis_keys.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 14:55:31 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/04 20:01:30 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/08 13:56:41 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
+static void static_exit(t_lemin_vis *vis)
+{
+	if (vis->vis == 0)
+		vis->vis = 1;
+	else if (vis->vis == 1)
+		vis->vis = 0;
+}
+
+static void	static_pause(t_lemin_vis *vis)
+{
+	if (vis->pause == 0)
+		vis->pause = 1;
+	else if (vis->pause == 1)
+		vis->pause = 0;
+}
+
 void	lemin_vis_keydown(t_lemin_vis *vis)
 {
 	if (vis->event.key.keysym.sym == SDLK_ESCAPE)
-	{
 		vis->keyup.esc = 0;
-		vis->loop = 0;
-	}
-	else if (vis->event.key.keysym.sym == SDLK_LSHIFT)
-		vis->keyup.lshift = 0;
-	else if (vis->event.key.keysym.sym == SDLK_MINUS)
-	{
-		if (vis->keyup.lshift == 0 && vis->r > LEMIN_VIS_MIN_DIST)
-			vis->zoom = -1;
-		vis->keyup.minus = 0;
-	}
-	else if (vis->event.key.keysym.sym == SDLK_EQUALS)
-	{
-		if (vis->keyup.lshift == 0)
-			vis->zoom = 1;
-		vis->keyup.equals = 0;
-	}
+	else if (vis->event.key.keysym.sym == SDLK_SPACE)
+		vis->keyup.space = 0;
 }
 
 void	lemin_vis_keyup(t_lemin_vis *vis)
 {
 	if (vis->event.key.keysym.sym == SDLK_ESCAPE)
+	{
 		vis->keyup.esc = 1;
-	else if (vis->event.key.keysym.sym == SDLK_LSHIFT)
-		vis->keyup.lshift = 1;
-	else if (vis->event.key.keysym.sym == SDLK_EQUALS)
-		vis->keyup.equals = 1;
-	else if (vis->event.key.keysym.sym == SDLK_MINUS)
-		vis->keyup.minus = 1;
+		static_exit(vis);
+	}
+	else if (vis->event.key.keysym.sym == SDLK_SPACE)
+	{
+		vis->keyup.space = 1;
+		static_pause(vis);
+	}
 }

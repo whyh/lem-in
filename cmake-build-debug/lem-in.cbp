@@ -148,7 +148,16 @@
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_handle_events.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_keys.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_mouse.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_parse.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_bg.c">

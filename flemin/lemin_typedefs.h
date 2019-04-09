@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/05 17:02:20 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/08 19:26:48 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,31 +21,37 @@
 # define LEMIN_DONE 2
 # define LEMIN_MIN_ANTS 1
 # define LEMIN_MAX_ANTS INT_MAX
-# define LEMIN_MAX_ROOMS 1000000
+# define LEMIN_MAX_ROOMS 10000 //TODO change to intmax
 # define LEMIN_MAX_WAYS LEMIN_MAX_ROOMS
 # define LEMIN_MAX_VALUE LEMIN_MAX_ROOMS
 # define LEMIN_BAD_WAY LEMIN_MAX_WAYS + 1
 # define LEMIN_INIT_VALUE LEMIN_MAX_VALUE + 1
 # define LEMIN_WIN_W 1500
 # define LEMIN_WIN_H 1000
-# define LEMIN_VIS_MIN_DIST 9
-
-# define LEMIN_ERR_NO_WAYS "now way was found"
+# define LEMIN_VIS_BRAD_MIN 25
+# define LEMIN_VIS_SRAD_MIN 10
+# define LEMIN_VIS_WAY_LEN_MIN 1
+# define LEMIN_VIS_ZOOMF 1
+# define LEMIN_VIS_START_ZOOM 0
+# define LEMIN_VIS_MIN_DIST LEMIN_VIS_BRAD_MIN * 2 + LEMIN_VIS_START_ZOOM * 2\
++ LEMIN_VIS_WAY_LEN_MIN
+# define LEMIN_VIS_WIN_NAME "lem-in"
+# define LEMIN_ERR_NO_WAYS "start and end of the farm are not connected"
 
 # define LEMIN_ERR_BIG_GRAPH "graph is way too big"
 
 # define LEMIN_USAGE "[greenUsage:~] ./lem-in\n[cyan%s~]\n"
 
-# define LEMIN_USAGE_MAP0 "map"
+# define LEMIN_USAGE_MAP0 "map"//TODO add map sample
 
 # define LEMIN_ERR "[redError: %s\n"
 
 # define LEMIN_ERR_OPT "[redError: invalid option \"%s\"\n"
 
+# define LEMIN_ERR_DIST "[redError: %s %d~]"
+
 # define LEMIN_ERR_VIS0 "visualisation error"
-# define LEMIN_ERR_VIS1 "with -v option x coordinates should be in range"
-# define LEMIN_ERR_VIS2 "with -v option y coordinates should be in range"
-# define LEMIN_ERR_VIS3 "with -v option required distance between the rooms is"
+# define LEMIN_ERR_VIS3 "with -v option required min distance between the rooms "//TODO change
 
 # define LEMIN_ERR_ANT0 "invalid symbol in the ant specification"
 # define LEMIN_ERR_ANT1 "invalid number of ants"
@@ -73,22 +79,27 @@ typedef struct				s_lemin_vis_keys
 {
 	unsigned int			esc : 1;
 	unsigned int			h : 1;
-	unsigned int			lctrl : 1;
-	unsigned int			lshift : 1;
-	unsigned int			equals : 1;
-	unsigned int			minus : 1;
+	unsigned int			space : 1;
+	unsigned int			left : 1;
 }							t_lemin_vis_keys;
 
 typedef struct				s_lemin_vis
 {
 	unsigned int			vis : 1;
-	unsigned int			loop : 1;
-	int						zoom;
+	unsigned int			pause : 1;
+	unsigned int			zoom;
+	unsigned int			prev_zoom;
 	int 					pos_x;
 	int 					pos_y;
-	int						*links0;
-	int						*links1;
-	unsigned int			r;
+	unsigned int			*links0;
+	unsigned int			*links1;
+	unsigned int			min_dist;
+	int						prev_posx;
+	int						prev_posy;
+	int 					*ant_posx;
+	int 					*ant_posy;
+	unsigned int 			*deltax;
+	unsigned int 			*deltay;
 	t_lemin_vis_keys		keyup;
 	SDL_Event				event;
 	SDL_Window				*win;
@@ -116,6 +127,7 @@ typedef struct				s_lemin_node
 	char					*name;
 	int						x;
 	int						y;
+	int 					rad;
 	int						ant;
 	unsigned int			n;
 	unsigned int			value;
