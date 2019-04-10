@@ -41,7 +41,7 @@ extern "C" {
 #define M_PI	3.1415926535897932384626433832795
 #endif
 
-#include "../../../includes/SDL2/SDL.h"
+#include <SDL2/SDL.h>
 
 	/* ---- Defines */
 

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/dderevyn/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Users/dderevyn/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -1009,7 +1009,6 @@ lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o
 lem-in_clion: CMakeFiles/lem-in_clion.dir/build.make
-lem-in_clion: /Users/dderevyn/libs/sdl2/libSDL2.dylib
 lem-in_clion: CMakeFiles/lem-in_clion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking C executable lem-in_clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem-in_clion.dir/link.txt --verbose=$(VERBOSE)

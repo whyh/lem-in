@@ -19,6 +19,6 @@ add_executable(lem-in_clion
         ${FLEMIN}
         ${SDL2GFX})
 
-find_library(SDL2 SDL2 HINTS /Users/dderevyn/libs/sdl2)
+target_include_directories(lem-in_clion PUBLIC "/SDL/SDL2.framework/Headers")
 
-target_link_libraries(lem-in_clion "-framework SDL" ${SDL2})
+target_link_libraries(lem-in_clion "-F ./SDL/SDL2.framework -framework SDL2")

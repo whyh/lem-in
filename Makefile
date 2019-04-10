@@ -6,7 +6,7 @@
 #    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/09 16:55:28 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/04/10 17:50:07 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,11 +15,12 @@ NAME = lem-in
 OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
 CC = clang
 CFLAGS = -Wall -Wextra -Werror
-CLIBS =  -L ../../libs/sdl2 -l SDL2-2.0.0
+CLIBS = -F ./SDL -framework SDL2
 RM = /bin/rm -rf
 CP = cp -rf
 
 LIBFT_PATH = libft/
+LIBFT_INCS = libft.h
 LIBFT = libft.a
 
 LEM-IN_PATH = flemin/
@@ -46,6 +47,9 @@ LEM-IN_SRCS =		lemin.c\
 LEM-IN_OBJS_DIR = $(OBJS_DIR)
 LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
 
+SDL2_PATH = SDL/SDL2.framework/Headers/SDL.h
+SDL2_INCS = SDL.h
+
 SDL2GFX_PATH = SDL2_primitives/
 SDL2GFX_INCS = 		SDL2_framerate.h\
 					SDL2_gfxPrimitives.h\
@@ -66,11 +70,11 @@ $(NAME): $(LEM-IN_OBJS) $(SDL2GFX_OBJS)
 
 $(LEM-IN_OBJS_DIR)/%.o: $(LEM-IN_PATH)%.c
 	@mkdir -p $(LEM-IN_OBJS_DIR)
-	@$(CC) $(CFLAGS) -c $< $(addprefix -I.,$(addprefix $(LEM-IN_PATH),$(LEM-IN_INCS))) -o $@
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(SDL2GFX_OBJS_DIR)/%.o: $(SDL2GFX_PATH)%.c
 	@mkdir -p $(SDL2GFX_OBJS_DIR)
-	@$(CC) -c $< $(addprefix -I.,$(addprefix $(SDL2GFX_PATH),$(SDL2GFX_INCS))) -o $@
+	@$(CC) -c $< -o $@
 
 libft:
 	@cd libft && make $(LIBFT)

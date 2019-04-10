@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:33 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/09 16:19:33 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/10 17:50:07 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 # define LEMIN_H
 
-# include "../../../includes/SDL2/SDL.h"
-# include "../SDL2_primitives/SDL2_gfxPrimitives.h"
 # include "../libft/libft.h"
+# include <SDL2/SDL.h>
+# include "../SDL2_primitives/SDL2_gfxPrimitives.h"
 # include "lemin_typedefs.h"
 
 int		lemin_parse(t_lemin_data *data, t_lemin_input *input);
