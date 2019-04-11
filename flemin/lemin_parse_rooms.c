@@ -66,9 +66,9 @@ static int	static_check_n_alloc(t_lemin_data *data, t_lemin_parse *parse,
 		ft_printf(LEMIN_ERR, LEMIN_ERR_END2);
 		return (0);
 	}
-	data->graph = ft_memalloc(sizeof(t_lemin_data) * data->n_nodes);
+	data->graph = ft_memalloc(sizeof(t_lemin_data) * data->n_rooms);
 	room = 0;
-	while (room < data->n_nodes)
+	while (room < data->n_rooms)
 	{
 		data->graph[room].name = NULL;
 		++room;
@@ -79,7 +79,7 @@ static int	static_check_n_alloc(t_lemin_data *data, t_lemin_parse *parse,
 	return (1);
 }
 
-static void	static_fill_inf(t_lemin_node *room, unsigned int n)
+static void	static_fill_inf(t_lemin_room *room, unsigned int n)
 {
 	room->n = n;
 	room->value = LEMIN_MAX_VALUE + 1;
@@ -98,7 +98,7 @@ int			lemin_parse_rooms(t_lemin_data *data, t_lemin_parse *parse,
 	if (!static_check_n_alloc(data, parse, &input))
 		return (0);
 	room = 0;
-	while (room < data->n_nodes)
+	while (room < data->n_rooms)
 	{
 		while (input->buff[0] == '#' && (++(parse->line)))
 			input = input->next;

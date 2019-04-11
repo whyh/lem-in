@@ -17,7 +17,7 @@ static void	static_adapt_coords(t_lemin_data *data, t_lemin_vis *vis)
 	unsigned int	i;
 
 	i = 0;
-	while (i < data->n_nodes)
+	while (i < data->n_rooms)
 	{
 		data->graph[i].x += (vis->pos_x - vis->prev_posx);
 		data->graph[i].y += (vis->pos_y - vis->prev_posy);
@@ -50,8 +50,6 @@ static void	static_render_links(t_lemin_data *data, t_lemin_vis *vis)
 		y0 = (Sint16)data->graph[vis->links0[i]].y;
 		y1 = (Sint16)data->graph[vis->links1[i]].y;
 		aalineRGBA(vis->rend, x0, y0, x1, y1, 100, 100, 100, 255);
-		aalineRGBA(vis->rend, (Sint16)(x0 - 1), (Sint16)(y0 - 1), (Sint16)(x1 - 1), (Sint16)(y1 - 1), 100, 100, 100, 255);
-		aalineRGBA(vis->rend, (Sint16)(x0 + 1), (Sint16)(y0 + 1), (Sint16)(x1 + 1), (Sint16)(y1 + 1), 100, 100, 100, 255);
 		++i;
 	}
 }
@@ -64,7 +62,7 @@ static void	static_render_rooms(t_lemin_data *data, t_lemin_vis *vis)
 	Sint16			rad;
 
 	i = 0;
-	while (i < data->n_nodes)
+	while (i < data->n_rooms)
 	{
 		x = (Sint16)data->graph[i].x;
 		y = (Sint16)data->graph[i].y;

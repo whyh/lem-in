@@ -17,7 +17,7 @@ static int	static_init_SDL2(t_lemin_vis *vis)
 	if (SDL_Init(SDL_INIT_EVERYTHING) == -1)
 		return (0);
 	vis->win = SDL_CreateWindow(LEMIN_VIS_WIN_NAME, 0, 0, LEMIN_WIN_W,
-	LEMIN_WIN_H, SDL_WINDOWPOS_CENTERED);
+	LEMIN_WIN_H, SDL_WINDOW_BORDERLESS);
 	if (!vis->win)
 		return (0);
 	vis->rend = SDL_CreateRenderer(vis->win, -1, SDL_RENDERER_ACCELERATED);
@@ -62,9 +62,10 @@ int			lemin_vis(t_lemin_data *data, t_lemin_vis *vis)
 	{
 		if (!vis->pause)
 		{
-			if (!lemin_move_ants_turn(data, vis))
+			if (!lemin_move_ants_turn(
+			data, &data->solutions[data->solution], vis))
 				vis->pause = 1;
-			lemin_vis_render_ants(data, vis);
+			//render ants
 		}
 		lemin_vis_render_bg(data, vis);
 		SDL_RenderPresent(vis->rend);

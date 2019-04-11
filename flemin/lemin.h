@@ -27,8 +27,12 @@ int		lemin_parse_rooms(t_lemin_data *data, t_lemin_parse *parse,
 int		lemin_parse_links(t_lemin_data *data, t_lemin_parse *parse,
 		t_lemin_input *input);
 
-int		lemin_find_way(t_lemin_data *data);
-void	lemin_split_ants(t_lemin_data *data);
+int		lemin_find_way(t_lemin_data *data, t_lemin_solution *solution,
+		unsigned int max_graph_width);
+
+void	lemin_split_ants(t_lemin_data *data, t_lemin_solution *solution);
+int		lemin_solution(t_lemin_data *data);
+void	lemin_exit(t_lemin_data *data, t_lemin_input *input, t_lemin_vis *vis);
 
 int		lemin_valid_room(t_lemin_data *data, t_lemin_parse *parse,
 		const char *buff);
@@ -54,11 +58,10 @@ void	lemin_vis_mouse_buttondown(t_lemin_vis *vis);
 void	lemin_vis_mouse_buttonup(t_lemin_vis *vis);
 void	lemin_vis_mouse_wheel(t_lemin_vis *vis);
 
-unsigned int	lemin_move_ants_turn(t_lemin_data *data, t_lemin_vis *vis);
+int		lemin_move_ants_turn(t_lemin_data *data, t_lemin_solution *solution,
+		t_lemin_vis *vis);
+void	lemin_move_ants(t_lemin_data *data);
 
-void	lemin_move_ants(t_lemin_data *data, t_lemin_vis *vis);
-
-void	lemin_vis_render_ants(t_lemin_data *data, t_lemin_vis *vis);
 void	lemin_vis_handle_events(t_lemin_vis *vis);
 
 #endif

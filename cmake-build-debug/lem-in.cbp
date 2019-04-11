@@ -8,290 +8,299 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug"/>
+				<Option working_dir="/home/danial/CLionProjects/lemin/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug"/>
+				<Option working_dir="/home/danial/CLionProjects/lemin/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lem-in_clion">
-				<Option output="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/lem-in_clion" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug"/>
+				<Option output="/home/danial/CLionProjects/lemin/cmake-build-debug/lem-in_clion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danial/CLionProjects/lemin/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/SDL/SDL2.framework/Headers"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 lem-in_clion"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 lem-in_clion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lem-in_clion/fast">
-				<Option output="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/lem-in_clion" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug"/>
+				<Option output="/home/danial/CLionProjects/lemin/cmake-build-debug/lem-in_clion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danial/CLionProjects/lemin/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/SDL/SDL2.framework/Headers"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 lem-in_clion/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 lem-in_clion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/danial/CLionProjects/lemin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danial/CLionProjects/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_framerate.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_framerate.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_framerate.h">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_framerate.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_gfxPrimitives.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_gfxPrimitives.h">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_gfxPrimitives.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_imageFilter.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_imageFilter.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_imageFilter.h">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_imageFilter.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_rotozoom.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_rotozoom.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/SDL2_primitives/SDL2_rotozoom.h">
+		<Unit filename="/home/danial/CLionProjects/lemin/SDL2_primitives/SDL2_rotozoom.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/circle.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin.h">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_find_ways.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_mark_graph.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_exit.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_move_ants.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_find_ways.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_mark_graph.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_ants.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_move_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_links.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_parse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_rooms.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_parse_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_link.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_parse_links.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_parse_valid_room.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_parse_rooms.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_split_ants.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_parse_valid_link.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_utils.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_parse_valid_room.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_solution.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_keys.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_split_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_mouse.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_utils.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_parse.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_vis.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_ants.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_vis_keys.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/flemin/lemin_vis_render_bg.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_vis_mouse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_abs.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_vis_parse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_atoibase.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_vis_render_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_gnl/ft_gnl.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/flemin/lemin_vis_render_bg.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_itoabase.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_abs.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_memalloc.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_atoibase.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_memcmp.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_gnl/ft_gnl.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_memdel.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_itoabase.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_memmove.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_memalloc.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_memset.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_memcmp.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_nbr_len.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_memdel.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_memmove.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf.h">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_memset.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_0_base.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_nbr_len.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_color.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_cspf.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf.h">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_diouxx.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_0_base.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_fill_funs.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_color.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_hash_zero_blank_plus.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_cspf.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_lhllhhl.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_diouxx.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_mod0_b_cap_udo.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_fill_funs.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_parce_funs.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_hash_zero_blank_plus.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_parse.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_lhllhhl.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_prec.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_mod0_b_cap_udo.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_r.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_parce_funs.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_unicode.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_parse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_width.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_prec.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_printf/ft_printf_zjt.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_r.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strchr.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_unicode.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strdel.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_width.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strfrepl.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_printf/ft_printf_zjt.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strin.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strchr.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strjoin.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strdel.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strlen.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strfrepl.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strncmp.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strncpy.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strjoin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strndup.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strlen.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strneject.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strncmp.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strnew.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strncpy.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strnin.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strndup.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strninject.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strneject.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_strrchr.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strnew.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/libft/ft_swap.c">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strnin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lem-in/CMakeLists.txt">
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strninject.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_strrchr.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/home/danial/CLionProjects/lemin/libft/ft_swap.c">
+			<Option target="lem-in_clion"/>
+		</Unit>
+		<Unit filename="/home/danial/CLionProjects/lemin/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

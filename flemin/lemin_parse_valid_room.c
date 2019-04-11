@@ -61,7 +61,7 @@ int			lemin_valid_room(t_lemin_data *data, t_lemin_parse *parse,
 			parse->start = LEMIN_DONE;
 		else if (parse->end == LEMIN_INPROGRESS)
 			parse->end = LEMIN_DONE;
-		data->n_nodes++;
+		data->n_rooms++;
 	}
 	return (1);
 }

@@ -15,7 +15,7 @@
 int	lemin_set_value(t_lemin_data *data, unsigned int room, unsigned int value)
 {
 	unsigned int	i;
-	t_lemin_node	*graph;
+	t_lemin_room	*graph;
 
 	if (value > LEMIN_MAX_VALUE)
 	{
@@ -44,7 +44,7 @@ int	lemin_set_way(t_lemin_data *data, unsigned int way_n)
 	unsigned int	room;
 
 	room = 0;
-	while (room < data->n_nodes)
+	while (room < data->n_rooms)
 	{
 		if (way_n == 0 || data->graph[room].w == LEMIN_BAD_WAY)
 			data->graph[room].w = 0;

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dderevyn/CLionProjects/lem-in
+CMAKE_SOURCE_DIR = /home/danial/CLionProjects/lemin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dderevyn/CLionProjects/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /home/danial/CLionProjects/lemin/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/dderevyn/CLionProjects/lem-in/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/67/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/67/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles /Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles /home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -231,6 +231,33 @@ SDL2_primitives/SDL2_rotozoom.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.s
 .PHONY : SDL2_primitives/SDL2_rotozoom.c.s
 
+flemin/circle.o: flemin/circle.c.o
+
+.PHONY : flemin/circle.o
+
+# target to build an object file
+flemin/circle.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/circle.c.o
+.PHONY : flemin/circle.c.o
+
+flemin/circle.i: flemin/circle.c.i
+
+.PHONY : flemin/circle.i
+
+# target to preprocess a source file
+flemin/circle.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/circle.c.i
+.PHONY : flemin/circle.c.i
+
+flemin/circle.s: flemin/circle.c.s
+
+.PHONY : flemin/circle.s
+
+# target to generate assembly for a file
+flemin/circle.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/circle.c.s
+.PHONY : flemin/circle.c.s
+
 flemin/lemin.o: flemin/lemin.c.o
 
 .PHONY : flemin/lemin.o
@@ -257,6 +284,33 @@ flemin/lemin.s: flemin/lemin.c.s
 flemin/lemin.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.s
 .PHONY : flemin/lemin.c.s
+
+flemin/lemin_exit.o: flemin/lemin_exit.c.o
+
+.PHONY : flemin/lemin_exit.o
+
+# target to build an object file
+flemin/lemin_exit.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o
+.PHONY : flemin/lemin_exit.c.o
+
+flemin/lemin_exit.i: flemin/lemin_exit.c.i
+
+.PHONY : flemin/lemin_exit.i
+
+# target to preprocess a source file
+flemin/lemin_exit.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.i
+.PHONY : flemin/lemin_exit.c.i
+
+flemin/lemin_exit.s: flemin/lemin_exit.c.s
+
+.PHONY : flemin/lemin_exit.s
+
+# target to generate assembly for a file
+flemin/lemin_exit.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.s
+.PHONY : flemin/lemin_exit.c.s
 
 flemin/lemin_find_ways.o: flemin/lemin_find_ways.c.o
 
@@ -500,6 +554,33 @@ flemin/lemin_parse_valid_room.s: flemin/lemin_parse_valid_room.c.s
 flemin/lemin_parse_valid_room.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.s
 .PHONY : flemin/lemin_parse_valid_room.c.s
+
+flemin/lemin_solution.o: flemin/lemin_solution.c.o
+
+.PHONY : flemin/lemin_solution.o
+
+# target to build an object file
+flemin/lemin_solution.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_solution.c.o
+.PHONY : flemin/lemin_solution.c.o
+
+flemin/lemin_solution.i: flemin/lemin_solution.c.i
+
+.PHONY : flemin/lemin_solution.i
+
+# target to preprocess a source file
+flemin/lemin_solution.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_solution.c.i
+.PHONY : flemin/lemin_solution.c.i
+
+flemin/lemin_solution.s: flemin/lemin_solution.c.s
+
+.PHONY : flemin/lemin_solution.s
+
+# target to generate assembly for a file
+flemin/lemin_solution.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_solution.c.s
+.PHONY : flemin/lemin_solution.c.s
 
 flemin/lemin_split_ants.o: flemin/lemin_split_ants.c.o
 
@@ -1831,8 +1912,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... lem-in_clion"
+	@echo "... edit_cache"
 	@echo "... SDL2_primitives/SDL2_framerate.o"
 	@echo "... SDL2_primitives/SDL2_framerate.i"
 	@echo "... SDL2_primitives/SDL2_framerate.s"
@@ -1845,9 +1926,15 @@ help:
 	@echo "... SDL2_primitives/SDL2_rotozoom.o"
 	@echo "... SDL2_primitives/SDL2_rotozoom.i"
 	@echo "... SDL2_primitives/SDL2_rotozoom.s"
+	@echo "... flemin/circle.o"
+	@echo "... flemin/circle.i"
+	@echo "... flemin/circle.s"
 	@echo "... flemin/lemin.o"
 	@echo "... flemin/lemin.i"
 	@echo "... flemin/lemin.s"
+	@echo "... flemin/lemin_exit.o"
+	@echo "... flemin/lemin_exit.i"
+	@echo "... flemin/lemin_exit.s"
 	@echo "... flemin/lemin_find_ways.o"
 	@echo "... flemin/lemin_find_ways.i"
 	@echo "... flemin/lemin_find_ways.s"
@@ -1875,6 +1962,9 @@ help:
 	@echo "... flemin/lemin_parse_valid_room.o"
 	@echo "... flemin/lemin_parse_valid_room.i"
 	@echo "... flemin/lemin_parse_valid_room.s"
+	@echo "... flemin/lemin_solution.o"
+	@echo "... flemin/lemin_solution.i"
+	@echo "... flemin/lemin_solution.s"
 	@echo "... flemin/lemin_split_ants.o"
 	@echo "... flemin/lemin_split_ants.i"
 	@echo "... flemin/lemin_split_ants.s"

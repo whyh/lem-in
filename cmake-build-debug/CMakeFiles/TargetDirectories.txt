@@ -1,3 +1,3 @@
-/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dderevyn/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem-in_clion.dir
+/home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles/lem-in_clion.dir
+/home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -17,7 +17,7 @@ static int	static_parse_hash(t_lemin_data *data, t_lemin_parse *parse,
 {
 	if (ft_strncmp(buff, LEMIN_CMND_START, -1))
 	{
-		data->start = data->n_nodes;
+		data->start = data->n_rooms;
 		if (parse->start != LEMIN_NDONE)
 			ft_printf(LEMIN_ERR, LEMIN_ERR_START3);
 		else if ((parse->start = LEMIN_INPROGRESS)
@@ -29,7 +29,7 @@ static int	static_parse_hash(t_lemin_data *data, t_lemin_parse *parse,
 	}
 	if (ft_strncmp(buff, LEMIN_CMND_END, -1))
 	{
-		data->end = data->n_nodes;
+		data->end = data->n_rooms;
 		if (parse->end != LEMIN_NDONE)
 			ft_printf(LEMIN_ERR, LEMIN_ERR_END3);
 		else if ((parse->end = LEMIN_INPROGRESS)

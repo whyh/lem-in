@@ -16,12 +16,12 @@ static void			static_store(t_lemin_data *data, unsigned int room,
 					unsigned int link_room)
 {
 	unsigned int	i;
-	t_lemin_node	*node;
+	t_lemin_room	*node;
 
 	node = &(data->graph[room]);
 	if (!node->links)
 	{
-		node->links = ft_memalloc(sizeof(t_lemin_node*) * (node->n_links + 1));
+		node->links = ft_memalloc(sizeof(t_lemin_room*) * (node->n_links + 1));
 		i = 0;
 		while (i <= node->n_links)
 		{

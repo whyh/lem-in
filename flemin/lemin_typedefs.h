@@ -26,6 +26,7 @@
 # define LEMIN_MAX_VALUE LEMIN_MAX_ROOMS
 # define LEMIN_BAD_WAY LEMIN_MAX_WAYS + 1
 # define LEMIN_INIT_VALUE LEMIN_MAX_VALUE + 1
+# define LEMIN_MAX_SOLUTIONS 2
 # define LEMIN_WIN_W 1500
 # define LEMIN_WIN_H 1000
 # define LEMIN_VIS_BRAD_MIN 25
@@ -122,7 +123,7 @@ typedef struct				s_lemin_parse
 	unsigned int			end : 2;
 }							t_lemin_parse;
 
-typedef struct				s_lemin_node
+typedef struct				s_lemin_room
 {
 	char					*name;
 	int						x;
@@ -133,8 +134,8 @@ typedef struct				s_lemin_node
 	unsigned int			value;
 	unsigned int			w;
 	unsigned int			n_links;
-	struct s_lemin_node		**links;
-}							t_lemin_node;
+	struct s_lemin_room		**links;
+}							t_lemin_room;
 
 typedef struct				s_lemin_way
 {
@@ -150,17 +151,24 @@ typedef struct				s_lemin_ant
 	int						pos;
 }							t_lemin_ant;
 
+typedef struct				s_lemin_solution
+{
+	unsigned int			turns;
+	t_lemin_way				*ways;
+	unsigned int			n_ways;
+	t_lemin_ant				*ants;
+}							t_lemin_solution;
+
 typedef struct				s_lemin_data
 {
-	t_lemin_node			*graph;
-	t_lemin_way				*ways;
-	t_lemin_ant				*ants;
-	unsigned int			n_ways;
-	unsigned int			n_nodes;
+	t_lemin_room			*graph;
+	t_lemin_solution		solutions[LEMIN_MAX_SOLUTIONS];
+	unsigned int			n_rooms;
 	unsigned int			n_links;
+	unsigned int			n_ants;
+	unsigned int			solution;
 	unsigned int			end;
 	unsigned int			start;
-	unsigned int			n_ants;
 }							t_lemin_data;
 
 #endif

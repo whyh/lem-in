@@ -3,19 +3,19 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: danial <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/10 17:50:07 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/04/11 18:42:19 by danial           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = lem-in
 
 OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
-CC = clang
+CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-CLIBS = -F ./SDL -framework SDL2
+CLIBS = -lSDL2 -lm
 RM = /bin/rm -rf
 CP = cp -rf
 
@@ -42,13 +42,11 @@ LEM-IN_SRCS =		lemin.c\
 					lemin_vis_keys.c\
 					lemin_vis_render_bg.c\
 					lemin_vis_mouse.c\
-					lemin_vis_parse.c\
-					lemin_vis_render_ants.c
+					lemin_solution.c\
+					lemin_exit.c\
+					lemin_vis_parse.c
 LEM-IN_OBJS_DIR = $(OBJS_DIR)
 LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
-
-SDL2_PATH = SDL/SDL2.framework/Headers/SDL.h
-SDL2_INCS = SDL.h
 
 SDL2GFX_PATH = SDL2_primitives/
 SDL2GFX_INCS = 		SDL2_framerate.h\
@@ -66,7 +64,7 @@ SDL2GFX_OBJS = $(SDL2GFX_SRCS:%.c=$(SDL2GFX_OBJS_DIR)/%.o)
 all: libft $(NAME)
 
 $(NAME): $(LEM-IN_OBJS) $(SDL2GFX_OBJS)
-	@$(CC) $(CFLAGS) $(CLIBS) $^ -L $(LIBFT_PATH) -l$(patsubst %.a,%,$(LIBFT:lib%=%)) -o $(NAME)
+	@$(CC) $(CFLAGS) $^ $(CLIBS) -L $(LIBFT_PATH) -l$(patsubst %.a,%,$(LIBFT:lib%=%)) -o $(NAME)
 
 $(LEM-IN_OBJS_DIR)/%.o: $(LEM-IN_PATH)%.c
 	@mkdir -p $(LEM-IN_OBJS_DIR)
@@ -77,20 +75,20 @@ $(SDL2GFX_OBJS_DIR)/%.o: $(SDL2GFX_PATH)%.c
 	@$(CC) -c $< -o $@
 
 libft:
-	@cd libft && make $(LIBFT)
+	@make $(LIBFT) -C $(LIBFT_PATH)
 
 clean:
-	@cd libft && make clean
+	@make clean -C $(LIBFT_PATH)
 	@$(RM) $(OBJS_DIR)
 
 fclean: clean
-	@cd libft && make fclean
+	@make fclean -C $(LIBFT_PATH)
 	@$(RM) $(NAME)
 
 re: fclean all
 
 norm:
-	@cd libft && make norm
+	@make norm -C $(LIBFT_PATH)
 	@norminette $(addprefix $(LEM-IN_PATH),$(LEM-IN_SRCS)) \
 	$(addprefix $(LEM-IN_PATH),$(LEM-IN_INCS))
 

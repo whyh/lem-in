@@ -19,10 +19,10 @@ static int	static_valid_coords(t_lemin_data *data, t_lemin_vis *vis)
 	unsigned int	room;
 
 	room = 0;
-	while (room < data->n_nodes)
+	while (room < data->n_rooms)
 	{
 		i = room + 1;
-		while (i < data->n_nodes)
+		while (i < data->n_rooms)
 		{
 			dist = (UI)ft_abs(data->graph[i].x - data->graph[room].x)
 			+ (UI)ft_abs(data->graph[i].y - data->graph[room].y);
@@ -66,7 +66,7 @@ static void	static_fill_links_n_rad(t_lemin_data *data, t_lemin_vis *vis)
 	unsigned int	link;
 
 	room = 0;
-	while (room < data->n_nodes)
+	while (room < data->n_rooms)
 	{
 		link = 0;
 		while (data->graph[room].links && data->graph[room].links[link])

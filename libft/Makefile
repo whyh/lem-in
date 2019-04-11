@@ -13,7 +13,7 @@
 NAME = libft.a
 
 OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
-CC = clang
+CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 RM = /bin/rm -rf
 
