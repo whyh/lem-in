@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:07 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/08 19:26:48 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/13 22:38:37 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@
 # define LEMIN_MAX_VALUE LEMIN_MAX_ROOMS
 # define LEMIN_BAD_WAY LEMIN_MAX_WAYS + 1
 # define LEMIN_INIT_VALUE LEMIN_MAX_VALUE + 1
-# define LEMIN_MAX_SOLUTIONS 2
 # define LEMIN_WIN_W 1500
 # define LEMIN_WIN_H 1000
 # define LEMIN_VIS_BRAD_MIN 25
@@ -36,8 +35,19 @@
 # define LEMIN_VIS_START_ZOOM 0
 # define LEMIN_VIS_MIN_DIST LEMIN_VIS_BRAD_MIN * 2 + LEMIN_VIS_START_ZOOM * 2\
 + LEMIN_VIS_WAY_LEN_MIN
+# define LEMIN_TIME_BTW_TURNS 1
+# define LEMIN_RGB_BG RGB_BG_VIOLET
+# define LEMIN_RGB_ANT RGB_MAGMA_RED
+# define LEMIN_RGB_LINK RGB_BRIGHT_GREY
+# define LEMIN_RGB_BORDER RGB_MUSTARD_YELLOW
+# define LEMIN_RGB_COUNTER RGB_MAGMA_RED
 # define LEMIN_VIS_WIN_NAME "lem-in"
 # define LEMIN_ERR_NO_WAYS "start and end of the farm are not connected"
+# define LEMIN_COUNTER_TEXT "TURNS: "
+# define LEMIN_COUNTER_W 50
+# define LEMIN_COUNTER_H 10
+# define LEMIN_COUNTER_X LEMIN_WIN_W - LEMIN_COUNTER_W - 5
+# define LEMIN_COUNTER_Y LEMIN_WIN_H - LEMIN_COUNTER_H - 5
 
 # define LEMIN_ERR_BIG_GRAPH "graph is way too big"
 
@@ -84,10 +94,21 @@ typedef struct				s_lemin_vis_keys
 	unsigned int			left : 1;
 }							t_lemin_vis_keys;
 
+typedef struct				s_lemin_vis_text
+{
+	TTF_Font				*font;
+	SDL_Color				color;
+	SDL_Surface				*surface;
+	SDL_Texture				*texture;
+	SDL_Rect				box;
+	unsigned int			show : 1;
+}							t_lemin_vis_text;
+
 typedef struct				s_lemin_vis
 {
 	unsigned int			vis : 1;
 	unsigned int			pause : 1;
+	unsigned int			moved : 1;
 	unsigned int			zoom;
 	unsigned int			prev_zoom;
 	int 					pos_x;
@@ -95,12 +116,12 @@ typedef struct				s_lemin_vis
 	unsigned int			*links0;
 	unsigned int			*links1;
 	unsigned int			min_dist;
-	int						prev_posx;
-	int						prev_posy;
-	int 					*ant_posx;
-	int 					*ant_posy;
-	unsigned int 			*deltax;
-	unsigned int 			*deltay;
+	double 					*ant_posx;
+	double 					*ant_posy;
+	char 					*delta;
+	double					*delta2;
+	unsigned int			turns;
+	unsigned int			counter;
 	t_lemin_vis_keys		keyup;
 	SDL_Event				event;
 	SDL_Window				*win;
@@ -151,22 +172,15 @@ typedef struct				s_lemin_ant
 	int						pos;
 }							t_lemin_ant;
 
-typedef struct				s_lemin_solution
-{
-	unsigned int			turns;
-	t_lemin_way				*ways;
-	unsigned int			n_ways;
-	t_lemin_ant				*ants;
-}							t_lemin_solution;
-
 typedef struct				s_lemin_data
 {
 	t_lemin_room			*graph;
-	t_lemin_solution		solutions[LEMIN_MAX_SOLUTIONS];
+	t_lemin_way				*ways;
+	t_lemin_ant				*ants;
 	unsigned int			n_rooms;
 	unsigned int			n_links;
 	unsigned int			n_ants;
-	unsigned int			solution;
+	unsigned int			n_ways;
 	unsigned int			end;
 	unsigned int			start;
 }							t_lemin_data;

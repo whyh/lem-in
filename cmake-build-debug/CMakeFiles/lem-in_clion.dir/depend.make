@@ -15,6 +15,7 @@ CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o: ../SDL2_primit
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o: ../SDL2_primitives/SDL2_rotozoom.c
 CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o: ../SDL2_primitives/SDL2_rotozoom.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../flemin/lemin.c
 CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../flemin/lemin.h
@@ -24,7 +25,23 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../flemin/lemin.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../flemin/lemin_exit.c
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../flemin/lemin_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/ft_printf/ft_printf_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/libft.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o: ../libft/vis/vis_typedefs.h
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../flemin/lemin_find_ways.c
@@ -34,7 +51,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../libft/ft_printf/ft_pr
 CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../flemin/lemin_mark_graph.c
@@ -44,7 +64,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../libft/ft_printf/ft_p
 CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../flemin/lemin_move_ants.c
@@ -54,7 +77,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../libft/ft_printf/ft_pr
 CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../flemin/lemin_parse.c
@@ -64,7 +90,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../libft/ft_printf/ft_printf
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../flemin/lemin_parse_ants.c
@@ -74,7 +103,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../libft/ft_printf/ft_p
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../flemin/lemin_parse_links.c
@@ -84,7 +116,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../libft/ft_printf/ft_
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../flemin/lemin_parse_rooms.c
@@ -94,7 +129,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../libft/ft_printf/ft_
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../flemin/lemin_parse_valid_link.c
@@ -104,7 +142,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../libft/ft_print
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../flemin/lemin_parse_valid_room.c
@@ -114,7 +155,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../libft/ft_print
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../flemin/lemin_split_ants.c
@@ -124,7 +168,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../libft/ft_printf/ft_p
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../flemin/lemin_typedefs.h
@@ -134,7 +181,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../libft/ft_printf/ft_printf
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../flemin/lemin_typedefs.h
@@ -144,7 +194,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../flemin/lemin_typedefs.h
@@ -154,7 +207,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../libft/ft_printf/ft_pri
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../flemin/lemin_typedefs.h
@@ -164,7 +220,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../libft/ft_printf/ft_pr
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../flemin/lemin_typedefs.h
@@ -174,7 +233,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../libft/ft_printf/ft_pr
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../flemin/lemin_typedefs.h
@@ -184,7 +246,10 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../libft/ft_printf
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o: ../libft/vis/vis_typedefs.h
 
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../flemin/lemin.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../flemin/lemin_typedefs.h
@@ -194,6 +259,21 @@ CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../libft/ft_printf/f
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o: ../libft/vis/vis_typedefs.h
+
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../SDL2_primitives/SDL2_gfxPrimitives.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../flemin/lemin.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../flemin/lemin_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../flemin/lemin_vis_render_text.c
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/ft_printf/ft_printf_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/libft.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/ft_abs.c
 CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
@@ -201,6 +281,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/ft_atoibase.c
 CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
@@ -208,6 +290,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/ft_printf/ft_printf.
 CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/ft_gnl/ft_gnl.c
 CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
@@ -215,6 +299,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/ft_printf/ft_print
 CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/ft_itoabase.c
@@ -222,6 +308,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/ft_printf/ft_printf.
 CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
@@ -229,6 +317,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/ft_printf/ft_printf.
 CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
@@ -236,6 +326,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
@@ -243,6 +335,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
@@ -250,6 +344,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
@@ -257,6 +353,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/ft_nbr_len.c
@@ -264,6 +362,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/ft_printf/ft_printf.c
@@ -271,6 +371,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/ft_printf/ft
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/ft_printf/ft_printf.h
@@ -278,6 +380,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/ft_pr
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/ft_printf/ft_printf.h
@@ -285,6 +389,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/ft_pri
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/ft_printf/ft_printf.h
@@ -292,6 +398,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/ft_prin
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/ft_printf/ft_printf.h
@@ -299,6 +407,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/ft_pr
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/ft_printf/ft_printf.h
@@ -306,6 +416,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/ft
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/ft_printf/ft_printf.h
@@ -313,6 +425,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/ft_printf/ft_printf.h
@@ -320,6 +434,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/ft_p
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/ft_printf/ft_printf.h
@@ -327,6 +443,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../lib
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/ft_printf/ft_printf.h
@@ -334,6 +452,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/f
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/ft_printf/ft_printf.h
@@ -341,6 +461,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/ft_pri
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/ft_printf/ft_printf.h
@@ -348,6 +470,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/ft_prin
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/ft_printf/ft_printf.h
@@ -355,6 +479,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/ft_printf/
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/ft_printf/ft_printf_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/ft_printf/ft_printf.h
@@ -362,6 +488,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/ft_p
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/ft_printf/ft_printf_unicode.c
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/ft_printf/ft_printf.h
@@ -369,6 +497,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/ft_pri
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/ft_printf/ft_printf_width.c
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/ft_printf/ft_printf.h
@@ -376,6 +506,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/ft_print
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/ft_printf/ft_printf_zjt.c
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/ft_printf/ft_printf.h
@@ -383,6 +515,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/ft_printf/ft_printf_ty
 CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/ft_printf/ft_printf.h
@@ -390,6 +524,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/ft_printf/ft_printf_ty
 CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/ft_printf/ft_printf.h
@@ -397,6 +533,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/ft_printf/ft_printf_
 CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/ft_strfrepl.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/ft_printf/ft_printf.h
@@ -404,6 +542,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/ft_printf/ft_printf_typ
 CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/ft_strin.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/ft_printf/ft_printf.h
@@ -411,6 +551,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/ft_printf/ft_printf_t
 CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/ft_printf/ft_printf.h
@@ -418,6 +560,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/ft_printf/ft_printf_ty
 CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/ft_printf/ft_printf.h
@@ -425,6 +569,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/ft_printf/ft_printf_t
 CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/ft_printf/ft_printf.h
@@ -432,6 +578,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/ft_printf/ft_printf_t
 CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/ft_printf/ft_printf.h
@@ -439,6 +587,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/ft_printf/ft_printf_t
 CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/ft_strndup.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/ft_printf/ft_printf.h
@@ -446,6 +596,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/ft_printf/ft_printf
 CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/ft_strneject.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/ft_printf/ft_printf.h
@@ -453,6 +605,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/ft_printf/ft_printf_ty
 CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/ft_printf/ft_printf.h
@@ -460,6 +614,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/ft_printf/ft_printf_ty
 CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/ft_strnin.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/ft_printf/ft_printf.h
@@ -467,6 +623,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/ft_printf/ft_print
 CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/ft_strninject.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/ft_printf/ft_printf.h
@@ -474,6 +632,8 @@ CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/ft_printf/ft_printf_t
 CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
 CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o: ../libft/vis/vis_typedefs.h
 
 CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
 CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/ft_printf/ft_printf.h
@@ -481,4 +641,33 @@ CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/ft_printf/ft_printf_type
 CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/ft_swap.c
 CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/libft.h
 CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o: ../libft/vis/vis_typedefs.h
+
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/ft_printf/ft_printf_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/libft.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/vis/ft_aaline.c
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o: ../libft/vis/vis_typedefs.h
+
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/ft_printf/ft_printf_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/libft.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/vis/ft_aaline_thin.c
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o: ../libft/vis/vis_typedefs.h
+
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/ft_gnl/ft_gnl_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/ft_printf/ft_printf_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/libft.h
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/libft_typedefs.h
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/vis/vis.h
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/vis/vis_line_gradient.c
+CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o: ../libft/vis/vis_typedefs.h
 

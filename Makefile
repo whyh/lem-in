@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: danial <marvin@42.fr>                      +#+  +:+       +#+         #
+#    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/11 18:42:19 by danial           ###   ########.fr        #
+#    Updated: 2019/04/13 23:18:57 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,9 +15,19 @@ NAME = lem-in
 OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-CLIBS = -lSDL2 -lm
+CLIBS =
 RM = /bin/rm -rf
 CP = cp -rf
+
+UNAME := $(shell uname)
+ifeq ($(UNAME), Darwin)
+CLIBS += -framework SDL2
+endif
+ifeq ($(UNAME), Linux)
+CLIBS += -lSDL2 -lm
+endif
+
+CLIBS += -L /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/lib -l SDL_ttf
 
 LIBFT_PATH = libft/
 LIBFT_INCS = libft.h
@@ -42,9 +52,10 @@ LEM-IN_SRCS =		lemin.c\
 					lemin_vis_keys.c\
 					lemin_vis_render_bg.c\
 					lemin_vis_mouse.c\
-					lemin_solution.c\
 					lemin_exit.c\
-					lemin_vis_parse.c
+					lemin_vis_parse.c\
+					lemin_vis_render_ants.c\
+					lemin_vis_render_text.c
 LEM-IN_OBJS_DIR = $(OBJS_DIR)
 LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
 

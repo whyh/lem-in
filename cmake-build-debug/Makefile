@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Users/dderevyn/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Users/dderevyn/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danial/CLionProjects/lemin
+CMAKE_SOURCE_DIR = /Users/dderevyn/CLionProjects/lemin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danial/CLionProjects/lemin/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/dderevyn/CLionProjects/lemin/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/danial/CLionProjects/lemin/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/67/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/dderevyn/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/67/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Users/dderevyn/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles /home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dderevyn/CLionProjects/lemin/cmake-build-debug/CMakeFiles /Users/dderevyn/CLionProjects/lemin/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danial/CLionProjects/lemin/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dderevyn/CLionProjects/lemin/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -230,33 +230,6 @@ SDL2_primitives/SDL2_rotozoom.s: SDL2_primitives/SDL2_rotozoom.c.s
 SDL2_primitives/SDL2_rotozoom.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.s
 .PHONY : SDL2_primitives/SDL2_rotozoom.c.s
-
-flemin/circle.o: flemin/circle.c.o
-
-.PHONY : flemin/circle.o
-
-# target to build an object file
-flemin/circle.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/circle.c.o
-.PHONY : flemin/circle.c.o
-
-flemin/circle.i: flemin/circle.c.i
-
-.PHONY : flemin/circle.i
-
-# target to preprocess a source file
-flemin/circle.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/circle.c.i
-.PHONY : flemin/circle.c.i
-
-flemin/circle.s: flemin/circle.c.s
-
-.PHONY : flemin/circle.s
-
-# target to generate assembly for a file
-flemin/circle.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/circle.c.s
-.PHONY : flemin/circle.c.s
 
 flemin/lemin.o: flemin/lemin.c.o
 
@@ -555,33 +528,6 @@ flemin/lemin_parse_valid_room.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.s
 .PHONY : flemin/lemin_parse_valid_room.c.s
 
-flemin/lemin_solution.o: flemin/lemin_solution.c.o
-
-.PHONY : flemin/lemin_solution.o
-
-# target to build an object file
-flemin/lemin_solution.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_solution.c.o
-.PHONY : flemin/lemin_solution.c.o
-
-flemin/lemin_solution.i: flemin/lemin_solution.c.i
-
-.PHONY : flemin/lemin_solution.i
-
-# target to preprocess a source file
-flemin/lemin_solution.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_solution.c.i
-.PHONY : flemin/lemin_solution.c.i
-
-flemin/lemin_solution.s: flemin/lemin_solution.c.s
-
-.PHONY : flemin/lemin_solution.s
-
-# target to generate assembly for a file
-flemin/lemin_solution.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_solution.c.s
-.PHONY : flemin/lemin_solution.c.s
-
 flemin/lemin_split_ants.o: flemin/lemin_split_ants.c.o
 
 .PHONY : flemin/lemin_split_ants.o
@@ -797,6 +743,33 @@ flemin/lemin_vis_render_bg.s: flemin/lemin_vis_render_bg.c.s
 flemin/lemin_vis_render_bg.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.s
 .PHONY : flemin/lemin_vis_render_bg.c.s
+
+flemin/lemin_vis_render_text.o: flemin/lemin_vis_render_text.c.o
+
+.PHONY : flemin/lemin_vis_render_text.o
+
+# target to build an object file
+flemin/lemin_vis_render_text.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o
+.PHONY : flemin/lemin_vis_render_text.c.o
+
+flemin/lemin_vis_render_text.i: flemin/lemin_vis_render_text.c.i
+
+.PHONY : flemin/lemin_vis_render_text.i
+
+# target to preprocess a source file
+flemin/lemin_vis_render_text.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.i
+.PHONY : flemin/lemin_vis_render_text.c.i
+
+flemin/lemin_vis_render_text.s: flemin/lemin_vis_render_text.c.s
+
+.PHONY : flemin/lemin_vis_render_text.s
+
+# target to generate assembly for a file
+flemin/lemin_vis_render_text.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.s
+.PHONY : flemin/lemin_vis_render_text.c.s
 
 libft/ft_abs.o: libft/ft_abs.c.o
 
@@ -1905,6 +1878,87 @@ libft/ft_swap.c.s:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.s
 .PHONY : libft/ft_swap.c.s
 
+libft/vis/ft_aaline.o: libft/vis/ft_aaline.c.o
+
+.PHONY : libft/vis/ft_aaline.o
+
+# target to build an object file
+libft/vis/ft_aaline.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o
+.PHONY : libft/vis/ft_aaline.c.o
+
+libft/vis/ft_aaline.i: libft/vis/ft_aaline.c.i
+
+.PHONY : libft/vis/ft_aaline.i
+
+# target to preprocess a source file
+libft/vis/ft_aaline.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.i
+.PHONY : libft/vis/ft_aaline.c.i
+
+libft/vis/ft_aaline.s: libft/vis/ft_aaline.c.s
+
+.PHONY : libft/vis/ft_aaline.s
+
+# target to generate assembly for a file
+libft/vis/ft_aaline.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.s
+.PHONY : libft/vis/ft_aaline.c.s
+
+libft/vis/ft_aaline_thin.o: libft/vis/ft_aaline_thin.c.o
+
+.PHONY : libft/vis/ft_aaline_thin.o
+
+# target to build an object file
+libft/vis/ft_aaline_thin.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o
+.PHONY : libft/vis/ft_aaline_thin.c.o
+
+libft/vis/ft_aaline_thin.i: libft/vis/ft_aaline_thin.c.i
+
+.PHONY : libft/vis/ft_aaline_thin.i
+
+# target to preprocess a source file
+libft/vis/ft_aaline_thin.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.i
+.PHONY : libft/vis/ft_aaline_thin.c.i
+
+libft/vis/ft_aaline_thin.s: libft/vis/ft_aaline_thin.c.s
+
+.PHONY : libft/vis/ft_aaline_thin.s
+
+# target to generate assembly for a file
+libft/vis/ft_aaline_thin.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.s
+.PHONY : libft/vis/ft_aaline_thin.c.s
+
+libft/vis/vis_line_gradient.o: libft/vis/vis_line_gradient.c.o
+
+.PHONY : libft/vis/vis_line_gradient.o
+
+# target to build an object file
+libft/vis/vis_line_gradient.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o
+.PHONY : libft/vis/vis_line_gradient.c.o
+
+libft/vis/vis_line_gradient.i: libft/vis/vis_line_gradient.c.i
+
+.PHONY : libft/vis/vis_line_gradient.i
+
+# target to preprocess a source file
+libft/vis/vis_line_gradient.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.i
+.PHONY : libft/vis/vis_line_gradient.c.i
+
+libft/vis/vis_line_gradient.s: libft/vis/vis_line_gradient.c.s
+
+.PHONY : libft/vis/vis_line_gradient.s
+
+# target to generate assembly for a file
+libft/vis/vis_line_gradient.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.s
+.PHONY : libft/vis/vis_line_gradient.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1912,8 +1966,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... lem-in_clion"
 	@echo "... edit_cache"
+	@echo "... lem-in_clion"
 	@echo "... SDL2_primitives/SDL2_framerate.o"
 	@echo "... SDL2_primitives/SDL2_framerate.i"
 	@echo "... SDL2_primitives/SDL2_framerate.s"
@@ -1926,9 +1980,6 @@ help:
 	@echo "... SDL2_primitives/SDL2_rotozoom.o"
 	@echo "... SDL2_primitives/SDL2_rotozoom.i"
 	@echo "... SDL2_primitives/SDL2_rotozoom.s"
-	@echo "... flemin/circle.o"
-	@echo "... flemin/circle.i"
-	@echo "... flemin/circle.s"
 	@echo "... flemin/lemin.o"
 	@echo "... flemin/lemin.i"
 	@echo "... flemin/lemin.s"
@@ -1962,9 +2013,6 @@ help:
 	@echo "... flemin/lemin_parse_valid_room.o"
 	@echo "... flemin/lemin_parse_valid_room.i"
 	@echo "... flemin/lemin_parse_valid_room.s"
-	@echo "... flemin/lemin_solution.o"
-	@echo "... flemin/lemin_solution.i"
-	@echo "... flemin/lemin_solution.s"
 	@echo "... flemin/lemin_split_ants.o"
 	@echo "... flemin/lemin_split_ants.i"
 	@echo "... flemin/lemin_split_ants.s"
@@ -1989,6 +2037,9 @@ help:
 	@echo "... flemin/lemin_vis_render_bg.o"
 	@echo "... flemin/lemin_vis_render_bg.i"
 	@echo "... flemin/lemin_vis_render_bg.s"
+	@echo "... flemin/lemin_vis_render_text.o"
+	@echo "... flemin/lemin_vis_render_text.i"
+	@echo "... flemin/lemin_vis_render_text.s"
 	@echo "... libft/ft_abs.o"
 	@echo "... libft/ft_abs.i"
 	@echo "... libft/ft_abs.s"
@@ -2112,6 +2163,15 @@ help:
 	@echo "... libft/ft_swap.o"
 	@echo "... libft/ft_swap.i"
 	@echo "... libft/ft_swap.s"
+	@echo "... libft/vis/ft_aaline.o"
+	@echo "... libft/vis/ft_aaline.i"
+	@echo "... libft/vis/ft_aaline.s"
+	@echo "... libft/vis/ft_aaline_thin.o"
+	@echo "... libft/vis/ft_aaline_thin.i"
+	@echo "... libft/vis/ft_aaline_thin.s"
+	@echo "... libft/vis/vis_line_gradient.o"
+	@echo "... libft/vis/vis_line_gradient.i"
+	@echo "... libft/vis/vis_line_gradient.s"
 .PHONY : help
 
 

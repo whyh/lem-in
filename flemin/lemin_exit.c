@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   lemin_exit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: danial <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/11 18:39:49 by danial            #+#    #+#             */
-/*   Updated: 2019/04/11 18:39:49 by danial           ###   ########.fr       */
+/*   Updated: 2019/04/13 16:42:40 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,22 @@
 
 static void	static_free_vis(t_lemin_vis *vis)
 {
-	SDL_DestroyRenderer(vis->rend);
-	SDL_DestroyWindow(vis->win);
-	ft_memdel((void**)(&vis->links0));
-	ft_memdel((void**)(&vis->links1));
-	ft_memdel((void**)(&vis->ant_posx));
-	ft_memdel((void**)(&vis->ant_posy));
-	ft_memdel((void**)(&vis->deltax));
-	ft_memdel((void**)(&vis->deltay));
+	if (vis->rend)
+		SDL_DestroyRenderer(vis->rend);
+	if (vis->win)
+		SDL_DestroyWindow(vis->win);
+	if (vis->links0)
+		ft_memdel((void**)(&vis->links0));
+	if (vis->links1)
+		ft_memdel((void**)(&vis->links1));
+	if (vis->ant_posx)
+		ft_memdel((void**)(&vis->ant_posx));
+	if (vis->ant_posy)
+		ft_memdel((void**)(&vis->ant_posy));
+	if (vis->delta)
+		ft_memdel((void**)(&vis->delta));
+	if (vis->delta2)
+		ft_memdel((void**)(&vis->delta2));
 }
 
 static void	static_free_input(t_lemin_input *input)
@@ -44,26 +52,6 @@ static void	static_free_input(t_lemin_input *input)
 	}
 }
 
-static void	static_free_solutions(t_lemin_solution *solution)
-{
-	unsigned int	i;
-
-	if (solution->ants)
-		ft_memdel((void**)(&solution->ants));
-	if (solution->ways)
-	{
-		i = 0;
-		while (i < solution->n_ways)
-		{
-			ft_memdel((void **)(&solution->ways[i].path));
-			++i;
-		}
-		ft_memdel((void **)(&solution->ways));
-	}
-	solution->turns = 0;
-	solution->n_ways = 0;
-}
-
 static void	static_free_data(t_lemin_data *data)
 {
 	unsigned int	i;
@@ -81,11 +69,16 @@ static void	static_free_data(t_lemin_data *data)
 		}
 		ft_memdel((void**)(&data->graph));
 	}
-	i = 0;
-	while (i < LEMIN_MAX_SOLUTIONS && data->solutions[i].turns)
+	if (data->ants)
+		ft_memdel((void**)(&data->ants));
+	if (data->ways)
 	{
-		static_free_solutions(&data->solutions[i]);
-		++i;
+		i = 0;
+		while (i < data->n_ways)
+		{
+			ft_memdel((void**)(&data->ways[i].path));
+			++i;
+		}
 	}
 }
 
@@ -94,5 +87,6 @@ void		lemin_exit(t_lemin_data *data, t_lemin_input *input,
 {
 	static_free_data(data);
 	static_free_input(input);
-	static_free_vis(vis);
+	if (vis->vis)
+		static_free_vis(vis);
 }

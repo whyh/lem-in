@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 14:36:45 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/03 20:33:04 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/13 14:52:30 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,7 @@ static unsigned int	static_next_room(t_lemin_data data, t_lemin_room *pos)
 	return (nxt);
 }
 
-static int			static_compose_way(t_lemin_data *data,
-					t_lemin_solution *solution, unsigned int way_n)
+static int			static_compose_way(t_lemin_data *data)
 {
 	t_lemin_room	*pos;
 	t_lemin_way		*way;
@@ -41,7 +40,7 @@ static int			static_compose_way(t_lemin_data *data,
 
 	if (data->graph[data->start].value == LEMIN_INIT_VALUE)
 		return (0);
-	way = &(solution->ways[way_n]);
+	way = &(data->ways[data->n_ways]);
 	pos = &(data->graph[data->start]);
 	way->path = ft_memalloc(sizeof(int) * data->n_links);
 	way->n_ants = 0;
@@ -50,34 +49,37 @@ static int			static_compose_way(t_lemin_data *data,
 	{
 		nxt = static_next_room(*data, pos);
 		pos = pos->links[nxt];
-		way = &(solution->ways[way_n]);
+		way = &(data->ways[data->n_ways]);
 		if (pos->n != data->end)
-			pos->w = way_n + 1;
+			pos->w = data->n_ways + 1;
 		way->path[way->len] = pos->n;
 		way->len++;
 	}
 	return (1);
 }
 
-int					lemin_find_way(t_lemin_data *data,
-					t_lemin_solution *solution, unsigned int graph_width)
+int					lemin_find_way(t_lemin_data *data)
 {
-	unsigned int	way_n;
+	unsigned int	graph_width;
 
-	solution->ways = ft_memalloc(sizeof(t_lemin_way) * graph_width);
-	way_n = 0;
-	if (!lemin_set_way(data, way_n) || !lemin_set_value(data, data->end, 0))
+	if (data->graph[data->start].n_links < data->graph[data->end].n_links)
+		graph_width = data->graph[data->start].n_links;
+	else
+		graph_width = data->graph[data->end].n_links;
+	data->ways = ft_memalloc(sizeof(t_lemin_way) * graph_width);
+	data->n_ways = 0;
+	if (!lemin_set_way(data, 0) || !lemin_set_value(data, data->end, 0))
 		return (0);
-	while (way_n < graph_width && static_compose_way(data, solution, way_n))
+	while (data->n_ways < graph_width && static_compose_way(data))
 	{
-		if (!lemin_set_way(data, 1) || !lemin_set_value(data, data->end, 0))
-			return (0);
-		++way_n;
-		if (solution->ways[way_n - 1].len == 1)
+		lemin_set_way(data, 1);
+		lemin_set_value(data, data->end, 0);
+		data->n_ways++;
+		if (data->ways[data->n_ways - 1].len == 1)
 			break ;
 	}
-	if (!solution->ways[0].len)
+	if (!data->ways[0].len)
 		return (0);
-	solution->n_ways = way_n;
+	lemin_split_ants(data);
 	return (1);
 }

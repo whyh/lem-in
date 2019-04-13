@@ -53,6 +53,15 @@ GNL_SRCS =		ft_gnl.c
 GNL_OBJS = $(GNL_SRCS:%.c=$(GNL_OBJS_DIR)/%.o)
 GNL_OBJS_DIR = $(OBJS_DIR)
 
+VIS_PATH = 		vis/
+VIS_INCS = 		vis.h\
+				vis_typedefs.h
+VIS_SRCS =		ft_aaline.c\
+				ft_aaline_thin.c\
+				vis_line_gradient.c
+VIS_OBJS = $(VIS_SRCS:%.c=$(VIS_OBJS_DIR)/%.o)
+VIS_OBJS_DIR = $(OBJS_DIR)
+
 PRINTF_PATH =	ft_printf/
 PRINTF_INCS =	ft_printf.h\
 				ft_printf_typedefs.h
@@ -77,7 +86,7 @@ PRINTF_OBJS_DIR = $(OBJS_DIR)
 
 all: $(NAME)
 
-$(NAME): $(LIBFT_OBJS) $(GNL_OBJS) $(PRINTF_OBJS)
+$(NAME): $(LIBFT_OBJS) $(GNL_OBJS) $(PRINTF_OBJS) $(VIS_OBJS)
 	@ar rc $(NAME) $^
 	@ranlib $(NAME)
 
@@ -88,6 +97,10 @@ $(LIBFT_OBJS_DIR)/%.o: $(LIBFT_PATH)%.c
 $(GNL_OBJS_DIR)/%.o: $(GNL_PATH)%.c
 	@mkdir -p $(GNL_OBJS_DIR)
 	@$(CC) $(CFLAGS) -c $< $(addprefix -I.,$(addprefix $(GNL_PATH),$(GNL_INCS))) -o $@
+
+$(VIS_OBJS_DIR)/%.o: $(VIS_PATH)%.c
+	@mkdir -p $(VIS_OBJS_DIR)
+	@$(CC) $(CFLAGS) -c $< $(addprefix -I.,$(addprefix $(VIS_PATH),$(VIS_INCS))) -o $@
 
 $(PRINTF_OBJS_DIR)/%.o: $(PRINTF_PATH)%.c
 	@mkdir -p $(LIBFT_OBJS_DIR)

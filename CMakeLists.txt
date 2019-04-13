@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.13)
 
 project(lem-in)
@@ -19,4 +20,12 @@ add_executable(lem-in_clion
         ${FLEMIN}
         ${SDL2GFX})
 
-target_link_libraries(lem-in_clion "SDL2")
+target_include_directories(lem-in_clion PUBLIC "/Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/")
+
+target_link_libraries(lem-in_clion "-L /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/lib -l SDL_ttf")
+
+if (${CMAKE_SYSTEM_NAME} STREQUAL "Darwin")
+    target_link_libraries(lem-in_clion "-framework SDL2")
+elseif (${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
+    target_link_libraries(lem-in_clion "SDL2")
+endif()

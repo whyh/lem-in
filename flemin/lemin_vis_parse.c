@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/08 14:05:27 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/08 19:26:48 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/13 17:14:38 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,18 +84,21 @@ static void	static_fill_links_n_rad(t_lemin_data *data, t_lemin_vis *vis)
 
 static void	static_init(t_lemin_data *data, t_lemin_vis *vis)
 {
+	vis->vis = 1;
+	vis->win = NULL;
+	vis->rend = NULL;
 	vis->links0 = ft_memalloc(sizeof(int) * (data->n_links + 1));
 	vis->links1 = ft_memalloc(sizeof(int) * (data->n_links + 1));
-	vis->ant_posx = ft_memalloc(sizeof(int) * data->n_ants);
-	vis->ant_posy = ft_memalloc(sizeof(int) * data->n_ants);
-	vis->deltax = ft_memalloc(sizeof(int) * data->n_ants);
-	vis->deltay = ft_memalloc(sizeof(int) * data->n_ants);
-	vis->min_dist = 0;
+	vis->ant_posx = ft_memalloc(sizeof(double) * data->n_ants);
+	vis->ant_posy = ft_memalloc(sizeof(double) * data->n_ants);
+	vis->delta = ft_memalloc(sizeof(int) * data->n_ants);
+	vis->delta2 = ft_memalloc(sizeof(double) * data->n_ants);
 	vis->pause = 1;
+	vis->moved = 1;
 	vis->zoom = LEMIN_VIS_START_ZOOM;
 	vis->prev_zoom = 0;
-	vis->prev_posy = 0;
-	vis->prev_posx = 0;
+	vis->min_dist = 0;
+	vis->turns = 0;
 	vis->pos_x = 0;
 	vis->pos_y = 0;
 	vis->keyup.esc = 1;
@@ -117,11 +120,8 @@ int			lemin_vis_parse(t_lemin_data *data, t_lemin_vis *vis, int argc,
 		ft_printf(LEMIN_ERR_OPT, argv[1]);
 		return (0);
 	}
-	if (argc == 1)
-		vis->vis = 0;
-	else
+	if (argc != 1)
 	{
-		vis->vis = 1;
 		static_init(data, vis);
 		if (!static_valid_coords(data, vis))
 			return (0);

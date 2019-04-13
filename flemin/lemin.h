@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:15:33 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/10 17:50:07 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/13 22:39:52 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,10 @@
 
 # define LEMIN_H
 
-# include "../libft/libft.h"
+# include "/Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL/SDL_ttf.h"
 # include <SDL2/SDL.h>
+# include <sys/time.h>
+# include "../libft/libft.h"
 # include "../SDL2_primitives/SDL2_gfxPrimitives.h"
 # include "lemin_typedefs.h"
 
@@ -27,11 +29,9 @@ int		lemin_parse_rooms(t_lemin_data *data, t_lemin_parse *parse,
 int		lemin_parse_links(t_lemin_data *data, t_lemin_parse *parse,
 		t_lemin_input *input);
 
-int		lemin_find_way(t_lemin_data *data, t_lemin_solution *solution,
-		unsigned int max_graph_width);
+int		lemin_find_way(t_lemin_data *data);
+void	lemin_split_ants(t_lemin_data *data);
 
-void	lemin_split_ants(t_lemin_data *data, t_lemin_solution *solution);
-int		lemin_solution(t_lemin_data *data);
 void	lemin_exit(t_lemin_data *data, t_lemin_input *input, t_lemin_vis *vis);
 
 int		lemin_valid_room(t_lemin_data *data, t_lemin_parse *parse,
@@ -57,11 +57,11 @@ void	lemin_vis_mouse_motion(t_lemin_vis *vis);
 void	lemin_vis_mouse_buttondown(t_lemin_vis *vis);
 void	lemin_vis_mouse_buttonup(t_lemin_vis *vis);
 void	lemin_vis_mouse_wheel(t_lemin_vis *vis);
+int		lemin_vis_render_ants(t_lemin_data *data, t_lemin_vis *vis);
 
-int		lemin_move_ants_turn(t_lemin_data *data, t_lemin_solution *solution,
-		t_lemin_vis *vis);
+int		lemin_move_ants_turn(t_lemin_data *data, t_lemin_vis *vis);
 void	lemin_move_ants(t_lemin_data *data);
+void		lemin_vis_render_text(t_lemin_vis *vis);
 
-void	lemin_vis_handle_events(t_lemin_vis *vis);
 
 #endif

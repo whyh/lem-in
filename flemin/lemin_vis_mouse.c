@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/07 16:12:37 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/08 17:43:48 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/13 20:53:36 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,8 @@ void	lemin_vis_mouse_wheel(t_lemin_vis *vis)
 {
 	if (vis->event.wheel.y > 0)
 	{
-		if (vis->min_dist - vis->zoom * 2 > LEMIN_VIS_WAY_LEN_MIN)
+		if (vis->min_dist - vis->zoom * 2 > LEMIN_VIS_WAY_LEN_MIN
+		&& vis->moved)
 			vis->zoom += LEMIN_VIS_ZOOMF;
 		while (vis->min_dist - vis->zoom * 2 <= LEMIN_VIS_WAY_LEN_MIN)
 			vis->zoom--;
@@ -46,7 +47,7 @@ void	lemin_vis_mouse_wheel(t_lemin_vis *vis)
 	{
 		if (LEMIN_VIS_ZOOMF > vis->zoom)
 			vis->zoom = 0;
-		else if (vis->zoom > 0)
+		else if (vis->zoom > 0 && vis->moved)
 			vis->zoom -= LEMIN_VIS_ZOOMF;
 	}
 }

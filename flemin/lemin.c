@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 21:33:51 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/08 14:17:36 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/13 15:13:48 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,25 +21,18 @@ static void	static_print_input(t_lemin_input *input)
 	}
 }
 
-static void	static_init(t_lemin_data *data, t_lemin_input *input)
+static void	static_init(t_lemin_data *data, t_lemin_input *input,
+			t_lemin_vis *vis)
 {
-	unsigned int	i;
-
+	vis->vis = 0;
 	input->buff = NULL;
 	input->next = NULL;
 	data->graph = NULL;
+	data->ways = NULL;
+	data->ants = NULL;
 	data->n_rooms = 0;
 	data->n_links = 0;
 	data->n_ants = 0;
-	i = 0;
-	while (i < LEMIN_MAX_SOLUTIONS)
-	{
-		data->solutions[i].turns = 0;
-		data->solutions[i].ways = NULL;
-		data->solutions[i].n_ways = 0;
-		data->solutions[i].ants = NULL;
-		++i;
-	}
 }
 
 int			main(int argc, char **argv)
@@ -48,8 +41,8 @@ int			main(int argc, char **argv)
 	t_lemin_input	input;
 	t_lemin_vis		vis;
 
-	static_init(&data, &input);
-	if (!lemin_parse(&data, &input) || !lemin_solution(&data))
+	static_init(&data, &input, &vis);
+	if (!lemin_parse(&data, &input) || !lemin_find_way(&data))
 	{
 		ft_printf(LEMIN_USAGE, LEMIN_USAGE_MAP0);
 		lemin_exit(&data, &input, &vis);
