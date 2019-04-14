@@ -6,87 +6,90 @@
 #    By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/13 23:18:57 by dderevyn         ###   ########.fr        #
+#    Updated: 2019/04/14 19:32:25 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = lem-in
+NAME =		lem-in
+INCS_PATH =	includes/
+SRCS_PATH = srcs/
+LIBS_PATH =	libs/
+OBJS_DIR =	.objs/
+CC =		gcc
+CFLAGS =	-Wall -Wextra -Werror
+RM =		/bin/rm -rf
+CP =		cp -rf
 
-OBJS_DIR = .$(patsubst %.a,%,$(NAME))_objects
-CC = gcc
-CFLAGS = -Wall -Wextra -Werror
-CLIBS =
-RM = /bin/rm -rf
-CP = cp -rf
+LIBFT_PATH =		libft/
+LIBFT_INCS_PATH =	$(LIBFT_PATH)$(INCS_PATH)
+LIBFT =				libft.a
 
-UNAME := $(shell uname)
-ifeq ($(UNAME), Darwin)
-CLIBS += -framework SDL2
-endif
-ifeq ($(UNAME), Linux)
-CLIBS += -lSDL2 -lm
-endif
+SDL2_PATH =			$(LIBS_PATH)SDL2/
+SDL2_INCS_PATH =	$(SDL2_PATH)$(INCS_PATH)
+SDL2 =				SDL2-2.0.0.dylib
 
-CLIBS += -L /Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/lib -l SDL_ttf
+SDL2_GFX_PATH =			$(LIBS_PATH)SDL2_gfx/
+SDL2_GFX_INCS_PATH =	$(SDL2_GFX_PATH)$(INCS_PATH)
+SDL2_GFX =				libSDL2_gfx-1.0.0.dylib
 
-LIBFT_PATH = libft/
-LIBFT_INCS = libft.h
-LIBFT = libft.a
+SDL2_TTF_PATH =			$(LIBS_PATH)SDL2_ttf/
+SDL2_TTF_INCS_PATH =	$(SDL2_TTF_PATH)$(INCS_PATH)
+SDL2_TTF =				libSDL2_ttf-2.0.0.dylib
 
-LEM-IN_PATH = flemin/
-LEM-IN_INCS = 		lemin.h\
-					lemin_typedefs.h
-LEM-IN_SRCS =		lemin.c\
-					lemin_parse.c\
-					lemin_parse_ants.c\
-					lemin_parse_links.c\
-					lemin_parse_valid_link.c\
-					lemin_parse_rooms.c\
-					lemin_parse_valid_room.c\
-					lemin_mark_graph.c\
-					lemin_utils.c\
-					lemin_find_ways.c\
-					lemin_move_ants.c\
-					lemin_split_ants.c\
-					lemin_vis.c\
-					lemin_vis_keys.c\
-					lemin_vis_render_bg.c\
-					lemin_vis_mouse.c\
-					lemin_exit.c\
-					lemin_vis_parse.c\
-					lemin_vis_render_ants.c\
-					lemin_vis_render_text.c
-LEM-IN_OBJS_DIR = $(OBJS_DIR)
-LEM-IN_OBJS = $(LEM-IN_SRCS:%.c=$(LEM-IN_OBJS_DIR)/%.o)
+CLIBS =	-L $(LIBFT_PATH) -l$(basename $(LIBFT:lib%=%)) \
+		-L $(SDL2_PATH) -l$(basename $(SDL2:lib%=%)) \
+		-L $(SDL2_GFX_PATH) -l$(basename $(SDL2_GFX:lib%=%)) \
+		-L $(SDL2_TTF_PATH) -l$(basename $(SDL2_TTF:lib%=%))
 
-SDL2GFX_PATH = SDL2_primitives/
-SDL2GFX_INCS = 		SDL2_framerate.h\
-					SDL2_gfxPrimitives.h\
-					SDL2_gfxPrimitives_font.h\
-					SDL2_imageFilter.h\
-					SDL2_rotozoom.h
-SDL2GFX_SRCS =		SDL2_framerate.c\
-					SDL2_gfxPrimitives.c\
-					SDL2_imageFilter.c\
-					SDL2_rotozoom.c
-SDL2GFX_OBJS_DIR = $(OBJS_DIR)
-SDL2GFX_OBJS = $(SDL2GFX_SRCS:%.c=$(SDL2GFX_OBJS_DIR)/%.o)
+LEMIN_INCS_PATH = 	$(INCS_PATH)
+LEMIN_INCS =		lemin.h\
+					lemin_errors.h\
+					lemin_structures.h\
+					lemin_vis.h\
+					lemin_vis_structures.h
+LEMIN_SRCS_PATH =	$(SRCS_PATH)
+LEMIN_SRCS =		ft_aaline.c \
+					ft_aaline_thin.c \
+					lemin.c \
+					lemin_exit.c \
+					lemin_find_ways.c \
+					lemin_mark_graph.c \
+					lemin_move_ants.c \
+					lemin_parse.c \
+					lemin_parse_ants.c \
+					lemin_parse_links.c \
+					lemin_parse_rooms.c \
+					lemin_parse_valid_link.c \
+					lemin_parse_valid_room.c \
+					lemin_split_ants.c \
+					lemin_utils.c \
+					lemin_vis.c \
+					lemin_vis_keys.c \
+					lemin_vis_mouse.c \
+					lemin_vis_parse.c \
+					lemin_vis_render_ants.c \
+					lemin_vis_render_bg.c \
+					lemin_vis_render_text.c \
+					vis_line_gradient.c
+LEMIN_OBJS_DIR =	$(OBJS_DIR)
+LEMIN_OBJS =		$(LEMIN_SRCS:%.c=$(LEMIN_OBJS_DIR)%.o)
 
-all: libft $(NAME)
+all: $(LIBFT_PATH)$(LIBFT) $(NAME)
 
-$(NAME): $(LEM-IN_OBJS) $(SDL2GFX_OBJS)
-	@$(CC) $(CFLAGS) $^ $(CLIBS) -L $(LIBFT_PATH) -l$(patsubst %.a,%,$(LIBFT:lib%=%)) -o $(NAME)
-
-$(LEM-IN_OBJS_DIR)/%.o: $(LEM-IN_PATH)%.c
-	@mkdir -p $(LEM-IN_OBJS_DIR)
-	@$(CC) $(CFLAGS) -c $< -o $@
-
-$(SDL2GFX_OBJS_DIR)/%.o: $(SDL2GFX_PATH)%.c
-	@mkdir -p $(SDL2GFX_OBJS_DIR)
-	@$(CC) -c $< -o $@
-
-libft:
+$(LIBFT_PATH)$(LIBFT):
 	@make $(LIBFT) -C $(LIBFT_PATH)
+
+$(NAME): $(LEMIN_OBJS)
+	@$(CC) $(CFLAGS) $^ $(CLIBS) -o $@
+
+$(LEMIN_OBJS_DIR)%.o: $(SRCS_PATH)%.c
+	@mkdir -p $(LEMIN_OBJS_DIR)
+	@$(CC) $(CFLAGS) -c $< -o $@ \
+	-I$(LEMIN_INCS_PATH) \
+	-I$(LIBFT_INCS_PATH) \
+	-I$(SDL2_INCS_PATH) \
+	-I$(SDL2_GFX_INCS_PATH) \
+	-I$(SDL2_TTF_INCS_PATH)
 
 clean:
 	@make clean -C $(LIBFT_PATH)
@@ -100,16 +103,8 @@ re: fclean all
 
 norm:
 	@make norm -C $(LIBFT_PATH)
-	@norminette $(addprefix $(LEM-IN_PATH),$(LEM-IN_SRCS)) \
-	$(addprefix $(LEM-IN_PATH),$(LEM-IN_INCS))
+	@norminette \
+	$(addprefix $(SRCS_PATH),$(LEMIN_SRCS)) \
+	$(addprefix $(INCS_PATH),$(LEMIN_INCS))
 
-test: rmt
-	@mkdir -p test
-	@$(CP) $(LIBFT_PATH) test/.
-	@$(CP) author test/.
-	@$(CP) Makefile test/.
-
-rmt:
-	@$(RM) test
-
-.PHONY: all clean fclean re norm libft run test rmt
+.PHONY: all clean fclean re norm

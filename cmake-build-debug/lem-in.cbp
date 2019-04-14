@@ -44,7 +44,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libft/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libs/SDL2/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libs/SDL2_gfx/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libs/SDL2_ttf/includes"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -67,7 +71,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libft/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libs/SDL2/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libs/SDL2_gfx/includes"/>
+					<Add directory="/Users/dderevyn/CLionProjects/lemin/libs/SDL2_ttf/includes"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -84,226 +92,73 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_framerate.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/ft_aaline.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_framerate.h">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/ft_aaline_thin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_gfxPrimitives.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_gfxPrimitives.h">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_exit.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_imageFilter.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_find_ways.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_imageFilter.h">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_mark_graph.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_rotozoom.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_move_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/SDL2_primitives/SDL2_rotozoom.h">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_parse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_parse_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin.h">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_parse_links.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_exit.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_parse_rooms.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_find_ways.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_parse_valid_link.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_mark_graph.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_parse_valid_room.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_move_ants.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_split_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_parse.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_utils.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_parse_ants.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_parse_links.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis_keys.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_parse_rooms.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis_mouse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_parse_valid_link.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis_parse.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_parse_valid_room.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis_render_ants.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_split_ants.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis_render_bg.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_utils.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/lemin_vis_render_text.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis_keys.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis_mouse.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis_parse.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis_render_ants.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis_render_bg.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/flemin/lemin_vis_render_text.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_abs.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_atoibase.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_gnl/ft_gnl.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_itoabase.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_memalloc.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_memcmp.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_memdel.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_memmove.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_memset.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_nbr_len.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf.h">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_0_base.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_color.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_cspf.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_diouxx.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_fill_funs.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_hash_zero_blank_plus.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_lhllhhl.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_mod0_b_cap_udo.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_parce_funs.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_parse.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_prec.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_r.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_unicode.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_width.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_printf/ft_printf_zjt.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strchr.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strdel.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strfrepl.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strin.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strjoin.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strlen.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strncmp.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strncpy.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strndup.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strneject.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strnew.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strnin.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strninject.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_strrchr.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/ft_swap.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/vis/ft_aaline.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/vis/ft_aaline_thin.c">
-			<Option target="lem-in_clion"/>
-		</Unit>
-		<Unit filename="/Users/dderevyn/CLionProjects/lemin/libft/vis/vis_line_gradient.c">
+		<Unit filename="/Users/dderevyn/CLionProjects/lemin/srcs/vis_line_gradient.c">
 			<Option target="lem-in_clion"/>
 		</Unit>
 		<Unit filename="/Users/dderevyn/CLionProjects/lemin/CMakeLists.txt">

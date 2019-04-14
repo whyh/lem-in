@@ -123,1841 +123,626 @@ lem-in_clion/fast:
 	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/build
 .PHONY : lem-in_clion/fast
 
-SDL2_primitives/SDL2_framerate.o: SDL2_primitives/SDL2_framerate.c.o
+srcs/ft_aaline.o: srcs/ft_aaline.c.o
 
-.PHONY : SDL2_primitives/SDL2_framerate.o
+.PHONY : srcs/ft_aaline.o
 
 # target to build an object file
-SDL2_primitives/SDL2_framerate.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.o
-.PHONY : SDL2_primitives/SDL2_framerate.c.o
+srcs/ft_aaline.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/ft_aaline.c.o
+.PHONY : srcs/ft_aaline.c.o
 
-SDL2_primitives/SDL2_framerate.i: SDL2_primitives/SDL2_framerate.c.i
+srcs/ft_aaline.i: srcs/ft_aaline.c.i
 
-.PHONY : SDL2_primitives/SDL2_framerate.i
+.PHONY : srcs/ft_aaline.i
 
 # target to preprocess a source file
-SDL2_primitives/SDL2_framerate.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.i
-.PHONY : SDL2_primitives/SDL2_framerate.c.i
+srcs/ft_aaline.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/ft_aaline.c.i
+.PHONY : srcs/ft_aaline.c.i
 
-SDL2_primitives/SDL2_framerate.s: SDL2_primitives/SDL2_framerate.c.s
+srcs/ft_aaline.s: srcs/ft_aaline.c.s
 
-.PHONY : SDL2_primitives/SDL2_framerate.s
+.PHONY : srcs/ft_aaline.s
 
 # target to generate assembly for a file
-SDL2_primitives/SDL2_framerate.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_framerate.c.s
-.PHONY : SDL2_primitives/SDL2_framerate.c.s
+srcs/ft_aaline.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/ft_aaline.c.s
+.PHONY : srcs/ft_aaline.c.s
 
-SDL2_primitives/SDL2_gfxPrimitives.o: SDL2_primitives/SDL2_gfxPrimitives.c.o
+srcs/ft_aaline_thin.o: srcs/ft_aaline_thin.c.o
 
-.PHONY : SDL2_primitives/SDL2_gfxPrimitives.o
+.PHONY : srcs/ft_aaline_thin.o
 
 # target to build an object file
-SDL2_primitives/SDL2_gfxPrimitives.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.o
-.PHONY : SDL2_primitives/SDL2_gfxPrimitives.c.o
+srcs/ft_aaline_thin.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/ft_aaline_thin.c.o
+.PHONY : srcs/ft_aaline_thin.c.o
 
-SDL2_primitives/SDL2_gfxPrimitives.i: SDL2_primitives/SDL2_gfxPrimitives.c.i
+srcs/ft_aaline_thin.i: srcs/ft_aaline_thin.c.i
 
-.PHONY : SDL2_primitives/SDL2_gfxPrimitives.i
+.PHONY : srcs/ft_aaline_thin.i
 
 # target to preprocess a source file
-SDL2_primitives/SDL2_gfxPrimitives.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.i
-.PHONY : SDL2_primitives/SDL2_gfxPrimitives.c.i
+srcs/ft_aaline_thin.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/ft_aaline_thin.c.i
+.PHONY : srcs/ft_aaline_thin.c.i
 
-SDL2_primitives/SDL2_gfxPrimitives.s: SDL2_primitives/SDL2_gfxPrimitives.c.s
+srcs/ft_aaline_thin.s: srcs/ft_aaline_thin.c.s
 
-.PHONY : SDL2_primitives/SDL2_gfxPrimitives.s
+.PHONY : srcs/ft_aaline_thin.s
 
 # target to generate assembly for a file
-SDL2_primitives/SDL2_gfxPrimitives.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_gfxPrimitives.c.s
-.PHONY : SDL2_primitives/SDL2_gfxPrimitives.c.s
+srcs/ft_aaline_thin.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/ft_aaline_thin.c.s
+.PHONY : srcs/ft_aaline_thin.c.s
 
-SDL2_primitives/SDL2_imageFilter.o: SDL2_primitives/SDL2_imageFilter.c.o
+srcs/lemin.o: srcs/lemin.c.o
 
-.PHONY : SDL2_primitives/SDL2_imageFilter.o
+.PHONY : srcs/lemin.o
 
 # target to build an object file
-SDL2_primitives/SDL2_imageFilter.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.o
-.PHONY : SDL2_primitives/SDL2_imageFilter.c.o
+srcs/lemin.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin.c.o
+.PHONY : srcs/lemin.c.o
 
-SDL2_primitives/SDL2_imageFilter.i: SDL2_primitives/SDL2_imageFilter.c.i
+srcs/lemin.i: srcs/lemin.c.i
 
-.PHONY : SDL2_primitives/SDL2_imageFilter.i
+.PHONY : srcs/lemin.i
 
 # target to preprocess a source file
-SDL2_primitives/SDL2_imageFilter.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.i
-.PHONY : SDL2_primitives/SDL2_imageFilter.c.i
+srcs/lemin.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin.c.i
+.PHONY : srcs/lemin.c.i
 
-SDL2_primitives/SDL2_imageFilter.s: SDL2_primitives/SDL2_imageFilter.c.s
+srcs/lemin.s: srcs/lemin.c.s
 
-.PHONY : SDL2_primitives/SDL2_imageFilter.s
+.PHONY : srcs/lemin.s
 
 # target to generate assembly for a file
-SDL2_primitives/SDL2_imageFilter.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_imageFilter.c.s
-.PHONY : SDL2_primitives/SDL2_imageFilter.c.s
+srcs/lemin.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin.c.s
+.PHONY : srcs/lemin.c.s
 
-SDL2_primitives/SDL2_rotozoom.o: SDL2_primitives/SDL2_rotozoom.c.o
+srcs/lemin_exit.o: srcs/lemin_exit.c.o
 
-.PHONY : SDL2_primitives/SDL2_rotozoom.o
+.PHONY : srcs/lemin_exit.o
 
 # target to build an object file
-SDL2_primitives/SDL2_rotozoom.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.o
-.PHONY : SDL2_primitives/SDL2_rotozoom.c.o
+srcs/lemin_exit.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_exit.c.o
+.PHONY : srcs/lemin_exit.c.o
 
-SDL2_primitives/SDL2_rotozoom.i: SDL2_primitives/SDL2_rotozoom.c.i
+srcs/lemin_exit.i: srcs/lemin_exit.c.i
 
-.PHONY : SDL2_primitives/SDL2_rotozoom.i
+.PHONY : srcs/lemin_exit.i
 
 # target to preprocess a source file
-SDL2_primitives/SDL2_rotozoom.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.i
-.PHONY : SDL2_primitives/SDL2_rotozoom.c.i
+srcs/lemin_exit.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_exit.c.i
+.PHONY : srcs/lemin_exit.c.i
 
-SDL2_primitives/SDL2_rotozoom.s: SDL2_primitives/SDL2_rotozoom.c.s
+srcs/lemin_exit.s: srcs/lemin_exit.c.s
 
-.PHONY : SDL2_primitives/SDL2_rotozoom.s
+.PHONY : srcs/lemin_exit.s
 
 # target to generate assembly for a file
-SDL2_primitives/SDL2_rotozoom.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/SDL2_primitives/SDL2_rotozoom.c.s
-.PHONY : SDL2_primitives/SDL2_rotozoom.c.s
+srcs/lemin_exit.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_exit.c.s
+.PHONY : srcs/lemin_exit.c.s
 
-flemin/lemin.o: flemin/lemin.c.o
+srcs/lemin_find_ways.o: srcs/lemin_find_ways.c.o
 
-.PHONY : flemin/lemin.o
+.PHONY : srcs/lemin_find_ways.o
 
 # target to build an object file
-flemin/lemin.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.o
-.PHONY : flemin/lemin.c.o
+srcs/lemin_find_ways.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_find_ways.c.o
+.PHONY : srcs/lemin_find_ways.c.o
 
-flemin/lemin.i: flemin/lemin.c.i
+srcs/lemin_find_ways.i: srcs/lemin_find_ways.c.i
 
-.PHONY : flemin/lemin.i
+.PHONY : srcs/lemin_find_ways.i
 
 # target to preprocess a source file
-flemin/lemin.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.i
-.PHONY : flemin/lemin.c.i
+srcs/lemin_find_ways.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_find_ways.c.i
+.PHONY : srcs/lemin_find_ways.c.i
 
-flemin/lemin.s: flemin/lemin.c.s
+srcs/lemin_find_ways.s: srcs/lemin_find_ways.c.s
 
-.PHONY : flemin/lemin.s
+.PHONY : srcs/lemin_find_ways.s
 
 # target to generate assembly for a file
-flemin/lemin.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin.c.s
-.PHONY : flemin/lemin.c.s
+srcs/lemin_find_ways.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_find_ways.c.s
+.PHONY : srcs/lemin_find_ways.c.s
 
-flemin/lemin_exit.o: flemin/lemin_exit.c.o
+srcs/lemin_mark_graph.o: srcs/lemin_mark_graph.c.o
 
-.PHONY : flemin/lemin_exit.o
+.PHONY : srcs/lemin_mark_graph.o
 
 # target to build an object file
-flemin/lemin_exit.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.o
-.PHONY : flemin/lemin_exit.c.o
+srcs/lemin_mark_graph.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_mark_graph.c.o
+.PHONY : srcs/lemin_mark_graph.c.o
 
-flemin/lemin_exit.i: flemin/lemin_exit.c.i
+srcs/lemin_mark_graph.i: srcs/lemin_mark_graph.c.i
 
-.PHONY : flemin/lemin_exit.i
+.PHONY : srcs/lemin_mark_graph.i
 
 # target to preprocess a source file
-flemin/lemin_exit.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.i
-.PHONY : flemin/lemin_exit.c.i
+srcs/lemin_mark_graph.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_mark_graph.c.i
+.PHONY : srcs/lemin_mark_graph.c.i
 
-flemin/lemin_exit.s: flemin/lemin_exit.c.s
+srcs/lemin_mark_graph.s: srcs/lemin_mark_graph.c.s
 
-.PHONY : flemin/lemin_exit.s
+.PHONY : srcs/lemin_mark_graph.s
 
 # target to generate assembly for a file
-flemin/lemin_exit.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_exit.c.s
-.PHONY : flemin/lemin_exit.c.s
+srcs/lemin_mark_graph.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_mark_graph.c.s
+.PHONY : srcs/lemin_mark_graph.c.s
 
-flemin/lemin_find_ways.o: flemin/lemin_find_ways.c.o
+srcs/lemin_move_ants.o: srcs/lemin_move_ants.c.o
 
-.PHONY : flemin/lemin_find_ways.o
+.PHONY : srcs/lemin_move_ants.o
 
 # target to build an object file
-flemin/lemin_find_ways.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.o
-.PHONY : flemin/lemin_find_ways.c.o
+srcs/lemin_move_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_move_ants.c.o
+.PHONY : srcs/lemin_move_ants.c.o
 
-flemin/lemin_find_ways.i: flemin/lemin_find_ways.c.i
+srcs/lemin_move_ants.i: srcs/lemin_move_ants.c.i
 
-.PHONY : flemin/lemin_find_ways.i
+.PHONY : srcs/lemin_move_ants.i
 
 # target to preprocess a source file
-flemin/lemin_find_ways.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.i
-.PHONY : flemin/lemin_find_ways.c.i
+srcs/lemin_move_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_move_ants.c.i
+.PHONY : srcs/lemin_move_ants.c.i
 
-flemin/lemin_find_ways.s: flemin/lemin_find_ways.c.s
+srcs/lemin_move_ants.s: srcs/lemin_move_ants.c.s
 
-.PHONY : flemin/lemin_find_ways.s
+.PHONY : srcs/lemin_move_ants.s
 
 # target to generate assembly for a file
-flemin/lemin_find_ways.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_find_ways.c.s
-.PHONY : flemin/lemin_find_ways.c.s
+srcs/lemin_move_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_move_ants.c.s
+.PHONY : srcs/lemin_move_ants.c.s
 
-flemin/lemin_mark_graph.o: flemin/lemin_mark_graph.c.o
+srcs/lemin_parse.o: srcs/lemin_parse.c.o
 
-.PHONY : flemin/lemin_mark_graph.o
+.PHONY : srcs/lemin_parse.o
 
 # target to build an object file
-flemin/lemin_mark_graph.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.o
-.PHONY : flemin/lemin_mark_graph.c.o
+srcs/lemin_parse.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse.c.o
+.PHONY : srcs/lemin_parse.c.o
 
-flemin/lemin_mark_graph.i: flemin/lemin_mark_graph.c.i
+srcs/lemin_parse.i: srcs/lemin_parse.c.i
 
-.PHONY : flemin/lemin_mark_graph.i
+.PHONY : srcs/lemin_parse.i
 
 # target to preprocess a source file
-flemin/lemin_mark_graph.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.i
-.PHONY : flemin/lemin_mark_graph.c.i
+srcs/lemin_parse.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse.c.i
+.PHONY : srcs/lemin_parse.c.i
 
-flemin/lemin_mark_graph.s: flemin/lemin_mark_graph.c.s
+srcs/lemin_parse.s: srcs/lemin_parse.c.s
 
-.PHONY : flemin/lemin_mark_graph.s
+.PHONY : srcs/lemin_parse.s
 
 # target to generate assembly for a file
-flemin/lemin_mark_graph.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_mark_graph.c.s
-.PHONY : flemin/lemin_mark_graph.c.s
+srcs/lemin_parse.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse.c.s
+.PHONY : srcs/lemin_parse.c.s
 
-flemin/lemin_move_ants.o: flemin/lemin_move_ants.c.o
+srcs/lemin_parse_ants.o: srcs/lemin_parse_ants.c.o
 
-.PHONY : flemin/lemin_move_ants.o
+.PHONY : srcs/lemin_parse_ants.o
 
 # target to build an object file
-flemin/lemin_move_ants.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.o
-.PHONY : flemin/lemin_move_ants.c.o
+srcs/lemin_parse_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_ants.c.o
+.PHONY : srcs/lemin_parse_ants.c.o
 
-flemin/lemin_move_ants.i: flemin/lemin_move_ants.c.i
+srcs/lemin_parse_ants.i: srcs/lemin_parse_ants.c.i
 
-.PHONY : flemin/lemin_move_ants.i
+.PHONY : srcs/lemin_parse_ants.i
 
 # target to preprocess a source file
-flemin/lemin_move_ants.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.i
-.PHONY : flemin/lemin_move_ants.c.i
+srcs/lemin_parse_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_ants.c.i
+.PHONY : srcs/lemin_parse_ants.c.i
 
-flemin/lemin_move_ants.s: flemin/lemin_move_ants.c.s
+srcs/lemin_parse_ants.s: srcs/lemin_parse_ants.c.s
 
-.PHONY : flemin/lemin_move_ants.s
+.PHONY : srcs/lemin_parse_ants.s
 
 # target to generate assembly for a file
-flemin/lemin_move_ants.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_move_ants.c.s
-.PHONY : flemin/lemin_move_ants.c.s
+srcs/lemin_parse_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_ants.c.s
+.PHONY : srcs/lemin_parse_ants.c.s
 
-flemin/lemin_parse.o: flemin/lemin_parse.c.o
+srcs/lemin_parse_links.o: srcs/lemin_parse_links.c.o
 
-.PHONY : flemin/lemin_parse.o
+.PHONY : srcs/lemin_parse_links.o
 
 # target to build an object file
-flemin/lemin_parse.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.o
-.PHONY : flemin/lemin_parse.c.o
+srcs/lemin_parse_links.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_links.c.o
+.PHONY : srcs/lemin_parse_links.c.o
 
-flemin/lemin_parse.i: flemin/lemin_parse.c.i
+srcs/lemin_parse_links.i: srcs/lemin_parse_links.c.i
 
-.PHONY : flemin/lemin_parse.i
+.PHONY : srcs/lemin_parse_links.i
 
 # target to preprocess a source file
-flemin/lemin_parse.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.i
-.PHONY : flemin/lemin_parse.c.i
+srcs/lemin_parse_links.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_links.c.i
+.PHONY : srcs/lemin_parse_links.c.i
 
-flemin/lemin_parse.s: flemin/lemin_parse.c.s
+srcs/lemin_parse_links.s: srcs/lemin_parse_links.c.s
 
-.PHONY : flemin/lemin_parse.s
+.PHONY : srcs/lemin_parse_links.s
 
 # target to generate assembly for a file
-flemin/lemin_parse.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse.c.s
-.PHONY : flemin/lemin_parse.c.s
+srcs/lemin_parse_links.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_links.c.s
+.PHONY : srcs/lemin_parse_links.c.s
 
-flemin/lemin_parse_ants.o: flemin/lemin_parse_ants.c.o
+srcs/lemin_parse_rooms.o: srcs/lemin_parse_rooms.c.o
 
-.PHONY : flemin/lemin_parse_ants.o
+.PHONY : srcs/lemin_parse_rooms.o
 
 # target to build an object file
-flemin/lemin_parse_ants.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.o
-.PHONY : flemin/lemin_parse_ants.c.o
+srcs/lemin_parse_rooms.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_rooms.c.o
+.PHONY : srcs/lemin_parse_rooms.c.o
 
-flemin/lemin_parse_ants.i: flemin/lemin_parse_ants.c.i
+srcs/lemin_parse_rooms.i: srcs/lemin_parse_rooms.c.i
 
-.PHONY : flemin/lemin_parse_ants.i
+.PHONY : srcs/lemin_parse_rooms.i
 
 # target to preprocess a source file
-flemin/lemin_parse_ants.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.i
-.PHONY : flemin/lemin_parse_ants.c.i
+srcs/lemin_parse_rooms.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_rooms.c.i
+.PHONY : srcs/lemin_parse_rooms.c.i
 
-flemin/lemin_parse_ants.s: flemin/lemin_parse_ants.c.s
+srcs/lemin_parse_rooms.s: srcs/lemin_parse_rooms.c.s
 
-.PHONY : flemin/lemin_parse_ants.s
+.PHONY : srcs/lemin_parse_rooms.s
 
 # target to generate assembly for a file
-flemin/lemin_parse_ants.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_ants.c.s
-.PHONY : flemin/lemin_parse_ants.c.s
+srcs/lemin_parse_rooms.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_rooms.c.s
+.PHONY : srcs/lemin_parse_rooms.c.s
 
-flemin/lemin_parse_links.o: flemin/lemin_parse_links.c.o
+srcs/lemin_parse_valid_link.o: srcs/lemin_parse_valid_link.c.o
 
-.PHONY : flemin/lemin_parse_links.o
+.PHONY : srcs/lemin_parse_valid_link.o
 
 # target to build an object file
-flemin/lemin_parse_links.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.o
-.PHONY : flemin/lemin_parse_links.c.o
+srcs/lemin_parse_valid_link.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_valid_link.c.o
+.PHONY : srcs/lemin_parse_valid_link.c.o
 
-flemin/lemin_parse_links.i: flemin/lemin_parse_links.c.i
+srcs/lemin_parse_valid_link.i: srcs/lemin_parse_valid_link.c.i
 
-.PHONY : flemin/lemin_parse_links.i
+.PHONY : srcs/lemin_parse_valid_link.i
 
 # target to preprocess a source file
-flemin/lemin_parse_links.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.i
-.PHONY : flemin/lemin_parse_links.c.i
+srcs/lemin_parse_valid_link.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_valid_link.c.i
+.PHONY : srcs/lemin_parse_valid_link.c.i
 
-flemin/lemin_parse_links.s: flemin/lemin_parse_links.c.s
+srcs/lemin_parse_valid_link.s: srcs/lemin_parse_valid_link.c.s
 
-.PHONY : flemin/lemin_parse_links.s
+.PHONY : srcs/lemin_parse_valid_link.s
 
 # target to generate assembly for a file
-flemin/lemin_parse_links.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_links.c.s
-.PHONY : flemin/lemin_parse_links.c.s
+srcs/lemin_parse_valid_link.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_valid_link.c.s
+.PHONY : srcs/lemin_parse_valid_link.c.s
 
-flemin/lemin_parse_rooms.o: flemin/lemin_parse_rooms.c.o
+srcs/lemin_parse_valid_room.o: srcs/lemin_parse_valid_room.c.o
 
-.PHONY : flemin/lemin_parse_rooms.o
+.PHONY : srcs/lemin_parse_valid_room.o
 
 # target to build an object file
-flemin/lemin_parse_rooms.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.o
-.PHONY : flemin/lemin_parse_rooms.c.o
+srcs/lemin_parse_valid_room.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_valid_room.c.o
+.PHONY : srcs/lemin_parse_valid_room.c.o
 
-flemin/lemin_parse_rooms.i: flemin/lemin_parse_rooms.c.i
+srcs/lemin_parse_valid_room.i: srcs/lemin_parse_valid_room.c.i
 
-.PHONY : flemin/lemin_parse_rooms.i
+.PHONY : srcs/lemin_parse_valid_room.i
 
 # target to preprocess a source file
-flemin/lemin_parse_rooms.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.i
-.PHONY : flemin/lemin_parse_rooms.c.i
+srcs/lemin_parse_valid_room.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_valid_room.c.i
+.PHONY : srcs/lemin_parse_valid_room.c.i
 
-flemin/lemin_parse_rooms.s: flemin/lemin_parse_rooms.c.s
+srcs/lemin_parse_valid_room.s: srcs/lemin_parse_valid_room.c.s
 
-.PHONY : flemin/lemin_parse_rooms.s
+.PHONY : srcs/lemin_parse_valid_room.s
 
 # target to generate assembly for a file
-flemin/lemin_parse_rooms.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_rooms.c.s
-.PHONY : flemin/lemin_parse_rooms.c.s
+srcs/lemin_parse_valid_room.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_parse_valid_room.c.s
+.PHONY : srcs/lemin_parse_valid_room.c.s
 
-flemin/lemin_parse_valid_link.o: flemin/lemin_parse_valid_link.c.o
+srcs/lemin_split_ants.o: srcs/lemin_split_ants.c.o
 
-.PHONY : flemin/lemin_parse_valid_link.o
+.PHONY : srcs/lemin_split_ants.o
 
 # target to build an object file
-flemin/lemin_parse_valid_link.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.o
-.PHONY : flemin/lemin_parse_valid_link.c.o
+srcs/lemin_split_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_split_ants.c.o
+.PHONY : srcs/lemin_split_ants.c.o
 
-flemin/lemin_parse_valid_link.i: flemin/lemin_parse_valid_link.c.i
+srcs/lemin_split_ants.i: srcs/lemin_split_ants.c.i
 
-.PHONY : flemin/lemin_parse_valid_link.i
+.PHONY : srcs/lemin_split_ants.i
 
 # target to preprocess a source file
-flemin/lemin_parse_valid_link.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.i
-.PHONY : flemin/lemin_parse_valid_link.c.i
+srcs/lemin_split_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_split_ants.c.i
+.PHONY : srcs/lemin_split_ants.c.i
 
-flemin/lemin_parse_valid_link.s: flemin/lemin_parse_valid_link.c.s
+srcs/lemin_split_ants.s: srcs/lemin_split_ants.c.s
 
-.PHONY : flemin/lemin_parse_valid_link.s
+.PHONY : srcs/lemin_split_ants.s
 
 # target to generate assembly for a file
-flemin/lemin_parse_valid_link.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_link.c.s
-.PHONY : flemin/lemin_parse_valid_link.c.s
+srcs/lemin_split_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_split_ants.c.s
+.PHONY : srcs/lemin_split_ants.c.s
 
-flemin/lemin_parse_valid_room.o: flemin/lemin_parse_valid_room.c.o
+srcs/lemin_utils.o: srcs/lemin_utils.c.o
 
-.PHONY : flemin/lemin_parse_valid_room.o
+.PHONY : srcs/lemin_utils.o
 
 # target to build an object file
-flemin/lemin_parse_valid_room.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.o
-.PHONY : flemin/lemin_parse_valid_room.c.o
+srcs/lemin_utils.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_utils.c.o
+.PHONY : srcs/lemin_utils.c.o
 
-flemin/lemin_parse_valid_room.i: flemin/lemin_parse_valid_room.c.i
+srcs/lemin_utils.i: srcs/lemin_utils.c.i
 
-.PHONY : flemin/lemin_parse_valid_room.i
+.PHONY : srcs/lemin_utils.i
 
 # target to preprocess a source file
-flemin/lemin_parse_valid_room.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.i
-.PHONY : flemin/lemin_parse_valid_room.c.i
+srcs/lemin_utils.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_utils.c.i
+.PHONY : srcs/lemin_utils.c.i
 
-flemin/lemin_parse_valid_room.s: flemin/lemin_parse_valid_room.c.s
+srcs/lemin_utils.s: srcs/lemin_utils.c.s
 
-.PHONY : flemin/lemin_parse_valid_room.s
+.PHONY : srcs/lemin_utils.s
 
 # target to generate assembly for a file
-flemin/lemin_parse_valid_room.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_parse_valid_room.c.s
-.PHONY : flemin/lemin_parse_valid_room.c.s
+srcs/lemin_utils.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_utils.c.s
+.PHONY : srcs/lemin_utils.c.s
 
-flemin/lemin_split_ants.o: flemin/lemin_split_ants.c.o
+srcs/lemin_vis.o: srcs/lemin_vis.c.o
 
-.PHONY : flemin/lemin_split_ants.o
+.PHONY : srcs/lemin_vis.o
 
 # target to build an object file
-flemin/lemin_split_ants.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.o
-.PHONY : flemin/lemin_split_ants.c.o
+srcs/lemin_vis.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis.c.o
+.PHONY : srcs/lemin_vis.c.o
 
-flemin/lemin_split_ants.i: flemin/lemin_split_ants.c.i
+srcs/lemin_vis.i: srcs/lemin_vis.c.i
 
-.PHONY : flemin/lemin_split_ants.i
+.PHONY : srcs/lemin_vis.i
 
 # target to preprocess a source file
-flemin/lemin_split_ants.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.i
-.PHONY : flemin/lemin_split_ants.c.i
+srcs/lemin_vis.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis.c.i
+.PHONY : srcs/lemin_vis.c.i
 
-flemin/lemin_split_ants.s: flemin/lemin_split_ants.c.s
+srcs/lemin_vis.s: srcs/lemin_vis.c.s
 
-.PHONY : flemin/lemin_split_ants.s
+.PHONY : srcs/lemin_vis.s
 
 # target to generate assembly for a file
-flemin/lemin_split_ants.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_split_ants.c.s
-.PHONY : flemin/lemin_split_ants.c.s
+srcs/lemin_vis.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis.c.s
+.PHONY : srcs/lemin_vis.c.s
 
-flemin/lemin_utils.o: flemin/lemin_utils.c.o
+srcs/lemin_vis_keys.o: srcs/lemin_vis_keys.c.o
 
-.PHONY : flemin/lemin_utils.o
+.PHONY : srcs/lemin_vis_keys.o
 
 # target to build an object file
-flemin/lemin_utils.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.o
-.PHONY : flemin/lemin_utils.c.o
+srcs/lemin_vis_keys.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_keys.c.o
+.PHONY : srcs/lemin_vis_keys.c.o
 
-flemin/lemin_utils.i: flemin/lemin_utils.c.i
+srcs/lemin_vis_keys.i: srcs/lemin_vis_keys.c.i
 
-.PHONY : flemin/lemin_utils.i
+.PHONY : srcs/lemin_vis_keys.i
 
 # target to preprocess a source file
-flemin/lemin_utils.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.i
-.PHONY : flemin/lemin_utils.c.i
+srcs/lemin_vis_keys.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_keys.c.i
+.PHONY : srcs/lemin_vis_keys.c.i
 
-flemin/lemin_utils.s: flemin/lemin_utils.c.s
+srcs/lemin_vis_keys.s: srcs/lemin_vis_keys.c.s
 
-.PHONY : flemin/lemin_utils.s
+.PHONY : srcs/lemin_vis_keys.s
 
 # target to generate assembly for a file
-flemin/lemin_utils.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_utils.c.s
-.PHONY : flemin/lemin_utils.c.s
+srcs/lemin_vis_keys.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_keys.c.s
+.PHONY : srcs/lemin_vis_keys.c.s
 
-flemin/lemin_vis.o: flemin/lemin_vis.c.o
+srcs/lemin_vis_mouse.o: srcs/lemin_vis_mouse.c.o
 
-.PHONY : flemin/lemin_vis.o
+.PHONY : srcs/lemin_vis_mouse.o
 
 # target to build an object file
-flemin/lemin_vis.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.o
-.PHONY : flemin/lemin_vis.c.o
+srcs/lemin_vis_mouse.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_mouse.c.o
+.PHONY : srcs/lemin_vis_mouse.c.o
 
-flemin/lemin_vis.i: flemin/lemin_vis.c.i
+srcs/lemin_vis_mouse.i: srcs/lemin_vis_mouse.c.i
 
-.PHONY : flemin/lemin_vis.i
+.PHONY : srcs/lemin_vis_mouse.i
 
 # target to preprocess a source file
-flemin/lemin_vis.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.i
-.PHONY : flemin/lemin_vis.c.i
+srcs/lemin_vis_mouse.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_mouse.c.i
+.PHONY : srcs/lemin_vis_mouse.c.i
 
-flemin/lemin_vis.s: flemin/lemin_vis.c.s
+srcs/lemin_vis_mouse.s: srcs/lemin_vis_mouse.c.s
 
-.PHONY : flemin/lemin_vis.s
+.PHONY : srcs/lemin_vis_mouse.s
 
 # target to generate assembly for a file
-flemin/lemin_vis.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis.c.s
-.PHONY : flemin/lemin_vis.c.s
+srcs/lemin_vis_mouse.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_mouse.c.s
+.PHONY : srcs/lemin_vis_mouse.c.s
 
-flemin/lemin_vis_keys.o: flemin/lemin_vis_keys.c.o
+srcs/lemin_vis_parse.o: srcs/lemin_vis_parse.c.o
 
-.PHONY : flemin/lemin_vis_keys.o
+.PHONY : srcs/lemin_vis_parse.o
 
 # target to build an object file
-flemin/lemin_vis_keys.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.o
-.PHONY : flemin/lemin_vis_keys.c.o
+srcs/lemin_vis_parse.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_parse.c.o
+.PHONY : srcs/lemin_vis_parse.c.o
 
-flemin/lemin_vis_keys.i: flemin/lemin_vis_keys.c.i
+srcs/lemin_vis_parse.i: srcs/lemin_vis_parse.c.i
 
-.PHONY : flemin/lemin_vis_keys.i
+.PHONY : srcs/lemin_vis_parse.i
 
 # target to preprocess a source file
-flemin/lemin_vis_keys.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.i
-.PHONY : flemin/lemin_vis_keys.c.i
+srcs/lemin_vis_parse.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_parse.c.i
+.PHONY : srcs/lemin_vis_parse.c.i
 
-flemin/lemin_vis_keys.s: flemin/lemin_vis_keys.c.s
+srcs/lemin_vis_parse.s: srcs/lemin_vis_parse.c.s
 
-.PHONY : flemin/lemin_vis_keys.s
+.PHONY : srcs/lemin_vis_parse.s
 
 # target to generate assembly for a file
-flemin/lemin_vis_keys.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_keys.c.s
-.PHONY : flemin/lemin_vis_keys.c.s
+srcs/lemin_vis_parse.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_parse.c.s
+.PHONY : srcs/lemin_vis_parse.c.s
 
-flemin/lemin_vis_mouse.o: flemin/lemin_vis_mouse.c.o
+srcs/lemin_vis_render_ants.o: srcs/lemin_vis_render_ants.c.o
 
-.PHONY : flemin/lemin_vis_mouse.o
+.PHONY : srcs/lemin_vis_render_ants.o
 
 # target to build an object file
-flemin/lemin_vis_mouse.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.o
-.PHONY : flemin/lemin_vis_mouse.c.o
+srcs/lemin_vis_render_ants.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_ants.c.o
+.PHONY : srcs/lemin_vis_render_ants.c.o
 
-flemin/lemin_vis_mouse.i: flemin/lemin_vis_mouse.c.i
+srcs/lemin_vis_render_ants.i: srcs/lemin_vis_render_ants.c.i
 
-.PHONY : flemin/lemin_vis_mouse.i
+.PHONY : srcs/lemin_vis_render_ants.i
 
 # target to preprocess a source file
-flemin/lemin_vis_mouse.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.i
-.PHONY : flemin/lemin_vis_mouse.c.i
+srcs/lemin_vis_render_ants.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_ants.c.i
+.PHONY : srcs/lemin_vis_render_ants.c.i
 
-flemin/lemin_vis_mouse.s: flemin/lemin_vis_mouse.c.s
+srcs/lemin_vis_render_ants.s: srcs/lemin_vis_render_ants.c.s
 
-.PHONY : flemin/lemin_vis_mouse.s
+.PHONY : srcs/lemin_vis_render_ants.s
 
 # target to generate assembly for a file
-flemin/lemin_vis_mouse.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_mouse.c.s
-.PHONY : flemin/lemin_vis_mouse.c.s
+srcs/lemin_vis_render_ants.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_ants.c.s
+.PHONY : srcs/lemin_vis_render_ants.c.s
 
-flemin/lemin_vis_parse.o: flemin/lemin_vis_parse.c.o
+srcs/lemin_vis_render_bg.o: srcs/lemin_vis_render_bg.c.o
 
-.PHONY : flemin/lemin_vis_parse.o
+.PHONY : srcs/lemin_vis_render_bg.o
 
 # target to build an object file
-flemin/lemin_vis_parse.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.o
-.PHONY : flemin/lemin_vis_parse.c.o
+srcs/lemin_vis_render_bg.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_bg.c.o
+.PHONY : srcs/lemin_vis_render_bg.c.o
 
-flemin/lemin_vis_parse.i: flemin/lemin_vis_parse.c.i
+srcs/lemin_vis_render_bg.i: srcs/lemin_vis_render_bg.c.i
 
-.PHONY : flemin/lemin_vis_parse.i
+.PHONY : srcs/lemin_vis_render_bg.i
 
 # target to preprocess a source file
-flemin/lemin_vis_parse.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.i
-.PHONY : flemin/lemin_vis_parse.c.i
+srcs/lemin_vis_render_bg.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_bg.c.i
+.PHONY : srcs/lemin_vis_render_bg.c.i
 
-flemin/lemin_vis_parse.s: flemin/lemin_vis_parse.c.s
+srcs/lemin_vis_render_bg.s: srcs/lemin_vis_render_bg.c.s
 
-.PHONY : flemin/lemin_vis_parse.s
+.PHONY : srcs/lemin_vis_render_bg.s
 
 # target to generate assembly for a file
-flemin/lemin_vis_parse.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_parse.c.s
-.PHONY : flemin/lemin_vis_parse.c.s
+srcs/lemin_vis_render_bg.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_bg.c.s
+.PHONY : srcs/lemin_vis_render_bg.c.s
 
-flemin/lemin_vis_render_ants.o: flemin/lemin_vis_render_ants.c.o
+srcs/lemin_vis_render_text.o: srcs/lemin_vis_render_text.c.o
 
-.PHONY : flemin/lemin_vis_render_ants.o
+.PHONY : srcs/lemin_vis_render_text.o
 
 # target to build an object file
-flemin/lemin_vis_render_ants.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.o
-.PHONY : flemin/lemin_vis_render_ants.c.o
+srcs/lemin_vis_render_text.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_text.c.o
+.PHONY : srcs/lemin_vis_render_text.c.o
 
-flemin/lemin_vis_render_ants.i: flemin/lemin_vis_render_ants.c.i
+srcs/lemin_vis_render_text.i: srcs/lemin_vis_render_text.c.i
 
-.PHONY : flemin/lemin_vis_render_ants.i
+.PHONY : srcs/lemin_vis_render_text.i
 
 # target to preprocess a source file
-flemin/lemin_vis_render_ants.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.i
-.PHONY : flemin/lemin_vis_render_ants.c.i
+srcs/lemin_vis_render_text.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_text.c.i
+.PHONY : srcs/lemin_vis_render_text.c.i
 
-flemin/lemin_vis_render_ants.s: flemin/lemin_vis_render_ants.c.s
+srcs/lemin_vis_render_text.s: srcs/lemin_vis_render_text.c.s
 
-.PHONY : flemin/lemin_vis_render_ants.s
+.PHONY : srcs/lemin_vis_render_text.s
 
 # target to generate assembly for a file
-flemin/lemin_vis_render_ants.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_ants.c.s
-.PHONY : flemin/lemin_vis_render_ants.c.s
+srcs/lemin_vis_render_text.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/lemin_vis_render_text.c.s
+.PHONY : srcs/lemin_vis_render_text.c.s
 
-flemin/lemin_vis_render_bg.o: flemin/lemin_vis_render_bg.c.o
+srcs/vis_line_gradient.o: srcs/vis_line_gradient.c.o
 
-.PHONY : flemin/lemin_vis_render_bg.o
+.PHONY : srcs/vis_line_gradient.o
 
 # target to build an object file
-flemin/lemin_vis_render_bg.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.o
-.PHONY : flemin/lemin_vis_render_bg.c.o
+srcs/vis_line_gradient.c.o:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/vis_line_gradient.c.o
+.PHONY : srcs/vis_line_gradient.c.o
 
-flemin/lemin_vis_render_bg.i: flemin/lemin_vis_render_bg.c.i
+srcs/vis_line_gradient.i: srcs/vis_line_gradient.c.i
 
-.PHONY : flemin/lemin_vis_render_bg.i
+.PHONY : srcs/vis_line_gradient.i
 
 # target to preprocess a source file
-flemin/lemin_vis_render_bg.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.i
-.PHONY : flemin/lemin_vis_render_bg.c.i
+srcs/vis_line_gradient.c.i:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/vis_line_gradient.c.i
+.PHONY : srcs/vis_line_gradient.c.i
 
-flemin/lemin_vis_render_bg.s: flemin/lemin_vis_render_bg.c.s
+srcs/vis_line_gradient.s: srcs/vis_line_gradient.c.s
 
-.PHONY : flemin/lemin_vis_render_bg.s
+.PHONY : srcs/vis_line_gradient.s
 
 # target to generate assembly for a file
-flemin/lemin_vis_render_bg.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_bg.c.s
-.PHONY : flemin/lemin_vis_render_bg.c.s
-
-flemin/lemin_vis_render_text.o: flemin/lemin_vis_render_text.c.o
-
-.PHONY : flemin/lemin_vis_render_text.o
-
-# target to build an object file
-flemin/lemin_vis_render_text.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.o
-.PHONY : flemin/lemin_vis_render_text.c.o
-
-flemin/lemin_vis_render_text.i: flemin/lemin_vis_render_text.c.i
-
-.PHONY : flemin/lemin_vis_render_text.i
-
-# target to preprocess a source file
-flemin/lemin_vis_render_text.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.i
-.PHONY : flemin/lemin_vis_render_text.c.i
-
-flemin/lemin_vis_render_text.s: flemin/lemin_vis_render_text.c.s
-
-.PHONY : flemin/lemin_vis_render_text.s
-
-# target to generate assembly for a file
-flemin/lemin_vis_render_text.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/flemin/lemin_vis_render_text.c.s
-.PHONY : flemin/lemin_vis_render_text.c.s
-
-libft/ft_abs.o: libft/ft_abs.c.o
-
-.PHONY : libft/ft_abs.o
-
-# target to build an object file
-libft/ft_abs.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.o
-.PHONY : libft/ft_abs.c.o
-
-libft/ft_abs.i: libft/ft_abs.c.i
-
-.PHONY : libft/ft_abs.i
-
-# target to preprocess a source file
-libft/ft_abs.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.i
-.PHONY : libft/ft_abs.c.i
-
-libft/ft_abs.s: libft/ft_abs.c.s
-
-.PHONY : libft/ft_abs.s
-
-# target to generate assembly for a file
-libft/ft_abs.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_abs.c.s
-.PHONY : libft/ft_abs.c.s
-
-libft/ft_atoibase.o: libft/ft_atoibase.c.o
-
-.PHONY : libft/ft_atoibase.o
-
-# target to build an object file
-libft/ft_atoibase.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.o
-.PHONY : libft/ft_atoibase.c.o
-
-libft/ft_atoibase.i: libft/ft_atoibase.c.i
-
-.PHONY : libft/ft_atoibase.i
-
-# target to preprocess a source file
-libft/ft_atoibase.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.i
-.PHONY : libft/ft_atoibase.c.i
-
-libft/ft_atoibase.s: libft/ft_atoibase.c.s
-
-.PHONY : libft/ft_atoibase.s
-
-# target to generate assembly for a file
-libft/ft_atoibase.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_atoibase.c.s
-.PHONY : libft/ft_atoibase.c.s
-
-libft/ft_gnl/ft_gnl.o: libft/ft_gnl/ft_gnl.c.o
-
-.PHONY : libft/ft_gnl/ft_gnl.o
-
-# target to build an object file
-libft/ft_gnl/ft_gnl.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.o
-.PHONY : libft/ft_gnl/ft_gnl.c.o
-
-libft/ft_gnl/ft_gnl.i: libft/ft_gnl/ft_gnl.c.i
-
-.PHONY : libft/ft_gnl/ft_gnl.i
-
-# target to preprocess a source file
-libft/ft_gnl/ft_gnl.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.i
-.PHONY : libft/ft_gnl/ft_gnl.c.i
-
-libft/ft_gnl/ft_gnl.s: libft/ft_gnl/ft_gnl.c.s
-
-.PHONY : libft/ft_gnl/ft_gnl.s
-
-# target to generate assembly for a file
-libft/ft_gnl/ft_gnl.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_gnl/ft_gnl.c.s
-.PHONY : libft/ft_gnl/ft_gnl.c.s
-
-libft/ft_itoabase.o: libft/ft_itoabase.c.o
-
-.PHONY : libft/ft_itoabase.o
-
-# target to build an object file
-libft/ft_itoabase.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.o
-.PHONY : libft/ft_itoabase.c.o
-
-libft/ft_itoabase.i: libft/ft_itoabase.c.i
-
-.PHONY : libft/ft_itoabase.i
-
-# target to preprocess a source file
-libft/ft_itoabase.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.i
-.PHONY : libft/ft_itoabase.c.i
-
-libft/ft_itoabase.s: libft/ft_itoabase.c.s
-
-.PHONY : libft/ft_itoabase.s
-
-# target to generate assembly for a file
-libft/ft_itoabase.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_itoabase.c.s
-.PHONY : libft/ft_itoabase.c.s
-
-libft/ft_memalloc.o: libft/ft_memalloc.c.o
-
-.PHONY : libft/ft_memalloc.o
-
-# target to build an object file
-libft/ft_memalloc.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.o
-.PHONY : libft/ft_memalloc.c.o
-
-libft/ft_memalloc.i: libft/ft_memalloc.c.i
-
-.PHONY : libft/ft_memalloc.i
-
-# target to preprocess a source file
-libft/ft_memalloc.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.i
-.PHONY : libft/ft_memalloc.c.i
-
-libft/ft_memalloc.s: libft/ft_memalloc.c.s
-
-.PHONY : libft/ft_memalloc.s
-
-# target to generate assembly for a file
-libft/ft_memalloc.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memalloc.c.s
-.PHONY : libft/ft_memalloc.c.s
-
-libft/ft_memcmp.o: libft/ft_memcmp.c.o
-
-.PHONY : libft/ft_memcmp.o
-
-# target to build an object file
-libft/ft_memcmp.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.o
-.PHONY : libft/ft_memcmp.c.o
-
-libft/ft_memcmp.i: libft/ft_memcmp.c.i
-
-.PHONY : libft/ft_memcmp.i
-
-# target to preprocess a source file
-libft/ft_memcmp.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.i
-.PHONY : libft/ft_memcmp.c.i
-
-libft/ft_memcmp.s: libft/ft_memcmp.c.s
-
-.PHONY : libft/ft_memcmp.s
-
-# target to generate assembly for a file
-libft/ft_memcmp.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memcmp.c.s
-.PHONY : libft/ft_memcmp.c.s
-
-libft/ft_memdel.o: libft/ft_memdel.c.o
-
-.PHONY : libft/ft_memdel.o
-
-# target to build an object file
-libft/ft_memdel.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.o
-.PHONY : libft/ft_memdel.c.o
-
-libft/ft_memdel.i: libft/ft_memdel.c.i
-
-.PHONY : libft/ft_memdel.i
-
-# target to preprocess a source file
-libft/ft_memdel.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.i
-.PHONY : libft/ft_memdel.c.i
-
-libft/ft_memdel.s: libft/ft_memdel.c.s
-
-.PHONY : libft/ft_memdel.s
-
-# target to generate assembly for a file
-libft/ft_memdel.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memdel.c.s
-.PHONY : libft/ft_memdel.c.s
-
-libft/ft_memmove.o: libft/ft_memmove.c.o
-
-.PHONY : libft/ft_memmove.o
-
-# target to build an object file
-libft/ft_memmove.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.o
-.PHONY : libft/ft_memmove.c.o
-
-libft/ft_memmove.i: libft/ft_memmove.c.i
-
-.PHONY : libft/ft_memmove.i
-
-# target to preprocess a source file
-libft/ft_memmove.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.i
-.PHONY : libft/ft_memmove.c.i
-
-libft/ft_memmove.s: libft/ft_memmove.c.s
-
-.PHONY : libft/ft_memmove.s
-
-# target to generate assembly for a file
-libft/ft_memmove.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memmove.c.s
-.PHONY : libft/ft_memmove.c.s
-
-libft/ft_memset.o: libft/ft_memset.c.o
-
-.PHONY : libft/ft_memset.o
-
-# target to build an object file
-libft/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.o
-.PHONY : libft/ft_memset.c.o
-
-libft/ft_memset.i: libft/ft_memset.c.i
-
-.PHONY : libft/ft_memset.i
-
-# target to preprocess a source file
-libft/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.i
-.PHONY : libft/ft_memset.c.i
-
-libft/ft_memset.s: libft/ft_memset.c.s
-
-.PHONY : libft/ft_memset.s
-
-# target to generate assembly for a file
-libft/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_memset.c.s
-.PHONY : libft/ft_memset.c.s
-
-libft/ft_nbr_len.o: libft/ft_nbr_len.c.o
-
-.PHONY : libft/ft_nbr_len.o
-
-# target to build an object file
-libft/ft_nbr_len.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.o
-.PHONY : libft/ft_nbr_len.c.o
-
-libft/ft_nbr_len.i: libft/ft_nbr_len.c.i
-
-.PHONY : libft/ft_nbr_len.i
-
-# target to preprocess a source file
-libft/ft_nbr_len.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.i
-.PHONY : libft/ft_nbr_len.c.i
-
-libft/ft_nbr_len.s: libft/ft_nbr_len.c.s
-
-.PHONY : libft/ft_nbr_len.s
-
-# target to generate assembly for a file
-libft/ft_nbr_len.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_nbr_len.c.s
-.PHONY : libft/ft_nbr_len.c.s
-
-libft/ft_printf/ft_printf.o: libft/ft_printf/ft_printf.c.o
-
-.PHONY : libft/ft_printf/ft_printf.o
-
-# target to build an object file
-libft/ft_printf/ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.o
-.PHONY : libft/ft_printf/ft_printf.c.o
-
-libft/ft_printf/ft_printf.i: libft/ft_printf/ft_printf.c.i
-
-.PHONY : libft/ft_printf/ft_printf.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.i
-.PHONY : libft/ft_printf/ft_printf.c.i
-
-libft/ft_printf/ft_printf.s: libft/ft_printf/ft_printf.c.s
-
-.PHONY : libft/ft_printf/ft_printf.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf.c.s
-.PHONY : libft/ft_printf/ft_printf.c.s
-
-libft/ft_printf/ft_printf_0_base.o: libft/ft_printf/ft_printf_0_base.c.o
-
-.PHONY : libft/ft_printf/ft_printf_0_base.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_0_base.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.o
-.PHONY : libft/ft_printf/ft_printf_0_base.c.o
-
-libft/ft_printf/ft_printf_0_base.i: libft/ft_printf/ft_printf_0_base.c.i
-
-.PHONY : libft/ft_printf/ft_printf_0_base.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_0_base.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.i
-.PHONY : libft/ft_printf/ft_printf_0_base.c.i
-
-libft/ft_printf/ft_printf_0_base.s: libft/ft_printf/ft_printf_0_base.c.s
-
-.PHONY : libft/ft_printf/ft_printf_0_base.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_0_base.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_0_base.c.s
-.PHONY : libft/ft_printf/ft_printf_0_base.c.s
-
-libft/ft_printf/ft_printf_color.o: libft/ft_printf/ft_printf_color.c.o
-
-.PHONY : libft/ft_printf/ft_printf_color.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_color.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.o
-.PHONY : libft/ft_printf/ft_printf_color.c.o
-
-libft/ft_printf/ft_printf_color.i: libft/ft_printf/ft_printf_color.c.i
-
-.PHONY : libft/ft_printf/ft_printf_color.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_color.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.i
-.PHONY : libft/ft_printf/ft_printf_color.c.i
-
-libft/ft_printf/ft_printf_color.s: libft/ft_printf/ft_printf_color.c.s
-
-.PHONY : libft/ft_printf/ft_printf_color.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_color.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_color.c.s
-.PHONY : libft/ft_printf/ft_printf_color.c.s
-
-libft/ft_printf/ft_printf_cspf.o: libft/ft_printf/ft_printf_cspf.c.o
-
-.PHONY : libft/ft_printf/ft_printf_cspf.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_cspf.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.o
-.PHONY : libft/ft_printf/ft_printf_cspf.c.o
-
-libft/ft_printf/ft_printf_cspf.i: libft/ft_printf/ft_printf_cspf.c.i
-
-.PHONY : libft/ft_printf/ft_printf_cspf.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_cspf.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.i
-.PHONY : libft/ft_printf/ft_printf_cspf.c.i
-
-libft/ft_printf/ft_printf_cspf.s: libft/ft_printf/ft_printf_cspf.c.s
-
-.PHONY : libft/ft_printf/ft_printf_cspf.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_cspf.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_cspf.c.s
-.PHONY : libft/ft_printf/ft_printf_cspf.c.s
-
-libft/ft_printf/ft_printf_diouxx.o: libft/ft_printf/ft_printf_diouxx.c.o
-
-.PHONY : libft/ft_printf/ft_printf_diouxx.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_diouxx.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.o
-.PHONY : libft/ft_printf/ft_printf_diouxx.c.o
-
-libft/ft_printf/ft_printf_diouxx.i: libft/ft_printf/ft_printf_diouxx.c.i
-
-.PHONY : libft/ft_printf/ft_printf_diouxx.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_diouxx.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.i
-.PHONY : libft/ft_printf/ft_printf_diouxx.c.i
-
-libft/ft_printf/ft_printf_diouxx.s: libft/ft_printf/ft_printf_diouxx.c.s
-
-.PHONY : libft/ft_printf/ft_printf_diouxx.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_diouxx.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_diouxx.c.s
-.PHONY : libft/ft_printf/ft_printf_diouxx.c.s
-
-libft/ft_printf/ft_printf_fill_funs.o: libft/ft_printf/ft_printf_fill_funs.c.o
-
-.PHONY : libft/ft_printf/ft_printf_fill_funs.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_fill_funs.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.o
-.PHONY : libft/ft_printf/ft_printf_fill_funs.c.o
-
-libft/ft_printf/ft_printf_fill_funs.i: libft/ft_printf/ft_printf_fill_funs.c.i
-
-.PHONY : libft/ft_printf/ft_printf_fill_funs.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_fill_funs.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.i
-.PHONY : libft/ft_printf/ft_printf_fill_funs.c.i
-
-libft/ft_printf/ft_printf_fill_funs.s: libft/ft_printf/ft_printf_fill_funs.c.s
-
-.PHONY : libft/ft_printf/ft_printf_fill_funs.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_fill_funs.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_fill_funs.c.s
-.PHONY : libft/ft_printf/ft_printf_fill_funs.c.s
-
-libft/ft_printf/ft_printf_hash_zero_blank_plus.o: libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o
-
-.PHONY : libft/ft_printf/ft_printf_hash_zero_blank_plus.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o
-.PHONY : libft/ft_printf/ft_printf_hash_zero_blank_plus.c.o
-
-libft/ft_printf/ft_printf_hash_zero_blank_plus.i: libft/ft_printf/ft_printf_hash_zero_blank_plus.c.i
-
-.PHONY : libft/ft_printf/ft_printf_hash_zero_blank_plus.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_hash_zero_blank_plus.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.i
-.PHONY : libft/ft_printf/ft_printf_hash_zero_blank_plus.c.i
-
-libft/ft_printf/ft_printf_hash_zero_blank_plus.s: libft/ft_printf/ft_printf_hash_zero_blank_plus.c.s
-
-.PHONY : libft/ft_printf/ft_printf_hash_zero_blank_plus.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_hash_zero_blank_plus.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_hash_zero_blank_plus.c.s
-.PHONY : libft/ft_printf/ft_printf_hash_zero_blank_plus.c.s
-
-libft/ft_printf/ft_printf_lhllhhl.o: libft/ft_printf/ft_printf_lhllhhl.c.o
-
-.PHONY : libft/ft_printf/ft_printf_lhllhhl.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_lhllhhl.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.o
-.PHONY : libft/ft_printf/ft_printf_lhllhhl.c.o
-
-libft/ft_printf/ft_printf_lhllhhl.i: libft/ft_printf/ft_printf_lhllhhl.c.i
-
-.PHONY : libft/ft_printf/ft_printf_lhllhhl.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_lhllhhl.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.i
-.PHONY : libft/ft_printf/ft_printf_lhllhhl.c.i
-
-libft/ft_printf/ft_printf_lhllhhl.s: libft/ft_printf/ft_printf_lhllhhl.c.s
-
-.PHONY : libft/ft_printf/ft_printf_lhllhhl.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_lhllhhl.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_lhllhhl.c.s
-.PHONY : libft/ft_printf/ft_printf_lhllhhl.c.s
-
-libft/ft_printf/ft_printf_mod0_b_cap_udo.o: libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o
-
-.PHONY : libft/ft_printf/ft_printf_mod0_b_cap_udo.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o
-.PHONY : libft/ft_printf/ft_printf_mod0_b_cap_udo.c.o
-
-libft/ft_printf/ft_printf_mod0_b_cap_udo.i: libft/ft_printf/ft_printf_mod0_b_cap_udo.c.i
-
-.PHONY : libft/ft_printf/ft_printf_mod0_b_cap_udo.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_mod0_b_cap_udo.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.i
-.PHONY : libft/ft_printf/ft_printf_mod0_b_cap_udo.c.i
-
-libft/ft_printf/ft_printf_mod0_b_cap_udo.s: libft/ft_printf/ft_printf_mod0_b_cap_udo.c.s
-
-.PHONY : libft/ft_printf/ft_printf_mod0_b_cap_udo.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_mod0_b_cap_udo.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_mod0_b_cap_udo.c.s
-.PHONY : libft/ft_printf/ft_printf_mod0_b_cap_udo.c.s
-
-libft/ft_printf/ft_printf_parce_funs.o: libft/ft_printf/ft_printf_parce_funs.c.o
-
-.PHONY : libft/ft_printf/ft_printf_parce_funs.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_parce_funs.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.o
-.PHONY : libft/ft_printf/ft_printf_parce_funs.c.o
-
-libft/ft_printf/ft_printf_parce_funs.i: libft/ft_printf/ft_printf_parce_funs.c.i
-
-.PHONY : libft/ft_printf/ft_printf_parce_funs.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_parce_funs.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.i
-.PHONY : libft/ft_printf/ft_printf_parce_funs.c.i
-
-libft/ft_printf/ft_printf_parce_funs.s: libft/ft_printf/ft_printf_parce_funs.c.s
-
-.PHONY : libft/ft_printf/ft_printf_parce_funs.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_parce_funs.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parce_funs.c.s
-.PHONY : libft/ft_printf/ft_printf_parce_funs.c.s
-
-libft/ft_printf/ft_printf_parse.o: libft/ft_printf/ft_printf_parse.c.o
-
-.PHONY : libft/ft_printf/ft_printf_parse.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_parse.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.o
-.PHONY : libft/ft_printf/ft_printf_parse.c.o
-
-libft/ft_printf/ft_printf_parse.i: libft/ft_printf/ft_printf_parse.c.i
-
-.PHONY : libft/ft_printf/ft_printf_parse.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_parse.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.i
-.PHONY : libft/ft_printf/ft_printf_parse.c.i
-
-libft/ft_printf/ft_printf_parse.s: libft/ft_printf/ft_printf_parse.c.s
-
-.PHONY : libft/ft_printf/ft_printf_parse.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_parse.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_parse.c.s
-.PHONY : libft/ft_printf/ft_printf_parse.c.s
-
-libft/ft_printf/ft_printf_prec.o: libft/ft_printf/ft_printf_prec.c.o
-
-.PHONY : libft/ft_printf/ft_printf_prec.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_prec.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.o
-.PHONY : libft/ft_printf/ft_printf_prec.c.o
-
-libft/ft_printf/ft_printf_prec.i: libft/ft_printf/ft_printf_prec.c.i
-
-.PHONY : libft/ft_printf/ft_printf_prec.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_prec.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.i
-.PHONY : libft/ft_printf/ft_printf_prec.c.i
-
-libft/ft_printf/ft_printf_prec.s: libft/ft_printf/ft_printf_prec.c.s
-
-.PHONY : libft/ft_printf/ft_printf_prec.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_prec.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_prec.c.s
-.PHONY : libft/ft_printf/ft_printf_prec.c.s
-
-libft/ft_printf/ft_printf_r.o: libft/ft_printf/ft_printf_r.c.o
-
-.PHONY : libft/ft_printf/ft_printf_r.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_r.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.o
-.PHONY : libft/ft_printf/ft_printf_r.c.o
-
-libft/ft_printf/ft_printf_r.i: libft/ft_printf/ft_printf_r.c.i
-
-.PHONY : libft/ft_printf/ft_printf_r.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_r.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.i
-.PHONY : libft/ft_printf/ft_printf_r.c.i
-
-libft/ft_printf/ft_printf_r.s: libft/ft_printf/ft_printf_r.c.s
-
-.PHONY : libft/ft_printf/ft_printf_r.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_r.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_r.c.s
-.PHONY : libft/ft_printf/ft_printf_r.c.s
-
-libft/ft_printf/ft_printf_unicode.o: libft/ft_printf/ft_printf_unicode.c.o
-
-.PHONY : libft/ft_printf/ft_printf_unicode.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_unicode.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.o
-.PHONY : libft/ft_printf/ft_printf_unicode.c.o
-
-libft/ft_printf/ft_printf_unicode.i: libft/ft_printf/ft_printf_unicode.c.i
-
-.PHONY : libft/ft_printf/ft_printf_unicode.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_unicode.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.i
-.PHONY : libft/ft_printf/ft_printf_unicode.c.i
-
-libft/ft_printf/ft_printf_unicode.s: libft/ft_printf/ft_printf_unicode.c.s
-
-.PHONY : libft/ft_printf/ft_printf_unicode.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_unicode.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_unicode.c.s
-.PHONY : libft/ft_printf/ft_printf_unicode.c.s
-
-libft/ft_printf/ft_printf_width.o: libft/ft_printf/ft_printf_width.c.o
-
-.PHONY : libft/ft_printf/ft_printf_width.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_width.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.o
-.PHONY : libft/ft_printf/ft_printf_width.c.o
-
-libft/ft_printf/ft_printf_width.i: libft/ft_printf/ft_printf_width.c.i
-
-.PHONY : libft/ft_printf/ft_printf_width.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_width.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.i
-.PHONY : libft/ft_printf/ft_printf_width.c.i
-
-libft/ft_printf/ft_printf_width.s: libft/ft_printf/ft_printf_width.c.s
-
-.PHONY : libft/ft_printf/ft_printf_width.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_width.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_width.c.s
-.PHONY : libft/ft_printf/ft_printf_width.c.s
-
-libft/ft_printf/ft_printf_zjt.o: libft/ft_printf/ft_printf_zjt.c.o
-
-.PHONY : libft/ft_printf/ft_printf_zjt.o
-
-# target to build an object file
-libft/ft_printf/ft_printf_zjt.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.o
-.PHONY : libft/ft_printf/ft_printf_zjt.c.o
-
-libft/ft_printf/ft_printf_zjt.i: libft/ft_printf/ft_printf_zjt.c.i
-
-.PHONY : libft/ft_printf/ft_printf_zjt.i
-
-# target to preprocess a source file
-libft/ft_printf/ft_printf_zjt.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.i
-.PHONY : libft/ft_printf/ft_printf_zjt.c.i
-
-libft/ft_printf/ft_printf_zjt.s: libft/ft_printf/ft_printf_zjt.c.s
-
-.PHONY : libft/ft_printf/ft_printf_zjt.s
-
-# target to generate assembly for a file
-libft/ft_printf/ft_printf_zjt.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_printf/ft_printf_zjt.c.s
-.PHONY : libft/ft_printf/ft_printf_zjt.c.s
-
-libft/ft_strchr.o: libft/ft_strchr.c.o
-
-.PHONY : libft/ft_strchr.o
-
-# target to build an object file
-libft/ft_strchr.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.o
-.PHONY : libft/ft_strchr.c.o
-
-libft/ft_strchr.i: libft/ft_strchr.c.i
-
-.PHONY : libft/ft_strchr.i
-
-# target to preprocess a source file
-libft/ft_strchr.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.i
-.PHONY : libft/ft_strchr.c.i
-
-libft/ft_strchr.s: libft/ft_strchr.c.s
-
-.PHONY : libft/ft_strchr.s
-
-# target to generate assembly for a file
-libft/ft_strchr.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strchr.c.s
-.PHONY : libft/ft_strchr.c.s
-
-libft/ft_strdel.o: libft/ft_strdel.c.o
-
-.PHONY : libft/ft_strdel.o
-
-# target to build an object file
-libft/ft_strdel.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.o
-.PHONY : libft/ft_strdel.c.o
-
-libft/ft_strdel.i: libft/ft_strdel.c.i
-
-.PHONY : libft/ft_strdel.i
-
-# target to preprocess a source file
-libft/ft_strdel.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.i
-.PHONY : libft/ft_strdel.c.i
-
-libft/ft_strdel.s: libft/ft_strdel.c.s
-
-.PHONY : libft/ft_strdel.s
-
-# target to generate assembly for a file
-libft/ft_strdel.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strdel.c.s
-.PHONY : libft/ft_strdel.c.s
-
-libft/ft_strfrepl.o: libft/ft_strfrepl.c.o
-
-.PHONY : libft/ft_strfrepl.o
-
-# target to build an object file
-libft/ft_strfrepl.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.o
-.PHONY : libft/ft_strfrepl.c.o
-
-libft/ft_strfrepl.i: libft/ft_strfrepl.c.i
-
-.PHONY : libft/ft_strfrepl.i
-
-# target to preprocess a source file
-libft/ft_strfrepl.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.i
-.PHONY : libft/ft_strfrepl.c.i
-
-libft/ft_strfrepl.s: libft/ft_strfrepl.c.s
-
-.PHONY : libft/ft_strfrepl.s
-
-# target to generate assembly for a file
-libft/ft_strfrepl.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strfrepl.c.s
-.PHONY : libft/ft_strfrepl.c.s
-
-libft/ft_strin.o: libft/ft_strin.c.o
-
-.PHONY : libft/ft_strin.o
-
-# target to build an object file
-libft/ft_strin.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.o
-.PHONY : libft/ft_strin.c.o
-
-libft/ft_strin.i: libft/ft_strin.c.i
-
-.PHONY : libft/ft_strin.i
-
-# target to preprocess a source file
-libft/ft_strin.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.i
-.PHONY : libft/ft_strin.c.i
-
-libft/ft_strin.s: libft/ft_strin.c.s
-
-.PHONY : libft/ft_strin.s
-
-# target to generate assembly for a file
-libft/ft_strin.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strin.c.s
-.PHONY : libft/ft_strin.c.s
-
-libft/ft_strjoin.o: libft/ft_strjoin.c.o
-
-.PHONY : libft/ft_strjoin.o
-
-# target to build an object file
-libft/ft_strjoin.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.o
-.PHONY : libft/ft_strjoin.c.o
-
-libft/ft_strjoin.i: libft/ft_strjoin.c.i
-
-.PHONY : libft/ft_strjoin.i
-
-# target to preprocess a source file
-libft/ft_strjoin.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.i
-.PHONY : libft/ft_strjoin.c.i
-
-libft/ft_strjoin.s: libft/ft_strjoin.c.s
-
-.PHONY : libft/ft_strjoin.s
-
-# target to generate assembly for a file
-libft/ft_strjoin.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strjoin.c.s
-.PHONY : libft/ft_strjoin.c.s
-
-libft/ft_strlen.o: libft/ft_strlen.c.o
-
-.PHONY : libft/ft_strlen.o
-
-# target to build an object file
-libft/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.o
-.PHONY : libft/ft_strlen.c.o
-
-libft/ft_strlen.i: libft/ft_strlen.c.i
-
-.PHONY : libft/ft_strlen.i
-
-# target to preprocess a source file
-libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.i
-.PHONY : libft/ft_strlen.c.i
-
-libft/ft_strlen.s: libft/ft_strlen.c.s
-
-.PHONY : libft/ft_strlen.s
-
-# target to generate assembly for a file
-libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strlen.c.s
-.PHONY : libft/ft_strlen.c.s
-
-libft/ft_strncmp.o: libft/ft_strncmp.c.o
-
-.PHONY : libft/ft_strncmp.o
-
-# target to build an object file
-libft/ft_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.o
-.PHONY : libft/ft_strncmp.c.o
-
-libft/ft_strncmp.i: libft/ft_strncmp.c.i
-
-.PHONY : libft/ft_strncmp.i
-
-# target to preprocess a source file
-libft/ft_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.i
-.PHONY : libft/ft_strncmp.c.i
-
-libft/ft_strncmp.s: libft/ft_strncmp.c.s
-
-.PHONY : libft/ft_strncmp.s
-
-# target to generate assembly for a file
-libft/ft_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strncmp.c.s
-.PHONY : libft/ft_strncmp.c.s
-
-libft/ft_strncpy.o: libft/ft_strncpy.c.o
-
-.PHONY : libft/ft_strncpy.o
-
-# target to build an object file
-libft/ft_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.o
-.PHONY : libft/ft_strncpy.c.o
-
-libft/ft_strncpy.i: libft/ft_strncpy.c.i
-
-.PHONY : libft/ft_strncpy.i
-
-# target to preprocess a source file
-libft/ft_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.i
-.PHONY : libft/ft_strncpy.c.i
-
-libft/ft_strncpy.s: libft/ft_strncpy.c.s
-
-.PHONY : libft/ft_strncpy.s
-
-# target to generate assembly for a file
-libft/ft_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strncpy.c.s
-.PHONY : libft/ft_strncpy.c.s
-
-libft/ft_strndup.o: libft/ft_strndup.c.o
-
-.PHONY : libft/ft_strndup.o
-
-# target to build an object file
-libft/ft_strndup.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.o
-.PHONY : libft/ft_strndup.c.o
-
-libft/ft_strndup.i: libft/ft_strndup.c.i
-
-.PHONY : libft/ft_strndup.i
-
-# target to preprocess a source file
-libft/ft_strndup.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.i
-.PHONY : libft/ft_strndup.c.i
-
-libft/ft_strndup.s: libft/ft_strndup.c.s
-
-.PHONY : libft/ft_strndup.s
-
-# target to generate assembly for a file
-libft/ft_strndup.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strndup.c.s
-.PHONY : libft/ft_strndup.c.s
-
-libft/ft_strneject.o: libft/ft_strneject.c.o
-
-.PHONY : libft/ft_strneject.o
-
-# target to build an object file
-libft/ft_strneject.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.o
-.PHONY : libft/ft_strneject.c.o
-
-libft/ft_strneject.i: libft/ft_strneject.c.i
-
-.PHONY : libft/ft_strneject.i
-
-# target to preprocess a source file
-libft/ft_strneject.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.i
-.PHONY : libft/ft_strneject.c.i
-
-libft/ft_strneject.s: libft/ft_strneject.c.s
-
-.PHONY : libft/ft_strneject.s
-
-# target to generate assembly for a file
-libft/ft_strneject.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strneject.c.s
-.PHONY : libft/ft_strneject.c.s
-
-libft/ft_strnew.o: libft/ft_strnew.c.o
-
-.PHONY : libft/ft_strnew.o
-
-# target to build an object file
-libft/ft_strnew.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.o
-.PHONY : libft/ft_strnew.c.o
-
-libft/ft_strnew.i: libft/ft_strnew.c.i
-
-.PHONY : libft/ft_strnew.i
-
-# target to preprocess a source file
-libft/ft_strnew.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.i
-.PHONY : libft/ft_strnew.c.i
-
-libft/ft_strnew.s: libft/ft_strnew.c.s
-
-.PHONY : libft/ft_strnew.s
-
-# target to generate assembly for a file
-libft/ft_strnew.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strnew.c.s
-.PHONY : libft/ft_strnew.c.s
-
-libft/ft_strnin.o: libft/ft_strnin.c.o
-
-.PHONY : libft/ft_strnin.o
-
-# target to build an object file
-libft/ft_strnin.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.o
-.PHONY : libft/ft_strnin.c.o
-
-libft/ft_strnin.i: libft/ft_strnin.c.i
-
-.PHONY : libft/ft_strnin.i
-
-# target to preprocess a source file
-libft/ft_strnin.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.i
-.PHONY : libft/ft_strnin.c.i
-
-libft/ft_strnin.s: libft/ft_strnin.c.s
-
-.PHONY : libft/ft_strnin.s
-
-# target to generate assembly for a file
-libft/ft_strnin.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strnin.c.s
-.PHONY : libft/ft_strnin.c.s
-
-libft/ft_strninject.o: libft/ft_strninject.c.o
-
-.PHONY : libft/ft_strninject.o
-
-# target to build an object file
-libft/ft_strninject.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.o
-.PHONY : libft/ft_strninject.c.o
-
-libft/ft_strninject.i: libft/ft_strninject.c.i
-
-.PHONY : libft/ft_strninject.i
-
-# target to preprocess a source file
-libft/ft_strninject.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.i
-.PHONY : libft/ft_strninject.c.i
-
-libft/ft_strninject.s: libft/ft_strninject.c.s
-
-.PHONY : libft/ft_strninject.s
-
-# target to generate assembly for a file
-libft/ft_strninject.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strninject.c.s
-.PHONY : libft/ft_strninject.c.s
-
-libft/ft_strrchr.o: libft/ft_strrchr.c.o
-
-.PHONY : libft/ft_strrchr.o
-
-# target to build an object file
-libft/ft_strrchr.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.o
-.PHONY : libft/ft_strrchr.c.o
-
-libft/ft_strrchr.i: libft/ft_strrchr.c.i
-
-.PHONY : libft/ft_strrchr.i
-
-# target to preprocess a source file
-libft/ft_strrchr.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.i
-.PHONY : libft/ft_strrchr.c.i
-
-libft/ft_strrchr.s: libft/ft_strrchr.c.s
-
-.PHONY : libft/ft_strrchr.s
-
-# target to generate assembly for a file
-libft/ft_strrchr.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_strrchr.c.s
-.PHONY : libft/ft_strrchr.c.s
-
-libft/ft_swap.o: libft/ft_swap.c.o
-
-.PHONY : libft/ft_swap.o
-
-# target to build an object file
-libft/ft_swap.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.o
-.PHONY : libft/ft_swap.c.o
-
-libft/ft_swap.i: libft/ft_swap.c.i
-
-.PHONY : libft/ft_swap.i
-
-# target to preprocess a source file
-libft/ft_swap.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.i
-.PHONY : libft/ft_swap.c.i
-
-libft/ft_swap.s: libft/ft_swap.c.s
-
-.PHONY : libft/ft_swap.s
-
-# target to generate assembly for a file
-libft/ft_swap.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/ft_swap.c.s
-.PHONY : libft/ft_swap.c.s
-
-libft/vis/ft_aaline.o: libft/vis/ft_aaline.c.o
-
-.PHONY : libft/vis/ft_aaline.o
-
-# target to build an object file
-libft/vis/ft_aaline.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.o
-.PHONY : libft/vis/ft_aaline.c.o
-
-libft/vis/ft_aaline.i: libft/vis/ft_aaline.c.i
-
-.PHONY : libft/vis/ft_aaline.i
-
-# target to preprocess a source file
-libft/vis/ft_aaline.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.i
-.PHONY : libft/vis/ft_aaline.c.i
-
-libft/vis/ft_aaline.s: libft/vis/ft_aaline.c.s
-
-.PHONY : libft/vis/ft_aaline.s
-
-# target to generate assembly for a file
-libft/vis/ft_aaline.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline.c.s
-.PHONY : libft/vis/ft_aaline.c.s
-
-libft/vis/ft_aaline_thin.o: libft/vis/ft_aaline_thin.c.o
-
-.PHONY : libft/vis/ft_aaline_thin.o
-
-# target to build an object file
-libft/vis/ft_aaline_thin.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.o
-.PHONY : libft/vis/ft_aaline_thin.c.o
-
-libft/vis/ft_aaline_thin.i: libft/vis/ft_aaline_thin.c.i
-
-.PHONY : libft/vis/ft_aaline_thin.i
-
-# target to preprocess a source file
-libft/vis/ft_aaline_thin.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.i
-.PHONY : libft/vis/ft_aaline_thin.c.i
-
-libft/vis/ft_aaline_thin.s: libft/vis/ft_aaline_thin.c.s
-
-.PHONY : libft/vis/ft_aaline_thin.s
-
-# target to generate assembly for a file
-libft/vis/ft_aaline_thin.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/ft_aaline_thin.c.s
-.PHONY : libft/vis/ft_aaline_thin.c.s
-
-libft/vis/vis_line_gradient.o: libft/vis/vis_line_gradient.c.o
-
-.PHONY : libft/vis/vis_line_gradient.o
-
-# target to build an object file
-libft/vis/vis_line_gradient.c.o:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.o
-.PHONY : libft/vis/vis_line_gradient.c.o
-
-libft/vis/vis_line_gradient.i: libft/vis/vis_line_gradient.c.i
-
-.PHONY : libft/vis/vis_line_gradient.i
-
-# target to preprocess a source file
-libft/vis/vis_line_gradient.c.i:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.i
-.PHONY : libft/vis/vis_line_gradient.c.i
-
-libft/vis/vis_line_gradient.s: libft/vis/vis_line_gradient.c.s
-
-.PHONY : libft/vis/vis_line_gradient.s
-
-# target to generate assembly for a file
-libft/vis/vis_line_gradient.c.s:
-	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/libft/vis/vis_line_gradient.c.s
-.PHONY : libft/vis/vis_line_gradient.c.s
+srcs/vis_line_gradient.c.s:
+	$(MAKE) -f CMakeFiles/lem-in_clion.dir/build.make CMakeFiles/lem-in_clion.dir/srcs/vis_line_gradient.c.s
+.PHONY : srcs/vis_line_gradient.c.s
 
 # Help Target
 help:
@@ -1968,210 +753,75 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lem-in_clion"
-	@echo "... SDL2_primitives/SDL2_framerate.o"
-	@echo "... SDL2_primitives/SDL2_framerate.i"
-	@echo "... SDL2_primitives/SDL2_framerate.s"
-	@echo "... SDL2_primitives/SDL2_gfxPrimitives.o"
-	@echo "... SDL2_primitives/SDL2_gfxPrimitives.i"
-	@echo "... SDL2_primitives/SDL2_gfxPrimitives.s"
-	@echo "... SDL2_primitives/SDL2_imageFilter.o"
-	@echo "... SDL2_primitives/SDL2_imageFilter.i"
-	@echo "... SDL2_primitives/SDL2_imageFilter.s"
-	@echo "... SDL2_primitives/SDL2_rotozoom.o"
-	@echo "... SDL2_primitives/SDL2_rotozoom.i"
-	@echo "... SDL2_primitives/SDL2_rotozoom.s"
-	@echo "... flemin/lemin.o"
-	@echo "... flemin/lemin.i"
-	@echo "... flemin/lemin.s"
-	@echo "... flemin/lemin_exit.o"
-	@echo "... flemin/lemin_exit.i"
-	@echo "... flemin/lemin_exit.s"
-	@echo "... flemin/lemin_find_ways.o"
-	@echo "... flemin/lemin_find_ways.i"
-	@echo "... flemin/lemin_find_ways.s"
-	@echo "... flemin/lemin_mark_graph.o"
-	@echo "... flemin/lemin_mark_graph.i"
-	@echo "... flemin/lemin_mark_graph.s"
-	@echo "... flemin/lemin_move_ants.o"
-	@echo "... flemin/lemin_move_ants.i"
-	@echo "... flemin/lemin_move_ants.s"
-	@echo "... flemin/lemin_parse.o"
-	@echo "... flemin/lemin_parse.i"
-	@echo "... flemin/lemin_parse.s"
-	@echo "... flemin/lemin_parse_ants.o"
-	@echo "... flemin/lemin_parse_ants.i"
-	@echo "... flemin/lemin_parse_ants.s"
-	@echo "... flemin/lemin_parse_links.o"
-	@echo "... flemin/lemin_parse_links.i"
-	@echo "... flemin/lemin_parse_links.s"
-	@echo "... flemin/lemin_parse_rooms.o"
-	@echo "... flemin/lemin_parse_rooms.i"
-	@echo "... flemin/lemin_parse_rooms.s"
-	@echo "... flemin/lemin_parse_valid_link.o"
-	@echo "... flemin/lemin_parse_valid_link.i"
-	@echo "... flemin/lemin_parse_valid_link.s"
-	@echo "... flemin/lemin_parse_valid_room.o"
-	@echo "... flemin/lemin_parse_valid_room.i"
-	@echo "... flemin/lemin_parse_valid_room.s"
-	@echo "... flemin/lemin_split_ants.o"
-	@echo "... flemin/lemin_split_ants.i"
-	@echo "... flemin/lemin_split_ants.s"
-	@echo "... flemin/lemin_utils.o"
-	@echo "... flemin/lemin_utils.i"
-	@echo "... flemin/lemin_utils.s"
-	@echo "... flemin/lemin_vis.o"
-	@echo "... flemin/lemin_vis.i"
-	@echo "... flemin/lemin_vis.s"
-	@echo "... flemin/lemin_vis_keys.o"
-	@echo "... flemin/lemin_vis_keys.i"
-	@echo "... flemin/lemin_vis_keys.s"
-	@echo "... flemin/lemin_vis_mouse.o"
-	@echo "... flemin/lemin_vis_mouse.i"
-	@echo "... flemin/lemin_vis_mouse.s"
-	@echo "... flemin/lemin_vis_parse.o"
-	@echo "... flemin/lemin_vis_parse.i"
-	@echo "... flemin/lemin_vis_parse.s"
-	@echo "... flemin/lemin_vis_render_ants.o"
-	@echo "... flemin/lemin_vis_render_ants.i"
-	@echo "... flemin/lemin_vis_render_ants.s"
-	@echo "... flemin/lemin_vis_render_bg.o"
-	@echo "... flemin/lemin_vis_render_bg.i"
-	@echo "... flemin/lemin_vis_render_bg.s"
-	@echo "... flemin/lemin_vis_render_text.o"
-	@echo "... flemin/lemin_vis_render_text.i"
-	@echo "... flemin/lemin_vis_render_text.s"
-	@echo "... libft/ft_abs.o"
-	@echo "... libft/ft_abs.i"
-	@echo "... libft/ft_abs.s"
-	@echo "... libft/ft_atoibase.o"
-	@echo "... libft/ft_atoibase.i"
-	@echo "... libft/ft_atoibase.s"
-	@echo "... libft/ft_gnl/ft_gnl.o"
-	@echo "... libft/ft_gnl/ft_gnl.i"
-	@echo "... libft/ft_gnl/ft_gnl.s"
-	@echo "... libft/ft_itoabase.o"
-	@echo "... libft/ft_itoabase.i"
-	@echo "... libft/ft_itoabase.s"
-	@echo "... libft/ft_memalloc.o"
-	@echo "... libft/ft_memalloc.i"
-	@echo "... libft/ft_memalloc.s"
-	@echo "... libft/ft_memcmp.o"
-	@echo "... libft/ft_memcmp.i"
-	@echo "... libft/ft_memcmp.s"
-	@echo "... libft/ft_memdel.o"
-	@echo "... libft/ft_memdel.i"
-	@echo "... libft/ft_memdel.s"
-	@echo "... libft/ft_memmove.o"
-	@echo "... libft/ft_memmove.i"
-	@echo "... libft/ft_memmove.s"
-	@echo "... libft/ft_memset.o"
-	@echo "... libft/ft_memset.i"
-	@echo "... libft/ft_memset.s"
-	@echo "... libft/ft_nbr_len.o"
-	@echo "... libft/ft_nbr_len.i"
-	@echo "... libft/ft_nbr_len.s"
-	@echo "... libft/ft_printf/ft_printf.o"
-	@echo "... libft/ft_printf/ft_printf.i"
-	@echo "... libft/ft_printf/ft_printf.s"
-	@echo "... libft/ft_printf/ft_printf_0_base.o"
-	@echo "... libft/ft_printf/ft_printf_0_base.i"
-	@echo "... libft/ft_printf/ft_printf_0_base.s"
-	@echo "... libft/ft_printf/ft_printf_color.o"
-	@echo "... libft/ft_printf/ft_printf_color.i"
-	@echo "... libft/ft_printf/ft_printf_color.s"
-	@echo "... libft/ft_printf/ft_printf_cspf.o"
-	@echo "... libft/ft_printf/ft_printf_cspf.i"
-	@echo "... libft/ft_printf/ft_printf_cspf.s"
-	@echo "... libft/ft_printf/ft_printf_diouxx.o"
-	@echo "... libft/ft_printf/ft_printf_diouxx.i"
-	@echo "... libft/ft_printf/ft_printf_diouxx.s"
-	@echo "... libft/ft_printf/ft_printf_fill_funs.o"
-	@echo "... libft/ft_printf/ft_printf_fill_funs.i"
-	@echo "... libft/ft_printf/ft_printf_fill_funs.s"
-	@echo "... libft/ft_printf/ft_printf_hash_zero_blank_plus.o"
-	@echo "... libft/ft_printf/ft_printf_hash_zero_blank_plus.i"
-	@echo "... libft/ft_printf/ft_printf_hash_zero_blank_plus.s"
-	@echo "... libft/ft_printf/ft_printf_lhllhhl.o"
-	@echo "... libft/ft_printf/ft_printf_lhllhhl.i"
-	@echo "... libft/ft_printf/ft_printf_lhllhhl.s"
-	@echo "... libft/ft_printf/ft_printf_mod0_b_cap_udo.o"
-	@echo "... libft/ft_printf/ft_printf_mod0_b_cap_udo.i"
-	@echo "... libft/ft_printf/ft_printf_mod0_b_cap_udo.s"
-	@echo "... libft/ft_printf/ft_printf_parce_funs.o"
-	@echo "... libft/ft_printf/ft_printf_parce_funs.i"
-	@echo "... libft/ft_printf/ft_printf_parce_funs.s"
-	@echo "... libft/ft_printf/ft_printf_parse.o"
-	@echo "... libft/ft_printf/ft_printf_parse.i"
-	@echo "... libft/ft_printf/ft_printf_parse.s"
-	@echo "... libft/ft_printf/ft_printf_prec.o"
-	@echo "... libft/ft_printf/ft_printf_prec.i"
-	@echo "... libft/ft_printf/ft_printf_prec.s"
-	@echo "... libft/ft_printf/ft_printf_r.o"
-	@echo "... libft/ft_printf/ft_printf_r.i"
-	@echo "... libft/ft_printf/ft_printf_r.s"
-	@echo "... libft/ft_printf/ft_printf_unicode.o"
-	@echo "... libft/ft_printf/ft_printf_unicode.i"
-	@echo "... libft/ft_printf/ft_printf_unicode.s"
-	@echo "... libft/ft_printf/ft_printf_width.o"
-	@echo "... libft/ft_printf/ft_printf_width.i"
-	@echo "... libft/ft_printf/ft_printf_width.s"
-	@echo "... libft/ft_printf/ft_printf_zjt.o"
-	@echo "... libft/ft_printf/ft_printf_zjt.i"
-	@echo "... libft/ft_printf/ft_printf_zjt.s"
-	@echo "... libft/ft_strchr.o"
-	@echo "... libft/ft_strchr.i"
-	@echo "... libft/ft_strchr.s"
-	@echo "... libft/ft_strdel.o"
-	@echo "... libft/ft_strdel.i"
-	@echo "... libft/ft_strdel.s"
-	@echo "... libft/ft_strfrepl.o"
-	@echo "... libft/ft_strfrepl.i"
-	@echo "... libft/ft_strfrepl.s"
-	@echo "... libft/ft_strin.o"
-	@echo "... libft/ft_strin.i"
-	@echo "... libft/ft_strin.s"
-	@echo "... libft/ft_strjoin.o"
-	@echo "... libft/ft_strjoin.i"
-	@echo "... libft/ft_strjoin.s"
-	@echo "... libft/ft_strlen.o"
-	@echo "... libft/ft_strlen.i"
-	@echo "... libft/ft_strlen.s"
-	@echo "... libft/ft_strncmp.o"
-	@echo "... libft/ft_strncmp.i"
-	@echo "... libft/ft_strncmp.s"
-	@echo "... libft/ft_strncpy.o"
-	@echo "... libft/ft_strncpy.i"
-	@echo "... libft/ft_strncpy.s"
-	@echo "... libft/ft_strndup.o"
-	@echo "... libft/ft_strndup.i"
-	@echo "... libft/ft_strndup.s"
-	@echo "... libft/ft_strneject.o"
-	@echo "... libft/ft_strneject.i"
-	@echo "... libft/ft_strneject.s"
-	@echo "... libft/ft_strnew.o"
-	@echo "... libft/ft_strnew.i"
-	@echo "... libft/ft_strnew.s"
-	@echo "... libft/ft_strnin.o"
-	@echo "... libft/ft_strnin.i"
-	@echo "... libft/ft_strnin.s"
-	@echo "... libft/ft_strninject.o"
-	@echo "... libft/ft_strninject.i"
-	@echo "... libft/ft_strninject.s"
-	@echo "... libft/ft_strrchr.o"
-	@echo "... libft/ft_strrchr.i"
-	@echo "... libft/ft_strrchr.s"
-	@echo "... libft/ft_swap.o"
-	@echo "... libft/ft_swap.i"
-	@echo "... libft/ft_swap.s"
-	@echo "... libft/vis/ft_aaline.o"
-	@echo "... libft/vis/ft_aaline.i"
-	@echo "... libft/vis/ft_aaline.s"
-	@echo "... libft/vis/ft_aaline_thin.o"
-	@echo "... libft/vis/ft_aaline_thin.i"
-	@echo "... libft/vis/ft_aaline_thin.s"
-	@echo "... libft/vis/vis_line_gradient.o"
-	@echo "... libft/vis/vis_line_gradient.i"
-	@echo "... libft/vis/vis_line_gradient.s"
+	@echo "... srcs/ft_aaline.o"
+	@echo "... srcs/ft_aaline.i"
+	@echo "... srcs/ft_aaline.s"
+	@echo "... srcs/ft_aaline_thin.o"
+	@echo "... srcs/ft_aaline_thin.i"
+	@echo "... srcs/ft_aaline_thin.s"
+	@echo "... srcs/lemin.o"
+	@echo "... srcs/lemin.i"
+	@echo "... srcs/lemin.s"
+	@echo "... srcs/lemin_exit.o"
+	@echo "... srcs/lemin_exit.i"
+	@echo "... srcs/lemin_exit.s"
+	@echo "... srcs/lemin_find_ways.o"
+	@echo "... srcs/lemin_find_ways.i"
+	@echo "... srcs/lemin_find_ways.s"
+	@echo "... srcs/lemin_mark_graph.o"
+	@echo "... srcs/lemin_mark_graph.i"
+	@echo "... srcs/lemin_mark_graph.s"
+	@echo "... srcs/lemin_move_ants.o"
+	@echo "... srcs/lemin_move_ants.i"
+	@echo "... srcs/lemin_move_ants.s"
+	@echo "... srcs/lemin_parse.o"
+	@echo "... srcs/lemin_parse.i"
+	@echo "... srcs/lemin_parse.s"
+	@echo "... srcs/lemin_parse_ants.o"
+	@echo "... srcs/lemin_parse_ants.i"
+	@echo "... srcs/lemin_parse_ants.s"
+	@echo "... srcs/lemin_parse_links.o"
+	@echo "... srcs/lemin_parse_links.i"
+	@echo "... srcs/lemin_parse_links.s"
+	@echo "... srcs/lemin_parse_rooms.o"
+	@echo "... srcs/lemin_parse_rooms.i"
+	@echo "... srcs/lemin_parse_rooms.s"
+	@echo "... srcs/lemin_parse_valid_link.o"
+	@echo "... srcs/lemin_parse_valid_link.i"
+	@echo "... srcs/lemin_parse_valid_link.s"
+	@echo "... srcs/lemin_parse_valid_room.o"
+	@echo "... srcs/lemin_parse_valid_room.i"
+	@echo "... srcs/lemin_parse_valid_room.s"
+	@echo "... srcs/lemin_split_ants.o"
+	@echo "... srcs/lemin_split_ants.i"
+	@echo "... srcs/lemin_split_ants.s"
+	@echo "... srcs/lemin_utils.o"
+	@echo "... srcs/lemin_utils.i"
+	@echo "... srcs/lemin_utils.s"
+	@echo "... srcs/lemin_vis.o"
+	@echo "... srcs/lemin_vis.i"
+	@echo "... srcs/lemin_vis.s"
+	@echo "... srcs/lemin_vis_keys.o"
+	@echo "... srcs/lemin_vis_keys.i"
+	@echo "... srcs/lemin_vis_keys.s"
+	@echo "... srcs/lemin_vis_mouse.o"
+	@echo "... srcs/lemin_vis_mouse.i"
+	@echo "... srcs/lemin_vis_mouse.s"
+	@echo "... srcs/lemin_vis_parse.o"
+	@echo "... srcs/lemin_vis_parse.i"
+	@echo "... srcs/lemin_vis_parse.s"
+	@echo "... srcs/lemin_vis_render_ants.o"
+	@echo "... srcs/lemin_vis_render_ants.i"
+	@echo "... srcs/lemin_vis_render_ants.s"
+	@echo "... srcs/lemin_vis_render_bg.o"
+	@echo "... srcs/lemin_vis_render_bg.i"
+	@echo "... srcs/lemin_vis_render_bg.s"
+	@echo "... srcs/lemin_vis_render_text.o"
+	@echo "... srcs/lemin_vis_render_text.i"
+	@echo "... srcs/lemin_vis_render_text.s"
+	@echo "... srcs/vis_line_gradient.o"
+	@echo "... srcs/vis_line_gradient.i"
+	@echo "... srcs/vis_line_gradient.s"
 .PHONY : help
 
 

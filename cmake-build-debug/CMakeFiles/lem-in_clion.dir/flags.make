@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/dderevyn/.brew/Cellar/sdl_ttf/2.0.11_1/include/SDL 
+C_INCLUDES = -I/Users/dderevyn/CLionProjects/lemin/includes -I/Users/dderevyn/CLionProjects/lemin/libft/includes -I/Users/dderevyn/CLionProjects/lemin/libs/SDL2/includes -I/Users/dderevyn/CLionProjects/lemin/libs/SDL2_gfx/includes -I/Users/dderevyn/CLionProjects/lemin/libs/SDL2_ttf/includes 
 
