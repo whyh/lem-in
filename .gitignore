@@ -8,3 +8,7 @@ cmake-build-debug
 
 # 42 project files #
 author
+
+# Compiled #
+libft.a
+lem-in
