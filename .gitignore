@@ -12,3 +12,11 @@ author
 # Compiled #
 libft.a
 lem-in
+
+# Test files #
+*test*
+*Test*
+*TEST*
+!*test*.[ch]
+!*Test*.[ch]
+!*TEST*.[ch]
