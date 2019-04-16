@@ -19,12 +19,12 @@ static int	static_valid_names(t_lemin_data *data, const char *buff, int i)
 	int		room0;
 	int		room1;
 
-	link0 = ft_strndup(buff, i);
 	if (!buff[i] || !buff[i + 1])
 	{
 		ft_printf(LEMIN_ERR, LEMIN_ERR_LINK0);
 		return (0);
 	}
+	link0 = ft_strndup(buff, i);
 	link1 = ft_strndup(&(buff[i + 1]), -1);
 	if (((room0 = lemin_find_node(*data, link0, 0)) == -1)
 	|| ((room1 = lemin_find_node(*data, link1, 0)) == -1))

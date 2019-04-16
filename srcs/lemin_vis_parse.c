@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/08 14:05:27 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/14 22:34:00 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/14 23:15:04 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,8 +85,6 @@ static void	static_fill_links_n_rad(t_lemin_data *data, t_lemin_vis *vis)
 static void	static_init(t_lemin_data *data, t_lemin_vis *vis)
 {
 	vis->vis = 1;
-	vis->win = NULL;
-	vis->rend = NULL;
 	vis->links0 = ft_memalloc(sizeof(int) * (data->n_links + 1));
 	vis->links1 = ft_memalloc(sizeof(int) * (data->n_links + 1));
 	vis->ant_posx = ft_memalloc(sizeof(double) * data->n_ants);
@@ -102,7 +100,7 @@ static void	static_init(t_lemin_data *data, t_lemin_vis *vis)
 	vis->pos_x = 0;
 	vis->pos_y = 0;
 	vis->keyup.esc = 1;
-	vis->keyup.h = 1;
+	vis->keyup.c = 1;
 	vis->keyup.space = 1;
 	vis->keyup.left = 1;
 	vis->counter = 1;

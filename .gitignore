@@ -1,0 +1,10 @@
+
+# MacOS generated files #
+.DS_Store
+
+# Clion generated directories #
+.idea
+cmake-build-debug
+
+# 42 project files #
+author

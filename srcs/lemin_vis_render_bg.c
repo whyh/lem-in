@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 15:40:34 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/14 23:00:56 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/14 23:18:51 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,11 +54,6 @@ static void	static_render_links(t_lemin_data *data, t_lemin_vis *vis)
 		line.x1 = (Sint16)(data->graph[vis->links1[i]].x + vis->pos_x - 1);
 		line.y0 = (Sint16)(data->graph[vis->links0[i]].y + vis->pos_y - 1);
 		line.y1 = (Sint16)(data->graph[vis->links1[i]].y + vis->pos_y - 1);
-		ft_aaline(&line);
-		line.x0 = (Sint16)(data->graph[vis->links0[i]].x + vis->pos_x + 1);
-		line.x1 = (Sint16)(data->graph[vis->links1[i]].x + vis->pos_x + 1);
-		line.y0 = (Sint16)(data->graph[vis->links0[i]].y + vis->pos_y + 1);
-		line.y1 = (Sint16)(data->graph[vis->links1[i]].y + vis->pos_y + 1);
 		ft_aaline(&line);
 		++i;
 	}

@@ -104,7 +104,7 @@ clean:
 	@$(RM) $(OBJS_DIR)
 
 fclean: clean
-	@$(RM) $(NAME)make
+	@$(RM) $(NAME)
 
 re: fclean all
 

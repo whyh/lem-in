@@ -6,25 +6,34 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 21:33:51 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/14 21:16:04 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/14 23:25:10 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static void	static_print_input(t_lemin_input *input)
+static int	static_print_input(t_lemin_input *input)
 {
 	while (input && input->buff && input->buff[0])
 	{
 		ft_printf("%s\n", input->buff);
 		input = input->next;
 	}
+	return (1);
 }
 
 static void	static_init(t_lemin_data *data, t_lemin_input *input,
 			t_lemin_vis *vis)
 {
 	vis->vis = 0;
+	vis->links0 = NULL;
+	vis->links1 = NULL;
+	vis->ant_posx = NULL;
+	vis->ant_posy = NULL;
+	vis->delta = NULL;
+	vis->delta2 = NULL;
+	vis->win = NULL;
+	vis->rend = NULL;
 	input->buff = NULL;
 	input->next = NULL;
 	data->graph = NULL;
@@ -56,11 +65,8 @@ int			main(int argc, char **argv)
 	}
 	if (vis.vis == 1)
 		lemin_vis(&data, &vis);
-	else
-	{
-		static_print_input(&input);
+	else if (static_print_input(&input))
 		lemin_move_ants(&data);
-	}
 	lemin_exit(&data, &input, &vis);
 	return (1);
 }

@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/14 19:49:13 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/14 23:02:08 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/14 23:15:54 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@
 # define LEMIN_RGB_ANT RGB_ASPHALT_GREY
 # define LEMIN_RGB_LINK RGB_BRIGHT_GREY
 # define LEMIN_RGB_BORDER RGB_BLUE
-# define LEMIN_RGB_COUNTER RGB_GREY
+# define LEMIN_RGB_COUNTER RGB_ASPHALT_GREY
 
 # define LEMIN_VIS_WIN_NAME "lem-in"
 # define LEMIN_VIS_WIN_W 1500
@@ -51,7 +51,7 @@
 # define LEMIN_VIS_TMP LEMIN_VIS_BRAD_MIN * 2 + LEMIN_VIS_START_ZOOM * 2
 # define LEMIN_VIS_MIN_DIST LEMIN_VIS_TMP + LEMIN_VIS_WAY_LEN_MIN
 
-# define LEMIN_COUNTER_TEXT "TURN: "
+# define LEMIN_COUNTER_TEXT "TURN "
 # define LEMIN_COUNTER_W 100
 # define LEMIN_COUNTER_H 30
 # define LEMIN_COUNTER_X LEMIN_VIS_WIN_W - LEMIN_COUNTER_W - 50
@@ -59,8 +59,6 @@
 # define LEMIN_VIS_ZOOMF 1
 # define LEMIN_VIS_START_ZOOM 0
 # define LEMIN_S_BTW_TURNS 2
-
-
 
 int		lemin_vis(t_lemin_data *data, t_lemin_vis *vis);
 

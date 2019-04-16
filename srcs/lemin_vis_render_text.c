@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/13 22:13:35 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/14 23:05:32 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/14 23:46:13 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ static void	static_render_counter(t_lemin_vis *vis)
 	SDL_RenderCopy(vis->rend, counter.texture, NULL, &counter.box);
 	SDL_DestroyTexture(counter.texture);
 	SDL_FreeSurface(counter.surface);
+	TTF_CloseFont(counter.font);
 }
 
 void		lemin_vis_render_text(t_lemin_vis *vis)

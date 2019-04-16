@@ -6,7 +6,7 @@
 /*   By: dderevyn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 13:05:45 by dderevyn          #+#    #+#             */
-/*   Updated: 2019/04/14 22:51:40 by dderevyn         ###   ########.fr       */
+/*   Updated: 2019/04/14 23:51:48 by dderevyn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,5 +106,7 @@ int			lemin_vis(t_lemin_data *data, t_lemin_vis *vis)
 		static_handle_events(vis);
 	}
 	vis->vis = 1;
+	SDL_Quit();
+	TTF_Quit();
 	return (1);
 }

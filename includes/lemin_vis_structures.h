@@ -46,7 +46,7 @@ typedef struct			s_vis_process_line
 typedef struct			s_lemin_vis_keys
 {
 	unsigned int		esc : 1;
-	unsigned int		h : 1;
+	unsigned int		c : 1;
 	unsigned int		space : 1;
 	unsigned int		left : 1;
 }						t_lemin_vis_keys;
@@ -58,7 +58,6 @@ typedef struct			s_lemin_vis_text
 	SDL_Surface			*surface;
 	SDL_Texture			*texture;
 	SDL_Rect			box;
-	unsigned int		show : 1;
 }						t_lemin_vis_text;
 
 typedef struct			s_lemin_vis
