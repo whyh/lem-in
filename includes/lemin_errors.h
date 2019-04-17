@@ -52,6 +52,6 @@
 # define LEMIN_MAP0 "3\n"
 # define LEMIN_MAP1 "##start\ns 50 500\n##end\ne 1450 500\n"
 # define LEMIN_MAP2 "1 1000 200\n2 450 300\n3 900 400\n4 750 750\n"
-# define LEMIN_MAP3 "s-1\n1-2\n4-2\n3-4\ns-3"
+# define LEMIN_MAP3 "s-1\n1-2\n4-2\n3-4\ns-3\ne-3"
 
 #endif
