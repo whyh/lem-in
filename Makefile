@@ -6,7 +6,7 @@
 #    By: danial <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 20:30:28 by dderevyn          #+#    #+#              #
-#    Updated: 2019/04/17 17:48:00 by danial           ###   ########.fr        #
+#    Updated: 2019/06/18 15:42:02 by dderevyn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,34 +21,26 @@ CFLAGS =	-Wall -Wextra -Werror
 RM =		/bin/rm -rf
 CP =		cp -rf
 
-ifeq ($(UNAME_S), Linux)
-	LIBSV = Linux/
-else ifeq ($(UNAME_S), Darwin)
-	LIBSV = Darwin/
-else
-	LIBSV = $(error Your system is not supported.)
-endif
-
 LIBFT_PATH =		libft/
 LIBFT_INCS_PATH =	$(LIBFT_PATH)$(INCS_PATH)
 LIBFT =				libft.a
 
-SDL2_PATH =			$(LIBS_PATH)SDL2/
-SDL2_INCS_PATH =	$(SDL2_PATH)$(INCS_PATH)
-SDL2 =				libSDL2.so
+SDL2_PATH =			/Users/dderevyn/.brew/lib/
+SDL2_INCS_PATH =	/Users/dderevyn/.brew/include/SDL2/
+SDL2 =				libSDL2.dylib
 
-SDL2_GFX_PATH =			$(LIBS_PATH)SDL2_gfx/
-SDL2_GFX_INCS_PATH =	$(SDL2_GFX_PATH)$(INCS_PATH)
-SDL2_GFX =				libSDL2_gfx.so
+SDL2_GFX_PATH =			/Users/dderevyn/.brew/lib/
+SDL2_GFX_INCS_PATH =	/Users/dderevyn/.brew/include/SDL2/
+SDL2_GFX =				libSDL2_gfx.dylib
 
-SDL2_TTF_PATH =			$(LIBS_PATH)SDL2_ttf/
-SDL2_TTF_INCS_PATH =	$(SDL2_TTF_PATH)$(INCS_PATH)
-SDL2_TTF =				libSDL2_ttf.so
+SDL2_TTF_PATH =			/Users/dderevyn/.brew/lib/
+SDL2_TTF_INCS_PATH =	/Users/dderevyn/.brew/include/SDL2/
+SDL2_TTF =				libSDL2_ttf.dylib
 
 CLIBS =	-L $(LIBFT_PATH) -l$(basename $(LIBFT:lib%=%)) \
-		-L $(SDL2_PATH)$(LIBSV) -l$(basename $(SDL2:lib%=%)) -Wl,-rpath=$(SDL2_PATH)$(LIBSV) \
-		-L $(SDL2_GFX_PATH)$(LIBSV) -l$(basename $(SDL2_GFX:lib%=%)) -Wl,-rpath=$(SDL2_GFX_PATH)$(LIBSV) \
-		-L $(SDL2_TTF_PATH)$(LIBSV) -l$(basename $(SDL2_TTF:lib%=%)) -Wl,-rpath=$(SDL2_TTF_PATH)$(LIBSV)
+		-L $(SDL2_PATH) -l$(basename $(SDL2:lib%=%)) \
+		-L $(SDL2_GFX_PATH) -l$(basename $(SDL2_GFX:lib%=%)) \
+		-L $(SDL2_TTF_PATH) -l$(basename $(SDL2_TTF:lib%=%)) 
 
 LEMIN_INCS_PATH = 	$(INCS_PATH)
 LEMIN_INCS =		lemin.h \
@@ -89,7 +81,7 @@ $(LIBFT_PATH)$(LIBFT):
 	@make -s $(LIBFT) -C $(LIBFT_PATH)
 
 $(NAME): $(LEMIN_OBJS)
-	$(CC) $(CFLAGS) -o $@ $^ $(CLIBS)
+	@$(CC) $(CFLAGS) -o $@ $^ $(CLIBS)
 
 $(LEMIN_OBJS_DIR)%.o: $(SRCS_PATH)%.c
 	@mkdir -p $(LEMIN_OBJS_DIR)
