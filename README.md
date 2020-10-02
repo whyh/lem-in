@@ -1,17 +1,27 @@
 # lem-in
 ## Graph traversal algorithmic project
 
-An objective was to move the number of ants from the start point to the end point, as effective as possible. Start and end points can include as much ants as needed, and the others just one ant per one turn. Time of the program execution shouldn't exceed `3` seconds (on imac 2017). Using just basic `Libc` functions
+Moves `N` ants from a "start" graph node to the "finish" graph node, in the least amount of turns. Points, other than start and end, are constrained to contain a single ant at once
+
+
+Executes in less than 3 seconds
+
+
+Used just 3 standard C library functions
+```c
+ssize_t read(int fd, void *buf, size_t count);
+void    *malloc(size_t size);
+void    free(void *ptr);
+```
 
 ## Approach
-My first attempt was successful in delivering ants and efficiency, but was a total failure in time execution.     
-Short about the algorithm: I've marked all the nodes in the graph depending on how far from the start they were, and then just let ants find their shortest way to the end. Before moving ant to the next room I check all other ants priority on the room. So to the next room will pass just the ant that is best suited for it.     
-Second approach was successful in both time and efficiency parameters.      
-Short about the algorithm: I've searched for the shortest way, then locked all nodes for the way and searched for the next one, till there were no more possible ways. Then  splited ants according to the each way length, and moved them towards the end node.  
+Used modified Dijkstra's algorithm with custom made ant distribution system
 
 ## How to use
-Visualisation is made using `SDL2` library, you need to install it first and change `path` to yours in the `makefile`.  
+Visualised with `SDL2` library. Install it and change the path in `makefile` accordingly
+
 Run `make` and `./lem-in < map.lemin_map`  
+
 To create your own map follow the next syntax     
 `number_of_ants`  (specify number of ants)     
 ##start     
@@ -25,7 +35,6 @@ To create your own map follow the next syntax
 ...  (till you created as much links as you want)       
 
 ## Visualisation
-Requested output looked quite boring, that's why I decided to create visualisation.
 To start lemin with visualisation, use `./lem-in` with option `-v`  
 `./lem-in -v < map.lemin_map`
 Start and pause visualisation with `space`
